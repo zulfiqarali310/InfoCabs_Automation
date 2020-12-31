@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="InfoCab App Complete Testing Flow"/>
+         
+         <!-- Device and Application  Details That might be change -->
+         
+  <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="DeviceType" value="Android"/>
+ 
+  <parameter name="DeviceVersion" value="10"/>
+  <parameter name="DeviceName" value="Galaxy A31"/>
+  <parameter name="DeviceUDID" value="RF8NA302BXL"/>
+  
+  <!--parameter name="DeviceVersion" value="7"/-->
+  <!--parameter name="DeviceName" value="Galaxy J7 Pro"/-->
+  <!--parameter name="DeviceUDID" value="52006c45b4f164dd"/-->
+  
+   <parameter name="AppPackage" value="com.infosun.csandroidx"/>
+  <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
+  <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
+  <parameter name="CommonLocator_ForAlerts" value="com.android.packageinstaller:id/"/>
+  <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
+   <parameter name="CommonLocator_ClassImageView" value="android.widget.ImageView"/>
+  <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
+    <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
+    <parameter name="AppCommonPermision_TextS2" value="Allow CabSnapper (Beta) to access this device's location?"/>
+    <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>
+
+  
+           <!-- CabSnapper Data -->
+  <parameter name="PhoneNum" value="00923438211272"/>
+    <parameter name="Change_PhoneNumber" value="00923438211271"/>
+   <parameter name="Invalid_PhoneNum" value="1234"/>
+   <parameter name="NotRegister_PhoneNum" value="12345678912"/>
+   <parameter name="Pwd" value="12345678"/>
+   <parameter name="Incorrect_Pwd" value="123456789"/>
+    <parameter name="Invalid_Pwd" value="123a"/>
+    <parameter name="valid_email" value="zulfiqar@infosun.co.uk"/>
+    <parameter name="Invalid_email" value="abcd1234"/>
+     <parameter name="NotRegister_email" value="ab12@cd.com"/>
+     <parameter name="CommID" value="15"/>
+     
+     <parameter name="InavlidPin" value="123456"/>
+       <parameter name="Name" value="QA Tester"/>
+  
+ <!-- CabSnapper Add PickUp Point Data -->
+ 
+ <parameter name="PickUpAddress" value="18 Chapel Hill, Huddersfield, UK"/>
+ <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
+ <parameter name="DriverNote" value="please follow map, you will catch me at picking point."/>
+ 
+    <!-- Rider App Details and Data -->
+   <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
+  <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
+  <parameter name="Rider_PWD" value="2222"/>
+  
+  <!-- Rider Feedback Details and Data -->
+  <parameter name="Feedback" value="Rider was good and drive well his behavior was out standings"/>
+  
+   <!-- Promo Code Details and Data -->
+  <parameter name="InvalidPromoCode" value="12345abc"/>
+   <parameter name="validPromoCode" value="QATester"/>
+  
+ 
+ 
+  <listeners>
+  <listener class-name="com.InfoCabs.common.TestListeners"></listener>
+  
+  </listeners>
+  
+  <test  name="InfoCabSnapperApp.com">
+    <classes>  
+       <class name="com.InfoCabs.common.TestBase"/>
+       <!-- The to-be-commented XML block goes here. -->
+       
+    
+
+                <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+       <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
+        <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
+        <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
+        <class name="com.InfoCabs.testcases.Delete_RegesteredUser_API_Requests_72"/>
+         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_72_82"/>
+         <class name="com.InfoCabs.testcases.MainHomePage_TestCases_83_109"/>
+         <class name="com.InfoCabs.testcases.ChoosevehiclePage_TestCases_110_119"/>
+         <class name="com.InfoCabs.testcases.ConfirmYourRidePage_TestCases_120_135"/>
+         <class name="com.InfoCabs.testcases.BookingVehiclePage_TestCases_136_147"/>
+         <class name="com.InfoCabs.testcases.LunchDriver_App_148_158"/>
+         <class name="com.InfoCabs.testcases.BookingAcceptedPage_On_CS_App_158_180"/>
+         <class name="com.InfoCabs.testcases.POB_Page_TestCases_181_217"/>
+         <class name="com.InfoCabs.testcases.STC_And_FeedBack_Page_TestCases_218_232"/>
+         <class name="com.InfoCabs.testcases.Book_SaloonWith_PrmoCode_233_262"/>
+         <class name="com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299"/>
+         <class name="com.InfoCabs.testcases.Book_Saloon_With_CreditCard_TestCases_300_320"/>
+  <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases"/>
+     
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
