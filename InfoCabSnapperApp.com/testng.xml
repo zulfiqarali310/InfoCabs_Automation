@@ -75,8 +75,7 @@
        <!-- The to-be-commented XML block goes here. -->
        
     
-
-                <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+      <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
        <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
         <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
@@ -93,7 +92,10 @@
          <class name="com.InfoCabs.testcases.Book_SaloonWith_PrmoCode_233_262"/>
          <class name="com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299"/>
          <class name="com.InfoCabs.testcases.Book_Saloon_With_CreditCard_TestCases_300_320"/>
-  <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401"/>
+  
      
       
      

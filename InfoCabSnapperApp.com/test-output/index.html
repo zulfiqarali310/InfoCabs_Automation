@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\92336\eclipse-workspace\InfoCabSnapperApp.com\testng.xml</span>
+                    <span>C:\Users\92336\git\InfoCabs_Automation\InfoCabSnapperApp.com\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.InfoCabs.testcases.Book_6_Seater_TestCases" hash-for-method="Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)">Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.InfoCabs.testcases.Book_6_Seater_TestCases" hash-for-method="Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)">Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.InfoCabs.testcases.Book_6_Seater_TestCases" hash-for-method="Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22(com.infosun.csandroidx:id/, 21 Newsome Road, Huddersfield, UK)">Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22(com.infosun.csandroidx:id/, 21 Newsome Road, Huddersfield, UK)</a> <!-- method navigator-link -->
@@ -136,9 +127,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.InfoCabs.testcases.Book_6_Seater_TestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,37 +139,8 @@
                   </a> <!-- Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK) -->
                   <span class="method-name">Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24</span>
                   <span class="parameters">(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: Coordinate [x=1080.0, y=0.0] is outside of element rect: [0,0][1080,2195]
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CSMSJ8J&apos;, ip: &apos;192.168.43.163&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\92336\eclipse-work..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\eclipse-work..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy A31, newCommandTimeout: 60, platformName: android, platformVersion: 10, resetKeyboard: false, udid: RF8NA302BXL, unicodeKeyboard: false}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A315F, deviceName: RF8NA302BXL, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8NA302BXL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, resetKeyboard: false, statBarHeight: 83, takesScreenshot: true, udid: RF8NA302BXL, unicodeKeyboard: false, viewportRect: {height: 2112, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 6f6ef963-7a30-439c-a100-39ec5aba49fc
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)
-	at io.appium.java_client.TouchAction.perform(TouchAction.java:187)
-	at com.InfoCabs.testcases.Book_6_Seater_TestCases.Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(Book_6_Seater_TestCases.java:109)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.InfoCabs.testcases.Book_6_Seater_TestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22(com.infosun.csandroidx:id/, 21 Newsome Road, Huddersfield, UK)">
@@ -200,7 +162,7 @@ Session ID: 6f6ef963-7a30-439c-a100-39ec5aba49fc
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\92336\eclipse-workspace\InfoCabSnapperApp.com\testng.xml</span>
+            <span class="header-content">C:\Users\92336\git\InfoCabs_Automation\InfoCabSnapperApp.com\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -299,20 +261,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21')
 data.setCell(0, 2, 'com.InfoCabs.testcases.Book_6_Seater_TestCases')
-data.setCell(0, 3, 14365);
+data.setCell(0, 3, 15546);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22')
 data.setCell(1, 2, 'com.InfoCabs.testcases.Book_6_Seater_TestCases')
-data.setCell(1, 3, 10843);
+data.setCell(1, 3, 12043);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24')
 data.setCell(2, 2, 'com.InfoCabs.testcases.Book_6_Seater_TestCases')
-data.setCell(2, 3, 5702);
+data.setCell(2, 3, 10243);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -380,24 +342,22 @@ return data;
               <div class="chronological-class-name">com.InfoCabs.testcases.Book_6_Seater_TestCases</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(00923438211272, 12345678, com.infosun.csandroidx:id/)</span>
-                <span class="method-start">12620 ms</span>
+                <span class="method-start">11826 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22(com.infosun.csandroidx:id/, 21 Newsome Road, Huddersfield, UK)</span>
-                <span class="method-start">27005 ms</span>
+                <span class="method-start">27395 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24(android.widget.TextView, 21 Newsome Road, Huddersfield, UK)</span>
-                <span class="method-start">37852 ms</span>
+                <span class="method-start">39445 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.InfoCabs.common.TestBase</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">44554 ms</span>
+                <span class="method-start">49699 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -46,6 +46,7 @@
       <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases">
         <methods>
           <include name="Test_Book_SaloonWith_PrmoCode_ClickOnBookNow_Button_Cab_24" invocation-numbers="0"/>
+          <include name="Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_22" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
