@@ -106,6 +106,7 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 	@Parameters("CommonLocator")
 	public void Test_Book_6_Seater_with_PromoCode_6_Seater_Text_arePresent_346(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "car_name"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -337,7 +338,7 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 
 	}
 	
-	@Test(priority = 363)
+	/*@Test(priority = 363)
 	@Parameters({ "Rider_AppPackage" })
 	public void Test_Book_6_Seater_with_PromoCode_Refresh_RiderApp_363(String Rider_AppPackage) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
@@ -352,11 +353,11 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 		Thread.sleep(2000);
 		L7.click();
 
-	}
+	}*/
 
 	@Test(priority = 364)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_6_Seater_with_PromoCode_AcceptCustomer_ride_365(String AppPackage) throws InterruptedException {
+	public void Test_Book_6_Seater_with_PromoCode_AcceptCustomer_ride_364(String AppPackage) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -368,22 +369,11 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 
 	}
 
+
+
 	@Test(priority = 365)
 	@Parameters({ "AppPackage" })
-	public void Test_BBook_6_Seater_with_PromoCode_ClickOnWait_ride_365(String AppPackage) {
-
-		HelperMethods.waitForPageLoaded();
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		WebElement L7 = driver.findElement(By.id("com.infosun.infocabs:id/button_jobUpdate"));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("com.infosun.infocabs:id/button_jobUpdate")));
-		L7.click();
-		HelperMethods.waitForPageLoaded();
-
-	}
-
-	@Test(priority = 366)
-	@Parameters({ "AppPackage" })
-	public void Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_366(String AppPackage)
+	public void Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_365(String AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
@@ -403,11 +393,12 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 
 	}
 
-	@Test(priority = 367)
+	@Test(priority = 366)
 	@Parameters("CommonLocator")
-	public void Test_Book_6_Seater_with_PromoCode_weHave_Sent_Text_arePresent_367(String CommonLocator)
+	public void Test_Book_6_Seater_with_PromoCode_weHave_Sent_Text_arePresent_366(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -418,10 +409,12 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 			System.out.println("Test:367, We have sent you a cab text are not present");
 		}
 	}
+	
 
-	@Test(priority = 368)
+
+	@Test(priority = 367)
 	@Parameters({ "Rider_AppPackage" })
-	public void Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_368(
+	public void Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_367(
 			String Rider_AppPackage) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
@@ -430,6 +423,18 @@ public class Book_6_Seater_with_PromoCode_TestCases_244_378 extends TestBase{
 		System.out.println("Rider app are open again");
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(6000);
+
+	}
+	@Test(priority = 368)
+	@Parameters({ "AppPackage" })
+	public void Test_BBook_6_Seater_with_PromoCode_ClickOnWait_ride_368(String AppPackage) {
+
+		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		WebElement L7 = driver.findElement(By.id("com.infosun.infocabs:id/button_jobUpdate"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("com.infosun.infocabs:id/button_jobUpdate")));
+		L7.click();
+		HelperMethods.waitForPageLoaded();
 
 	}
 	

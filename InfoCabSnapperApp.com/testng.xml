@@ -8,13 +8,13 @@
   <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
   <parameter name="DeviceType" value="Android"/>
  
-  <parameter name="DeviceVersion" value="10"/>
-  <parameter name="DeviceName" value="Galaxy A31"/>
-  <parameter name="DeviceUDID" value="RF8NA302BXL"/>
+  <!--parameter name="DeviceVersion" value="10"/-->
+  <!--parameter name="DeviceName" value="Galaxy A31"/-->
+  <!--parameter name="DeviceUDID" value="RF8NA302BXL"/-->
   
-  <!--parameter name="DeviceVersion" value="7"/-->
-  <!--parameter name="DeviceName" value="Galaxy J7 Pro"/-->
-  <!--parameter name="DeviceUDID" value="52006c45b4f164dd"/-->
+  <parameter name="DeviceVersion" value="7"/>
+  <parameter name="DeviceName" value="Galaxy J7 Pro"/>
+  <parameter name="DeviceUDID" value="52006c45b4f164dd"/>
   
    <parameter name="AppPackage" value="com.infosun.csandroidx"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
@@ -29,7 +29,7 @@
 
   
            <!-- CabSnapper Data -->
-  <parameter name="PhoneNum" value="00923438211272"/>
+  <parameter name="PhoneNum" value="00923358391478"/>
     <parameter name="Change_PhoneNumber" value="00923438211271"/>
    <parameter name="Invalid_PhoneNum" value="1234"/>
    <parameter name="NotRegister_PhoneNum" value="12345678912"/>
@@ -74,8 +74,9 @@
        <class name="com.InfoCabs.common.TestBase"/>
        <!-- The to-be-commented XML block goes here. -->
        
-    
-      <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+        
+        
+                <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
        <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
         <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
@@ -90,11 +91,25 @@
          <class name="com.InfoCabs.testcases.POB_Page_TestCases_181_217"/>
          <class name="com.InfoCabs.testcases.STC_And_FeedBack_Page_TestCases_218_232"/>
          <class name="com.InfoCabs.testcases.Book_SaloonWith_PrmoCode_233_262"/>
-         <class name="com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299"/>
+          <class name="com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299"/>
+        
+        
+        
+         
+         
          <class name="com.InfoCabs.testcases.Book_Saloon_With_CreditCard_TestCases_300_320"/>
+         
            <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343"/>
            <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378"/>
            <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401"/>
+           <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439"/>
+
+           
+            
+            
+            <class name="com.InfoCabs.testcases.Book_8_Seater_TestCases_440_466"/>
+
+     
   
      
       

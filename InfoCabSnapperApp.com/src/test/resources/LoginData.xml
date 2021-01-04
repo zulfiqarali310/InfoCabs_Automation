@@ -10,3 +10,28 @@
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
  
 </suite> <!-- Suite -->
+
+
+      <classes> 
+     <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+       <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
+        <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
+        <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
+        <class name="com.InfoCabs.testcases.Delete_RegesteredUser_API_Requests_72"/>
+         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_72_82"/>
+         <class name="com.InfoCabs.testcases.MainHomePage_TestCases_83_109"/>
+         <class name="com.InfoCabs.testcases.ChoosevehiclePage_TestCases_110_119"/>
+         <class name="com.InfoCabs.testcases.ConfirmYourRidePage_TestCases_120_135"/>
+         <class name="com.InfoCabs.testcases.BookingVehiclePage_TestCases_136_147"/>
+         <class name="com.InfoCabs.testcases.LunchDriver_App_148_158"/>
+         <class name="com.InfoCabs.testcases.BookingAcceptedPage_On_CS_App_158_180"/>
+         <class name="com.InfoCabs.testcases.POB_Page_TestCases_181_217"/>
+         <class name="com.InfoCabs.testcases.STC_And_FeedBack_Page_TestCases_218_232"/>
+         <class name="com.InfoCabs.testcases.Book_SaloonWith_PrmoCode_233_262"/>
+
+    <class name="com.InfoCabs.testcases.Book_Saloon_With_CreditCard_TestCases_300_320"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378"/>
+           <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401"/>
+           
+            </classes>

@@ -18,9 +18,35 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
-	
-	
-	
+	@Test(priority = 21)
+	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
+	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
+			String CommonLocator) throws InterruptedException {
+
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		HelperMethods.waitForPageLoaded();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
+		HelperMethods.waitForElementToBeVisible(L1);
+		L1.sendKeys(PhoneNum);
+
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "et_password"));
+		HelperMethods.waitForElementToBeVisible(L2);
+		L2.sendKeys(Pwd);
+
+		WebElement L3 = driver.findElement(By.id(CommonLocator + "btn_login"));
+		HelperMethods.waitForElementToBeClickable(L3);
+		L3.click();
+		HelperMethods.waitForPageLoaded();
+		WebElement L4 = driver.findElement(By.id(CommonLocator + "tvTitle"));
+		if (L4.isDisplayed()) {
+			String Get_text1 = L4.getText();
+			Assert.assertEquals(Get_text1, "Add a Pickup Point");
+		} else {
+			System.out.println("Test:21, User are not able to login may be some issue");
+		}
+	}
+
 	@Test(priority = 300)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
 	public void Test_Book_Saloon_With_CreditCard_EnterDropofAddress_Cab_300(String CommonLocator,
@@ -73,20 +99,17 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		Thread.sleep(3000);
 		L1.click();
 		Thread.sleep(2000);
-		HelperMethods.waitForPageLoaded();
-
 		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='4242']"));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//" + CommonLocator_ClassView + "[@text='4242']")));
+		// wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='4242']")));
 		L2.click();
 		Thread.sleep(2000);
 
 	}
-	
+
 	@Test(priority = 303)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Book_Saloon_With_CreditCard_ClickOnBookConfirmButton_303(String CommonLocator, String DropoffAddress)
-			throws InterruptedException {
+	public void Test_Book_Saloon_With_CreditCard_ClickOnBookConfirmButton_303(String CommonLocator,
+			String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -98,22 +121,25 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		L6.click();
 
 	}
+
 	@Test(priority = 304)
 	@Parameters({ "Rider_AppPackage" })
 	public void Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_304(
 			String Rider_AppPackage) {
 		HelperMethods.waitForPageLoaded();
-		//driver.runAppInBackground(Duration.ZERO);
+		// driver.runAppInBackground(Duration.ZERO);
 		HelperMethods.waitForPageLoaded();
 		driver.activateApp(Rider_AppPackage);
 		System.out.println("Rider app are open again");
 		HelperMethods.waitForPageLoaded();
 
 	}
-	
+
 	/*@Test(priority = 305)
+
 	@Parameters({ "Rider_AppPackage" })
-	public void Test_Book_Saloon_With_CreditCard_Refresh_RiderApp_305(String Rider_AppPackage) throws InterruptedException {
+	public void Test_Book_Saloon_With_CreditCard_Refresh_RiderApp_305(String Rider_AppPackage)
+			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -127,10 +153,11 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		L7.click();
 
 	}*/
-	
+
 	@Test(priority = 306)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_Saloon_With_CreditCard_AcceptCustomer_ride_306(String AppPackage) throws InterruptedException {
+	public void Test_Book_Saloon_With_CreditCard_AcceptCustomer_ride_306(String AppPackage)
+			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -161,15 +188,15 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
-		//HelperMethods.waitForPageLoaded();
+		HelperMethods.waitForPageLoaded();
 		// driver.launchApp();
-		//driver.activateApp(AppPackage);
+		driver.activateApp(AppPackage);
 		// driver.navigate().refresh();
 		// driver.resetApp();
-		//HelperMethods.waitForPageLoaded();
-		//driver.closeApp();
-		//Thread.sleep(5000);
-		//HelperMethods.waitForPageLoaded();
+		HelperMethods.waitForPageLoaded();
+		driver.closeApp();
+		Thread.sleep(5000);
+		HelperMethods.waitForPageLoaded();
 		driver.activateApp(AppPackage);
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -206,7 +233,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		Thread.sleep(6000);
 
 	}
-	
+
 	@Test(priority = 311)
 	@Parameters({ "AppPackage" })
 	public void Test_Book_Saloon_With_CreditCard_ClickOnPOB_Button_ride_311(String AppPackage) {
@@ -219,21 +246,21 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		HelperMethods.waitForPageLoaded();
 
 	}
-	
+
 	@Test(priority = 312)
 	@Parameters({ "AppPackage" })
 	public void Test_Book_Saloon_With_CreditCard_Push_Rider_toBackground_and_start_CustomerApp_312(String AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
-		//HelperMethods.waitForPageLoaded();
+		HelperMethods.waitForPageLoaded();
 		// driver.launchApp();
-		//driver.activateApp(AppPackage);
+		driver.activateApp(AppPackage);
 		// driver.navigate().refresh();
 		// driver.resetApp();
-		//HelperMethods.waitForPageLoaded();
-		//driver.closeApp();
-		//Thread.sleep(5000);
+		HelperMethods.waitForPageLoaded();
+		driver.closeApp();
+		Thread.sleep(5000);
 		HelperMethods.waitForPageLoaded();
 		driver.activateApp(AppPackage);
 		HelperMethods.waitForPageLoaded();
@@ -244,7 +271,8 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 
 	@Test(priority = 313)
 	@Parameters("CommonLocator")
-	public void Test_Book_Saloon_With_CreditCard_You_arein_yourway_Text_arePresent_313(String CommonLocator) throws InterruptedException {
+	public void Test_Book_Saloon_With_CreditCard_You_arein_yourway_Text_arePresent_313(String CommonLocator)
+			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
@@ -257,7 +285,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 			System.out.println("Test:313, You are on your way. text are not present");
 		}
 	}
-	
+
 	@Test(priority = 314)
 	@Parameters({ "Rider_AppPackage" })
 	public void Test_Book_Saloon_With_CreditCard_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_315(
@@ -297,10 +325,22 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		HelperMethods.waitForPageLoaded();
 
 	}
+	@Test(priority = 316)
+	@Parameters({ "AppPackage" })
+	public void Test_Book_Saloon_With_CreditCard_Closed_DriverApp_316(String AppPackage)
+			throws InterruptedException {
+		Thread.sleep(4000);
+		HelperMethods.waitForPageLoaded();
+		driver.closeApp();
+		Thread.sleep(5000);
+		driver.hideKeyboard();
+		System.out.println("Driver are closed");
+
+	}
 
 	@Test(priority = 317)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_Saloon_With_CreditCard_Push_Rider_toBackground_and_start_CustomerApp_317(String AppPackage)
+	public void Test_Book_Saloon_With_CreditCard_start_CustomerApp_317(String AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.launchApp();
@@ -310,7 +350,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		System.out.println("Customer App are open again to perform action on accepted job screen");
 
 	}
-	
+
 	@Test(priority = 318)
 	@Parameters("CommonLocator_ClassView")
 	public void Test_Book_Saloon_With_CreditCard_Rate_your_ride_Text_arePresent_318(String CommonLocator_ClassView) {
@@ -324,7 +364,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 			System.out.println("Test:318, Rate your ride text are not present");
 		}
 	}
-	
+
 	@Test(priority = 319)
 	@Parameters({ "CommonLocator", "Feedback" })
 	public void Test_Book_Saloon_With_CreditCard_Feedback_Field_arePresent319(String CommonLocator, String Feedback) {
