@@ -20,7 +20,8 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 
 	@Test(priority = 73)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
-	public void Test_Login_to_Application_withNew_credentials_73(String PhoneNum, String Pwd, String CommonLocator) throws InterruptedException {
+	public void Test_Login_to_Application_withNew_credentials_73(String PhoneNum, String Pwd, String CommonLocator)
+			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -36,10 +37,6 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 		WebElement L3 = driver.findElement(By.id(CommonLocator + "btn_login"));
 		HelperMethods.waitForElementToBeClickable(L3);
 		L3.click();
-		// HelperMethods.waitForPageLoaded();
-		// String L4 =
-		// driver.findElement(By.className("android.widget.Toast[1]")).getText();
-		// System.out.println(L4);
 
 	}
 
@@ -113,7 +110,7 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 		}
 	}
 
-	/*@Test(priority = 79)
+	@Test(priority = 79)
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_ResendButton_Text_79(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
@@ -142,15 +139,14 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Test(priority = 81)
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_Counter_Text_81(String CommonLocator) {
-		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_counter"));
-		if (L1.isDisplayed()) {
-			String Get_text1 = L1.getText();
-			System.out.println(Get_text1);
-			Assert.assertEquals(Get_text1, "00:54");
 
-		} else {
-			System.out.println("Test:80, Verify Screen have some issue");
-		}
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		HelperMethods.waitForPageLoaded();
+		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_counter")).isDisplayed();
+		boolean expected = true;
+		Assert.assertEquals(ImageLogo, expected);
+
 	}
 
 	@Test(priority = 82)
@@ -172,70 +168,94 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 
 	}
 
-	/*
-	 * @Test(priority = 83)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * ClickOn_VerifyButton_without_Entering_PinCode(String CommonLocator) {
-	 * 
-	 * WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_verify"));
-	 * HelperMethods.waitForElementToBeClickable(L1); L1.click(); WebElement L2 =
-	 * driver.findElement(By.id(CommonLocator + "textinput_error")); if
-	 * (L2.isDisplayed()) { String Get_text1 = L2.getText();
-	 * Assert.assertEquals(Get_text1, "Enter 6 digit pin");
-	 * 
-	 * } else { System.out.println("Test:82, Verify Screen have some issue"); }
-	 * 
-	 * }
-	 * 
-	 * @Test(priority = 84)
-	 * 
-	 * @Parameters({ "InavlidPin", "CommonLocator" }) public void
-	 * Check_for_Invalid_PinCode_onVerifyScreen(String InavlidPin, String
-	 * CommonLocator) {
-	 * 
-	 * WebElement L1 = driver.findElement(By.id(CommonLocator + "et_pin"));
-	 * HelperMethods.waitForElementToBeVisible(L1); L1.sendKeys(InavlidPin);
-	 * WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_verify"));
-	 * HelperMethods.waitForElementToBeClickable(L2); L2.click(); WebElement L3 =
-	 * driver.findElement(By.id(CommonLocator + "textinput_error")); if
-	 * (L3.isDisplayed()) { String Get_text1 = L3.getText();
-	 * Assert.assertEquals(Get_text1, "Enter Valid Pin."); L1.clear();
-	 * 
-	 * } else { System.out.println("Test:83, Verify Screen have some issue"); }
-	 * 
-	 * }
-	 * 
-	 * @Test(priority = 85)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * ClickOn_ResendButton_onVerifyPin_Screen(String CommonLocator) {
-	 * 
-	 * WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_resend"));
-	 * HelperMethods.waitForElementToBeClickable(L1); L1.click(); WebElement L2 =
-	 * driver.findElement(By.id(CommonLocator + "snackbar_text")); if
-	 * (L2.isDisplayed()) { String Get_text1 = L2.getText(); //
-	 * Assert.assertEquals(Get_text1, "You can request a new cod after 34 seconds");
-	 * System.out.println(Get_text1);
-	 * 
-	 * } else { System.out.println("Test:84, Verify Screen have some issue"); }
-	 * 
-	 * }
-	 * 
-	 * @Test(priority = 86)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * Waitfor_ResendPinButton_onVerifyPin_Screen(String CommonLocator) throws
-	 * InterruptedException {
-	 * 
-	 * HelperMethods.waitForPageLoaded(); WebElement L1 =
-	 * driver.findElement(By.id(CommonLocator + "tv_resend"));
-	 * HelperMethods.waitForElementToBeClickable(L1); Thread.sleep(50000); if
-	 * (L1.isEnabled()) { L1.click();
-	 * 
-	 * } else { System.out.println("Test:85, Verify Screen have some issue"); }
-	 * 
-	 * }
-	 */
+	@Test(priority = 83)
+
+	@Parameters("CommonLocator")
+	public void ClickOn_VerifyButton_without_Entering_PinCode(String CommonLocator) {
+
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_verify"));
+		HelperMethods.waitForElementToBeClickable(L1);
+		L1.click();
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "textinput_error"));
+		if (L2.isDisplayed()) {
+			String Get_text1 = L2.getText();
+			Assert.assertEquals(Get_text1, "Enter 6 digit pin");
+
+		} else {
+			System.out.println("Test:82, Verify Screen have some issue");
+		}
+
+	}
+
+	@Test(priority = 84)
+	@Parameters({ "InavlidPin", "CommonLocator" })
+	public void Check_for_Invalid_PinCode_onVerifyScreen(String InavlidPin, String CommonLocator) {
+
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_pin"));
+		HelperMethods.waitForElementToBeVisible(L1);
+		L1.sendKeys(InavlidPin);
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_verify"));
+		HelperMethods.waitForElementToBeClickable(L2);
+		L2.click();
+		WebElement L3 = driver.findElement(By.id(CommonLocator + "textinput_error"));
+		if (L3.isDisplayed()) {
+			String Get_text1 = L3.getText();
+			Assert.assertEquals(Get_text1, "Enter Valid Pin.");
+			L1.clear();
+
+		} else {
+			System.out.println("Test:83, Verify Screen have some issue");
+		}
+
+	}
+
+	@Test(priority = 85)
+	@Parameters("CommonLocator")
+	public void ClickOn_ResendButton_onVerifyPin_Screen(String CommonLocator) {
+
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_resend"));
+		HelperMethods.waitForElementToBeClickable(L1);
+		L1.click();
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
+		if (L2.isDisplayed()) {
+			String Get_text1 = L2.getText();
+			// Assert.assertEquals(Get_text1, "You can request a new cod after 34 seconds");
+			System.out.println(Get_text1);
+
+		} else {
+			System.out.println("Test:84, Verify Screen have some issue");
+		}
+
+	}
+
+	/*@Test(priority = 86)
+	@Parameters("CommonLocator")
+	public void Waitfor_ResendPinButton_onVerifyPin_Screen(String CommonLocator) throws InterruptedException {
+
+		HelperMethods.waitForPageLoaded();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_resend"));
+		HelperMethods.waitForElementToBeClickable(L1);
+		Thread.sleep(50000);
+		if (L1.isEnabled()) {
+			L1.click();
+
+		} else {
+			System.out.println("Test:85, Verify Screen have some issue");
+		}
+
+	}*/
+
+	@Test(priority = 87)
+	@Parameters({ "validPin", "CommonLocator" })
+	public void Check_for_valid_PinCode_onVerifyScreen_87(String validPin, String CommonLocator) {
+
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_pin"));
+		HelperMethods.waitForElementToBeVisible(L1);
+		L1.sendKeys(validPin);
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_verify"));
+		HelperMethods.waitForElementToBeClickable(L2);
+		L2.click();
+
+	}
 
 }

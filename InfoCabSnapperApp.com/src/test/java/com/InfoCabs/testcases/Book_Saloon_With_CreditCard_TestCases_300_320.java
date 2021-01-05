@@ -88,9 +88,9 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 	}
 
 	@Test(priority = 302)
-	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
+	@Parameters({ "CommonLocator", "CommonLocator_Class_Relative_View" })
 	public void Test_Book_Saloon_With_CreditCard_Select_CeditCard_FromDrop_302(String CommonLocator,
-			String CommonLocator_ClassView) throws InterruptedException {
+			String CommonLocator_Class_Relative_View) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "sv_payments"));
@@ -99,10 +99,10 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		Thread.sleep(3000);
 		L1.click();
 		Thread.sleep(2000);
-		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='4242']"));
-		// wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//android.widget.TextView[@text='4242']")));
+		
+		WebElement L2 = driver.findElement(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']")));
 		L2.click();
-		Thread.sleep(2000);
 
 	}
 

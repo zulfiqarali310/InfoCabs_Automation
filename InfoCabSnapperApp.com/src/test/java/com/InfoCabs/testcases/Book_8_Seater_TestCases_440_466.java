@@ -177,7 +177,7 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		int Anchor = ScreenEndhight.intValue();
 		System.out.println(Anchor);
 
-		Double ScreenWidthStart = elementSize.getWidth() * 0.8;
+		Double ScreenWidthStart = elementSize.getWidth() * 0.99;
 		int scrollStart = ScreenWidthStart.intValue();
 
 		Double ScreenWidthEnd = elementSize.getWidth() * 0.1;
@@ -197,7 +197,7 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "car_name"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, "6 Seater");
+			Assert.assertEquals(Get_text1, "8 Seater");
 			System.out.println("8 Seater Car is Availble you can book it");
 
 		} else {
@@ -206,24 +206,23 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 	}
 
 	@Test(priority = 448)
-	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Book_8_Seater_ClickOnBookNow_Button_Cab_448(String CommonLocator, String DropoffAddress)
-			throws InterruptedException {
+	@Parameters({ "CommonLocator"})
+	public void Test_Book_8_Seater_ClickOnBookNow_Button_Cab_448(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
-		driver.hideKeyboard();
-		WebElement L5 = driver.findElement(By.id(CommonLocator + "btn_book_now"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
-		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_book_now")));
+		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
-		Thread.sleep(3000);
-		L5.click();
+		System.out.println(driver.findElements(By.id(CommonLocator + "btn_book_now")).size());
+		Thread.sleep(2000);
+		//wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_book_now")));
+		driver.findElements(By.id(CommonLocator + "btn_book_now")).get(1).click();
 		HelperMethods.waitForPageLoaded();
 
 	}
 
 	@Test(priority = 449)
-	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
-	public void Test_Book_8_Seater_Select_Cash_FromDrop_449(String CommonLocator, String CommonLocator_ClassView)
+	@Parameters({ "CommonLocator", "CommonLocator_Class_Relative_View" })
+	public void Test_Book_8_Seater_Select_Cash_FromDrop_449(String CommonLocator, String CommonLocator_Class_Relative_View)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -232,9 +231,8 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "sv_payments")));
 		L1.click();
 		HelperMethods.waitForPageLoaded();
-		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Cash']"));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//" + CommonLocator_ClassView + "[@text='Cash']")));
+		WebElement L2 = driver.findElement(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='0']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='0']")));
 		L2.click();
 
 	}

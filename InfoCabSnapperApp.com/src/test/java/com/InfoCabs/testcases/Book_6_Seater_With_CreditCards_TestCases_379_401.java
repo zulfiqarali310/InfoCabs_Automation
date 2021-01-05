@@ -134,9 +134,9 @@ public class Book_6_Seater_With_CreditCards_TestCases_379_401 extends TestBase {
 	}
 
 	@Test(priority = 383)
-	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
+	@Parameters({ "CommonLocator", "CommonLocator_Class_Relative_View" })
 	public void Test_Book_6_Seater_With_CreditCards_Select_Cash_FromDrop_383(String CommonLocator,
-			String CommonLocator_ClassView) throws InterruptedException {
+			String CommonLocator_Class_Relative_View) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "sv_payments"));
@@ -146,12 +146,9 @@ public class Book_6_Seater_With_CreditCards_TestCases_379_401 extends TestBase {
 		L1.click();
 		Thread.sleep(2000);
 		HelperMethods.waitForPageLoaded();
-
-		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='4242']"));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//" + CommonLocator_ClassView + "[@text='4242']")));
+		WebElement L2 = driver.findElement(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']")));
 		L2.click();
-		Thread.sleep(2000);
 
 	}
 
