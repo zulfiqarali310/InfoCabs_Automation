@@ -36,8 +36,10 @@
    <parameter name="Invalid_PhoneNum" value="1234"/>
    <parameter name="NotRegister_PhoneNum" value="12345678912"/>
    <parameter name="Pwd" value="12345678"/>
-   <parameter name="Incorrect_Pwd" value="123456789"/>
+   <parameter name="Incorrect_Pwd" value="1234567ab"/>
     <parameter name="Invalid_Pwd" value="123a"/>
+    <parameter name="Change_Pwd" value="12345677"/>
+    
     <parameter name="valid_email" value="zulfiqar@infosun.co.uk"/>
     <parameter name="Invalid_email" value="abcd1234"/>
      <parameter name="NotRegister_email" value="ab12@cd.com"/>
@@ -77,9 +79,7 @@
        <class name="com.InfoCabs.common.TestBase"/>
        <!-- The to-be-commented XML block goes here. -->
        
-        
-   
-     <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+        <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
        <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
         <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
@@ -103,10 +103,15 @@
            <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378"/>
            <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401"/>
            <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439"/>
-           
-            
+
             <class name="com.InfoCabs.testcases.Book_8_Seater_TestCases_440_466"/>
             <class name="com.InfoCabs.testcases.Book_8_Seater_with_PromoCode_TestCases_467_502"/>
+            <class name="com.InfoCabs.testcases.Book_8_Seater_with_CreaditCards_TestCases_503_525"/>
+             <class name="com.InfoCabs.testcases.Scedule_8_Seater_Cab_TestCases_527_567"/>
+
+             <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576"/>
+            <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587"/>
+            <class name="com.InfoCabs.testcases.Change_Password_TestCases_588_610"/>
   
      
       

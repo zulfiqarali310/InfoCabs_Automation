@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
-  <parameter name="DeviceUDID" value="52006c45b4f164dd"/>
+  <parameter name="DeviceUDID" value="RF8NA302BXL"/>
   <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
-  <parameter name="InavlidPin" value="123456"/>
+  <parameter name="InavlidPin" value="123abcd"/>
   <parameter name="validPromoCode" value="QATester"/>
   <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
   <parameter name="Invalid_email" value="abcd1234"/>
@@ -21,14 +21,17 @@
   <parameter name="CommonLocator_ForAlerts" value="com.android.packageinstaller:id/"/>
   <parameter name="PickUpAddress" value="18 Chapel Hill, Huddersfield, UK"/>
   <parameter name="CommonLocator_ClassImageView" value="android.widget.ImageView"/>
-  <parameter name="DeviceVersion" value="7"/>
+  <parameter name="Change_Pwd" value="12345677"/>
+  <parameter name="DeviceVersion" value="10"/>
   <parameter name="Invalid_Pwd" value="123a"/>
   <parameter name="Change_PhoneNumber" value="00923438211271"/>
-  <parameter name="Incorrect_Pwd" value="123456789"/>
+  <parameter name="Incorrect_Pwd" value="1234567ab"/>
   <parameter name="InvalidPromoCode" value="12345abc"/>
   <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
   <parameter name="DeviceType" value="Android"/>
+  <parameter name="validPin" value="123456"/>
   <parameter name="AppPackage" value="com.infosun.csandroidx"/>
+  <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
   <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
   <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>
   <parameter name="NotRegister_email" value="ab12@cd.com"/>
@@ -37,19 +40,19 @@
   <parameter name="NotRegister_PhoneNum" value="12345678912"/>
   <parameter name="Rider_PWD" value="2222"/>
   <parameter name="AppCommonPermision_TextS2" value="Allow CabSnapper (Beta) to access this device&#039;s location?"/>
-  <parameter name="DeviceName" value="Galaxy J7 Pro"/>
+  <parameter name="DeviceName" value="Galaxy A31"/>
   <listeners>
     <listener class-name="com.InfoCabs.common.TestListeners"/>
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343">
+      <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587">
         <methods>
-          <include name="Test_LunchDriver_IMEI_Alert_Notification_152"/>
+          <include name="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343 -->
+      </class> <!-- com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

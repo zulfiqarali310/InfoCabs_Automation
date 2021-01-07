@@ -60,8 +60,13 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
-		WebElement L5 = driver.findElement(By.id(CommonLocator + "tv_schedule"));
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_confirm")));
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		L1.click();
+		WebElement L5 = driver.findElement(By.id(CommonLocator + "tv_schedule"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "tv_schedule")));
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(3000);

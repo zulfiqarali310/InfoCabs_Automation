@@ -20,10 +20,11 @@ import io.appium.java_client.android.Activity;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class Book_8_Seater_TestCases_440_466 extends TestBase {
-
+public class Book_8_Seater_with_CreaditCards_TestCases_503_525 extends TestBase {
+	
 	HelperMethods HelpMethod = new HelperMethods();
-
+	
+	
 	/*@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
@@ -53,69 +54,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		}
 	}*/
 
-	@Test(priority = 440)
-	@Parameters({ "Rider_AppPackage", "Rider_AppActivity" })
-	public void Test_Book_8_Seater_LunchDriver_App_LunchNewDriver_App_440(String Rider_AppPackage,
-			String Rider_AppActivity) {
-		HelperMethods.waitForPageLoaded();
-		driver.hideKeyboard();
-		driver.startActivity(new Activity(Rider_AppPackage, Rider_AppActivity));
-		System.out.println("Rider app are open");
-
-	}
-
-	@Test(priority = 441)
-	public void Test_Book_8_Seater_LunchDriver_IMEI_Alert_Notification_441() {
-		HelperMethods.waitForPageLoaded();
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		WebElement L4 = driver.findElement(By.id("android:id/button1"));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/button1")));
-		L4.click();
-
-	}
-
-	@Test(priority = 442)
-	@Parameters({ "Rider_PWD" })
-	public void Test_Book_8_Seater_LunchDriver_App_LogintoRiderApp_442(String Rider_PWD) throws InterruptedException {
-
-		HelperMethods.waitForPageLoaded();
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		WebElement L1 = driver.findElement(By.id("com.infosun.infocabs:id/button_infocabs"));
-		HelperMethods.waitForElementToBeClickable(L1);
-		L1.click();
-		HelperMethods.waitForPageLoaded();
-		WebElement L4 = driver.findElement(By.id("com.infosun.infocabs:id/spinner_username"));
-		L4.click();
-		HelperMethods.waitForPageLoaded();
-		driver.findElementByAndroidUIAutomator(
-				"new UiScrollable(new UiSelector()).scrollIntoView(" + "new UiSelector().text(\"testaccount\"));")
-				.click();
-		Thread.sleep(2000);
-		HelperMethods.waitForPageLoaded();
-		WebElement L3 = driver.findElement(By.id("com.infosun.infocabs:id/edit_password"));
-		L3.sendKeys(Rider_PWD);
-		HelperMethods.waitForPageLoaded();
-		WebElement L5 = driver.findElement(By.id("com.infosun.infocabs:id/button_login"));
-		HelperMethods.waitForElementToBeClickable(L5);
-		L5.click();
-		HelperMethods.waitForPageLoaded();
-
-	}
-
-	@Test(priority = 443)
-	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_LunchDriver_App_Backto_CustomerApp_443(String AppPackage) {
-		HelperMethods.waitForPageLoaded();
-		driver.activateApp(AppPackage);
-		HelperMethods.waitForPageLoaded();
-		driver.hideKeyboard();
-		System.out.println("Again back into the Customer app");
-
-	}
-
-	@Test(priority = 444)
+	@Test(priority = 503)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Book_8_Seater_EnterDropofAddress_Cab_444(String CommonLocator, String DropoffAddress) {
+	public void Test_Book_8_Seater_with_CreaditCards_EnterDropofAddress_Cab_503(String CommonLocator, String DropoffAddress) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -136,9 +77,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 445)
+	@Test(priority = 504)
 	@Parameters({ "CommonLocator_ClassView", "DropoffAddress" })
-	public void Test_Book_8_Seater_Moveto_6Seater_445(String CommonLocator_ClassView, String DropoffAddress)
+	public void Test_Book_8_Seater_with_CreaditCards_Moveto_6Seater_504(String CommonLocator_ClassView, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -163,9 +104,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 446)
+	@Test(priority = 505)
 	@Parameters({ "CommonLocator_ClassView", "DropoffAddress" })
-	public void Test_Book_8_Seater_Moveto_8_Seater_446(String CommonLocator_ClassView, String DropoffAddress)
+	public void Test_Book_8_Seater_with_CreaditCards_Moveto_8_Seater_505(String CommonLocator_ClassView, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -190,9 +131,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 447)
+	@Test(priority = 506)
 	@Parameters("CommonLocator")
-	public void Test_Book_8_Seater_6_Seater_Text_arePresent_447(String CommonLocator) {
+	public void Test_Book_8_Seater_with_CreaditCards_6_Seater_Text_arePresent_506(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "car_name"));
 		if (L1.isDisplayed()) {
@@ -205,9 +146,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		}
 	}
 
-	@Test(priority = 448)
+	@Test(priority = 507)
 	@Parameters({ "CommonLocator"})
-	public void Test_Book_8_Seater_ClickOnBookNow_Button_Cab_448(String CommonLocator) throws InterruptedException {
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnBookNow_Button_Cab_507(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		driver.hideKeyboard();
@@ -220,9 +161,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 449)
+	@Test(priority = 508)
 	@Parameters({ "CommonLocator", "CommonLocator_Class_Relative_View" })
-	public void Test_Book_8_Seater_Select_Cash_FromDrop_449(String CommonLocator, String CommonLocator_Class_Relative_View)
+	public void Test_Book_8_Seater_with_CreaditCards_Select_Cash_FromDrop_508(String CommonLocator, String CommonLocator_Class_Relative_View)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -231,15 +172,15 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "sv_payments")));
 		L1.click();
 		HelperMethods.waitForPageLoaded();
-		WebElement L2 = driver.findElement(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='0']"));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='0']")));
+		WebElement L2 = driver.findElement(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//"+ CommonLocator_Class_Relative_View + "[@index='1']")));
 		L2.click();
 
 	}
 
-	@Test(priority = 450)
+	@Test(priority = 509)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Book_8_Seater_ClickOnBookConfirmButton_450(String CommonLocator, String DropoffAddress)
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnBookConfirmButton_509(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -253,9 +194,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 451)
+	@Test(priority = 510)
 	@Parameters({ "Rider_AppPackage" })
-	public void Test_Book_8_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_451(String Rider_AppPackage) {
+	public void Test_Book_8_Seater_with_CreaditCards_Push_CustomerApp_toBackground_and_start_RiderApp_510(String Rider_AppPackage) {
 		HelperMethods.waitForPageLoaded();
 		driver.activateApp(Rider_AppPackage);
 		System.out.println("Rider app are open again");
@@ -263,9 +204,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 452)
+	@Test(priority = 511)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_AcceptCustomer_ride_452(String AppPackage) throws InterruptedException {
+	public void Test_Book_8_Seater_with_CreaditCards_AcceptCustomer_ride_511(String AppPackage) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -277,9 +218,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 453)
+	@Test(priority = 512)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_Push_Rider_toBackground_and_start_CustomerApp_453(String AppPackage)
+	public void Test_Book_8_Seater_with_CreaditCards_Push_Rider_toBackground_and_start_CustomerApp_512(String AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.activateApp(AppPackage);
@@ -295,9 +236,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 454)
+	@Test(priority = 513)
 	@Parameters("CommonLocator")
-	public void Test_Book_8_Seater_weHave_Sent_Text_arePresent_454(String CommonLocator) throws InterruptedException {
+	public void Test_Book_8_Seater_with_CreaditCards_weHave_Sent_Text_arePresent_513(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
@@ -307,13 +248,13 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 			Thread.sleep(4000);
 
 		} else {
-			System.out.println("Test:454, We have sent you a cab text are not present");
+			System.out.println("Test:513, We have sent you a cab text are not present");
 		}
 	}
 
-	@Test(priority = 455)
+	@Test(priority = 514)
 	@Parameters({ "Rider_AppPackage" })
-	public void Test_Book_8_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_455(String Rider_AppPackage)
+	public void Test_Book_8_Seater_with_CreaditCards_Push_CustomerApp_toBackground_and_start_RiderApp_514(String Rider_AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
@@ -325,9 +266,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 456)
+	@Test(priority = 515)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_ClickOnWait_ride_456(String AppPackage) {
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnWait_ride_515(String AppPackage) {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -338,9 +279,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 457)
+	@Test(priority = 516)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_ClickOnPOB_Button_ride_457(String AppPackage) {
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnPOB_Button_ride_516(String AppPackage) {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -351,9 +292,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 458)
+	@Test(priority = 517)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_Push_Rider_toBackground_and_start_CustomerApp_458(String AppPackage)
+	public void Test_BBook_8_Seater_with_CreaditCards_Push_Rider_toBackground_and_start_CustomerApp_517(String AppPackage)
 			throws InterruptedException {
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
@@ -370,9 +311,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 459)
+	@Test(priority = 518)
 	@Parameters("CommonLocator")
-	public void Test_Book_8_Seater_You_arein_yourway_Text_arePresent_459(String CommonLocator)
+	public void Test_Book_8_Seater_with_CreaditCards_You_arein_yourway_Text_arePresent_518(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -383,13 +324,13 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 			Thread.sleep(5000);
 
 		} else {
-			System.out.println("Test:459, You are on your way. text are not present");
+			System.out.println("Test:518, You are on your way. text are not present");
 		}
 	}
 
-	@Test(priority = 460)
+	@Test(priority = 519)
 	@Parameters({ "Rider_AppPackage" })
-	public void Test_Book_8_Seater_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_460(String Rider_AppPackage)
+	public void Test_Book_8_Seater_with_CreaditCards_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_519(String Rider_AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.runAppInBackground(Duration.ZERO);
@@ -401,9 +342,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 461)
+	@Test(priority = 520)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_ClickOnSTC_ride_461(String AppPackage) {
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnSTC_ride_520(String AppPackage) {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -414,9 +355,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 462)
+	@Test(priority = 521)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_ClickOn_Clear_ride_462(String AppPackage) {
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOn_Clear_ride_521(String AppPackage) {
 
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -427,9 +368,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 463)
+	@Test(priority = 522)
 	@Parameters({ "AppPackage" })
-	public void Test_Book_8_Seater_Push_Rider_toBackground_and_start_CustomerApp_463(String AppPackage)
+	public void Test_Book_8_Seater_with_CreaditCards_Push_Rider_toBackground_and_start_CustomerApp_522(String AppPackage)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		// driver.launchApp();
@@ -440,9 +381,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 464)
+	@Test(priority = 523)
 	@Parameters("CommonLocator_ClassView")
-	public void Test_Book_8_Seater_Rate_your_ride_Text_arePresent_464(String CommonLocator_ClassView) {
+	public void Test_Book_8_Seater_with_CreaditCards_Rate_your_ride_Text_arePresent_523(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Rate your ride']"));
@@ -451,13 +392,13 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 			Assert.assertEquals(Get_text1, "Rate your ride");
 
 		} else {
-			System.out.println("Test:464, Rate your ride text are not present");
+			System.out.println("Test:523, Rate your ride text are not present");
 		}
 	}
 
-	@Test(priority = 465)
+	@Test(priority = 524)
 	@Parameters({ "CommonLocator", "Feedback" })
-	public void Test_BBook_8_Seater_Feedback_Field_arePresent_465(String CommonLocator, String Feedback) {
+	public void Test_Book_8_Seater_with_CreaditCards_Feedback_Field_arePresent_524(String CommonLocator, String Feedback) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_feedback"));
@@ -466,9 +407,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 466)
+	@Test(priority = 525)
 	@Parameters("CommonLocator")
-	public void Test_Book_8_Seater_SubmitFeedback_ButtonAndText_466(String CommonLocator) {
+	public void Test_Book_8_Seater_with_CreaditCards_SubmitFeedback_ButtonAndText_525(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_submit_feedback"));
@@ -478,8 +419,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 			L1.click();
 			HelperMethods.waitForPageLoaded();
 		} else {
-			System.out.println("Test:466, Submit Feedback text are not present");
+			System.out.println("Test:525, Submit Feedback text are not present");
 		}
 	}
+	
 
 }

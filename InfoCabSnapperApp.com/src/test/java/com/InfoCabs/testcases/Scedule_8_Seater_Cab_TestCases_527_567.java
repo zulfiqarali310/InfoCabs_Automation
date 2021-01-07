@@ -1,7 +1,9 @@
 package com.InfoCabs.testcases;
 
-import org.openqa.selenium.Alert;
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,13 +14,18 @@ import org.testng.annotations.Test;
 import com.InfoCabs.common.HelperMethods;
 import com.InfoCabs.common.TestBase;
 
+import io.appium.java_client.PerformsTouchActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 
-public class Schedule_Saloon_Ride_263_299 extends TestBase {
+public class Scedule_8_Seater_Cab_TestCases_527_567 extends TestBase {
+
 	HelperMethods HelpMethod = new HelperMethods();
-	
+
 	/*@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
@@ -48,10 +55,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		}
 	}*/
 
-
-	@Test(priority = 263)
+	@Test(priority = 526)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_ScheduleRide_Button_263(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_ScheduleRide_Button_526(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -70,9 +76,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 
 	}
 
-	@Test(priority = 264)
+	@Test(priority = 527)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Pick_Cale_Image_is_present_264(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Pick_Cale_Image_is_present_527(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_calender")).isDisplayed();
@@ -80,9 +86,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 265)
+	@Test(priority = 528)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Pick_Time_Image_is_present_265(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Pick_Time_Image_is_present_528(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_time")).isDisplayed();
@@ -90,9 +96,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 266)
+	@Test(priority = 529)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_EnterDropofAddress_Cab_266(String CommonLocator, String DropoffAddress) {
+	public void Test_Schedule_8_Seater_Cab_EnterDropofAddress_Cab_529(String CommonLocator, String DropoffAddress) {
 		HelperMethods.waitForPageLoaded();
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -111,9 +117,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 
 	}
 
-	@Test(priority = 267)
+	@Test(priority = 530)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_PickUp_Date_Button_267(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_PickUp_Date_Button_530(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -124,14 +130,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "tv_date")));
 			L1.click();
 		} else {
-			System.out.println("Test:267, PickUp Date Calendar are not open");
+			System.out.println("Test:405, PickUp Date Calendar are not open");
 		}
 
 	}
 
-	@Test(priority = 268)
+	@Test(priority = 531)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Pick_Cale_CurrentYear_is_present_268(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Pick_Cale_CurrentYear_is_present_531(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "mdtp_date_picker_year")).isDisplayed();
@@ -139,9 +145,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 269)
+	@Test(priority = 532)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Pick_Cale_CurrentDate_is_present_269(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Pick_Cale_CurrentDate_is_present_532(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "mdtp_date_picker_day")).isDisplayed();
@@ -149,9 +155,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 270)
+	@Test(priority = 533)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Cale_Cancel_Button_270(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Cale_Cancel_Button_533(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -162,14 +168,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "mdtp_cancel")));
 			L1.click();
 		} else {
-			System.out.println("Test:267, PickUp Date Calendar CANCEL button are not functional");
+			System.out.println("Test:533, PickUp Date Calendar CANCEL button are not functional");
 		}
 
 	}
 
-	@Test(priority = 271)
+	@Test(priority = 534)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_PickUp_Date_On2ndTime_Button_271(String CommonLocator)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_PickUp_Date_On2ndTime_Button_534(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -181,14 +187,15 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:267, PickUp Date Calendar are not open");
+			System.out.println("Test:534, PickUp Date Calendar are not open");
 		}
 
 	}
 
-	@Test(priority = 272)
+	@Test(priority = 535)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Cale_OK_Button_272(String CommonLocator) throws InterruptedException {
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Cale_OK_Button_535(String CommonLocator)
+			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "mdtp_ok"));
@@ -199,14 +206,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:272, PickUp Date Calendar OK button are not functional, and date are not select");
+			System.out.println("Test:535, PickUp Date Calendar OK button are not functional, and date are not select");
 		}
 
 	}
 
-	@Test(priority = 273)
+	@Test(priority = 536)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Time_Cancel_Button_273(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Time_Cancel_Button_536(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -217,14 +224,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "mdtp_cancel")));
 			L1.click();
 		} else {
-			System.out.println("Test:273, PickUp Date Time Calendar CANCEL button are not functional");
+			System.out.println("Test:536, PickUp Date Time Calendar CANCEL button are not functional");
 		}
 
 	}
 
-	@Test(priority = 274)
+	@Test(priority = 537)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_PickUpDate_are_Selected_274(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_PickUpDate_are_Selected_537(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_date")).isDisplayed();
@@ -232,9 +239,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 275)
+	@Test(priority = 538)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_PickUp_Time_Button_275(String CommonLocator)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_PickUp_Time_Button_538(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -246,14 +253,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:275, PickUp Date Calendar are not open");
+			System.out.println("Test:538, PickUp Date Calendar are not open");
 		}
 
 	}
 
-	@Test(priority = 276)
+	@Test(priority = 539)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_TimeDisplay_arePresent_276(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_TimeDisplay_arePresent_539(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "mdtp_time_display")).isDisplayed();
@@ -261,9 +268,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 277)
+	@Test(priority = 540)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_check_30minuts_AdvanceTime_277(String CommonLocator)
+	public void Test_Schedule_8_Seater_Cab_check_30minuts_AdvanceTime_540(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "mdtp_time_picker_header"));
@@ -271,14 +278,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "SELECT 30+ MINUTES LATER FROM NOW");
 		} else {
-			System.out.println("Test:277, SELECT 30+ MINUTES LATER FROM NOW text are not present");
+			System.out.println("Test:540, SELECT 30+ MINUTES LATER FROM NOW text are not present");
 		}
 
 	}
 
-	@Test(priority = 278)
+	@Test(priority = 541)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Time_Cancel_Button_278(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Time_Cancel_Button_541(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -289,14 +296,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "mdtp_cancel")));
 			L1.click();
 		} else {
-			System.out.println("Test:278, PickUp Date Time CANCEL button are not functional");
+			System.out.println("Test:541, PickUp Date Time CANCEL button are not functional");
 		}
 
 	}
 
-	@Test(priority = 279)
+	@Test(priority = 542)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_PickUp_Time_On2nd_Time_Button_279(String CommonLocator)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_PickUp_Time_On2nd_Time_Button_542(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -308,14 +315,15 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:279, PickUp Date Calendar are not open");
+			System.out.println("Test:542, PickUp Date Calendar are not open");
 		}
 
 	}
 
-	@Test(priority = 280)
+	@Test(priority = 543)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Time_OK_Button_280(String CommonLocator) throws InterruptedException {
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Time_OK_Button_543(String CommonLocator)
+			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "mdtp_ok"));
@@ -326,14 +334,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:280, PickUp Date Time OK button are not functional, and date are not select");
+			System.out.println("Test:543, PickUp Date Time OK button are not functional, and date are not select");
 		}
 
 	}
 
-	@Test(priority = 281)
+	@Test(priority = 544)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_Time_areSelected_281(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_Time_areSelected_544(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_time")).isDisplayed();
@@ -341,25 +349,114 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 282)
-	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOnBookNow_Button_Cab_282(String CommonLocator, String DropoffAddress)
-			throws InterruptedException {
+	@Test(priority = 545)
+	@Parameters({ "CommonLocator_ClassView", "DropoffAddress" })
+	public void Test_Book_8_Seater_with_CreaditCards_Moveto_6Seater_545(String CommonLocator_ClassView,
+			String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
-		WebElement L5 = driver.findElement(By.id(CommonLocator + "btn_book_now"));
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_book_now")));
-		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		Dimension elementSize = driver.manage().window().getSize();
+		System.out.println(elementSize);
+
+		Double ScreenEndhight = elementSize.getHeight() * 0.9;
+		int Anchor = ScreenEndhight.intValue();
+		System.out.println(Anchor);
+
+		Double ScreenWidthStart = elementSize.getWidth() * 0.88;
+		int scrollStart = ScreenWidthStart.intValue();
+
+		Double ScreenWidthEnd = elementSize.getWidth() * 0.2;
+		int scrollEnd = ScreenWidthEnd.intValue();
+
+		new TouchAction((PerformsTouchActions) driver).press(PointOption.point(scrollStart, Anchor))
+				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))).moveTo(PointOption.point(scrollEnd, Anchor))
+				.release().perform();
 		Thread.sleep(3000);
-		L5.click();
+
+	}
+
+	@Test(priority = 546)
+	@Parameters({ "CommonLocator_ClassView", "DropoffAddress" })
+	public void Test_Book_8_Seater_with_CreaditCards_Moveto_8_Seater_546(String CommonLocator_ClassView,
+			String DropoffAddress) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		Thread.sleep(4000);
+		Dimension elementSize = driver.manage().window().getSize();
+		System.out.println(elementSize);
+
+		Double ScreenEndhight = elementSize.getHeight() * 0.9;
+		int Anchor = ScreenEndhight.intValue();
+		System.out.println(Anchor);
+
+		Double ScreenWidthStart = elementSize.getWidth() * 0.99;
+		int scrollStart = ScreenWidthStart.intValue();
+
+		Double ScreenWidthEnd = elementSize.getWidth() * 0.1;
+		int scrollEnd = ScreenWidthEnd.intValue();
+
+		new TouchAction((PerformsTouchActions) driver).press(PointOption.point(scrollStart, Anchor))
+				.waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))).moveTo(PointOption.point(scrollEnd, Anchor))
+				.release().perform();
+		Thread.sleep(3000);
+
+	}
+
+	@Test(priority = 547)
+	@Parameters("CommonLocator")
+	public void Test_Book_8_Seater_with_CreaditCards_8_Seater_Text_arePresent_547(String CommonLocator) {
+		HelperMethods.waitForPageLoaded();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "car_name"));
+		if (L1.isDisplayed()) {
+			String Get_text1 = L1.getText();
+			Assert.assertEquals(Get_text1, "8 Seater");
+			System.out.println("8 Seater Car is Availble you can book it");
+
+		} else {
+			System.out.println("Test:547, Choose a vehicle Screen have some issue");
+		}
+	}
+
+	@Test(priority = 548)
+	@Parameters({ "CommonLocator" })
+	public void Test_Book_8_Seater_with_CreaditCards_ClickOnBookNow_Button_Cab_548(String CommonLocator)
+			throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		driver.hideKeyboard();
+		HelperMethods.waitForPageLoaded();
+		System.out.println(driver.findElements(By.id(CommonLocator + "btn_book_now")).size());
+		Thread.sleep(2000);
+		// wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator +
+		// "btn_book_now")));
+		driver.findElements(By.id(CommonLocator + "btn_book_now")).get(1).click();
 		HelperMethods.waitForPageLoaded();
 
 	}
 
-	@Test(priority = 283)
+	@Test(priority = 549)
+	@Parameters({ "CommonLocator", "CommonLocator_Class_Relative_View" })
+	public void Test_Book_8_Seater_with_CreaditCards_Select_Cash_FromDrop_549(String CommonLocator,
+			String CommonLocator_Class_Relative_View) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "sv_payments"));
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "sv_payments")));
+		L1.click();
+		HelperMethods.waitForPageLoaded();
+		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='0']"));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='0']")));
+		L2.click();
+
+	}
+
+
+	@Test(priority = 551)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_Time_and_Date_areSelected_283(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_Time_and_Date_areSelected_551(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_date_time")).isDisplayed();
@@ -367,9 +464,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 284)
+	@Test(priority = 552)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOnBookConfirmButton_284(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOnBookConfirmButton_552(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -383,9 +480,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 
 	}
 
-	@Test(priority = 285)
+	@Test(priority = 553)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_Schedule_Screen_image_Tick_Icon_285(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_Schedule_Screen_image_Tick_Icon_553(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "img")).isDisplayed();
@@ -393,9 +490,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 286)
+	@Test(priority = 554)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_check_Your_Ride_ScheduleText_286(String CommonLocator)
+	public void Test_Schedule_8_Seater_Cab_check_Your_Ride_ScheduleText_554(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_time_hint"));
@@ -403,14 +500,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "Your ride has been scheduled for");
 		} else {
-			System.out.println("Test:286, Your ride has been scheduled for text are not present");
+			System.out.println("Test:554, Your ride has been scheduled for text are not present");
 		}
 
 	}
 
-	@Test(priority = 287)
+	@Test(priority = 555)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_Schedule_Screen_Time_are_Selected_287(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_Schedule_Screen_Time_are_Selected_555(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_time")).isDisplayed();
@@ -418,28 +515,20 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 288)
+	@Test(priority = 556)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_check_View_Your_Text_288(String CommonLocator) throws InterruptedException {
+	public void Test_Schedule_8_Seater_Cab_check_View_Your_Text_556(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tv_hint_trips")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(ImageLogo, expected);
-		
-		/*if (L1.isDisplayed()) {
-			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, "View your scheduled rides at\r\n"
-					+ "Menu > My Trips");
-		} else {
-			System.out.println("Test:286, View your scheduled rides at Menu > My Trips text are not present");
-		}*/
 
 	}
 
-	@Test(priority = 289)
+	@Test(priority = 557)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Done_Button_289(String CommonLocator) throws InterruptedException {
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Done_Button_557(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btnLaterDone"));
@@ -450,14 +539,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:289, Done Button are Not Working");
+			System.out.println("Test:558, Done Button are Not Working");
 		}
 
 	}
 
-	@Test(priority = 290)
+	@Test(priority = 558)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_SideMenu_Button_290(String CommonLocator, String DropoffAddress)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_SideMenu_Button_558(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -471,9 +560,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 
 	}
 
-	@Test(priority = 291)
+	@Test(priority = 559)
 	@Parameters({ "CommonLocator", "Sidermenue_CommonText" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_SideMenu__MyTrips_Button_291(String CommonLocator,
+	public void Test_Schedule_8_Seater_Cab_ClickOn_SideMenu__MyTrips_Button_559(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -487,9 +576,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 
 	}
 
-	@Test(priority = 292)
+	@Test(priority = 560)
 	@Parameters({ "CommonLocator_ClassView" })
-	public void Test_Schedule_Saloon_Ride_check_MyTrips_Text_292(String CommonLocator_ClassView)
+	public void Test_Schedule_8_Seater_Cab_check_MyTrips_Text_560(String CommonLocator_ClassView)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='My Trips']"));
@@ -497,14 +586,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "My Trips");
 		} else {
-			System.out.println("Test:292, My Trips text are not present");
+			System.out.println("Test:560, My Trips text are not present");
 		}
 
 	}
 
-	@Test(priority = 293)
+	@Test(priority = 561)
 	@Parameters({ "CommonLocator_ClassView" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Done_Button_293(String CommonLocator_ClassView)
+	public void Test_Schedule_8_Seater_Cab_ClickOn_Done_Button_561(String CommonLocator_ClassView)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -517,14 +606,14 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			L1.click();
 			Thread.sleep(3000);
 		} else {
-			System.out.println("Test:289, Upcoming Text are not avalible");
+			System.out.println("Test:561, Upcoming Text are not avalible");
 		}
 
 	}
 
-	@Test(priority = 294)
+	@Test(priority = 562)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_UpComingRide_PickUp_Icon_294(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_UpComingRide_PickUp_Icon_562(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_pick")).isDisplayed();
@@ -532,9 +621,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 295)
+	@Test(priority = 563)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_UpComingRide_DropOff_Icon_295(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_UpComingRide_DropOff_Icon_563(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_dest")).isDisplayed();
@@ -542,9 +631,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 296)
+	@Test(priority = 564)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_UpComingRide_PickUp_Address_296(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_UpComingRide_PickUp_Address_564(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tvTripStart")).isDisplayed();
@@ -552,9 +641,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 297)
+	@Test(priority = 565)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_UpComingRide_Dropoff_Address_297(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_UpComingRide_Dropoff_Address_565(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tvTripEnd")).isDisplayed();
@@ -562,9 +651,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 298)
+	@Test(priority = 566)
 	@Parameters("CommonLocator")
-	public void Test_Schedule_Saloon_Ride_Check_UpComingRide_PickUp_Time_298(String CommonLocator) {
+	public void Test_Schedule_8_Seater_Cab_Check_UpComingRide_PickUp_Time_566(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "tvTripTime")).isDisplayed();
@@ -572,9 +661,9 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Assert.assertEquals(ImageLogo, expected);
 	}
 
-	@Test(priority = 299)
+	@Test(priority = 567)
 	@Parameters({ "CommonLocator" })
-	public void Test_Schedule_Saloon_Ride_ClickOn_Cancel_Button_299(String CommonLocator) throws InterruptedException {
+	public void Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_567(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btnCancel"));
@@ -586,17 +675,15 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			Thread.sleep(3000);
 			((AndroidDriver) driver).findElement(By.id("android:id/button1")).click();
 			Thread.sleep(4000);
-			//((AndroidDriver) driver).pressKeyCode(AndroidKeyCode.BACK);
-			//driver.navigate().back();
+			// ((AndroidDriver) driver).pressKeyCode(AndroidKeyCode.BACK);
+			// driver.navigate().back();
 			driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
 			HelperMethods.waitForPageLoaded();
-			
-		} else { 
-			System.out.println("Test:299, CANCEL Button are Not Working");
+
+		} else {
+			System.out.println("Test:567, CANCEL Button are Not Working");
 		}
 
 	}
-
-	
 
 }

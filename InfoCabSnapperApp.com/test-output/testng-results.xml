@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="8" total="130" passed="121">
+<testng-results skipped="0" failed="1" ignored="6" total="54" passed="47">
   <reporter-output>
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
@@ -187,510 +187,15 @@
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
     </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1042107" started-at="2021-01-04T22:47:27 PKT" finished-at="2021-01-04T23:04:49 PKT">
+  <suite name="Suite" duration-ms="276694" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:33:18 PKT">
     <groups>
     </groups>
-    <test name="InfoCab App Complete Testing Flow" duration-ms="17" started-at="2021-01-04T22:47:27 PKT" finished-at="2021-01-04T22:47:27 PKT">
+    <test name="InfoCab App Complete Testing Flow" duration-ms="18" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:28:41 PKT">
     </test> <!-- InfoCab App Complete Testing Flow -->
-    <test name="InfoCabSnapperApp.com" duration-ms="1042054" started-at="2021-01-04T22:47:27 PKT" finished-at="2021-01-04T23:04:49 PKT">
+    <test name="InfoCabSnapperApp.com" duration-ms="276505" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:33:18 PKT">
       <class name="com.InfoCabs.common.TestBase">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@2aece37d]" name="setup" is-config="true" duration-ms="39152" started-at="2021-01-04T22:47:27 PKT" finished-at="2021-01-04T22:48:06 PKT">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="setup" is-config="true" duration-ms="17789" started-at="2021-01-06T22:28:42 PKT" finished-at="2021-01-06T22:28:59 PKT">
           <params>
             <param index="0">
               <value>
@@ -699,17 +204,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[7]]>
+                <![CDATA[10]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Galaxy J7 Pro]]>
+                <![CDATA[Galaxy A31]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[52006c45b4f164dd]]>
+                <![CDATA[RF8NA302BXL]]>
               </value>
             </param>
             <param index="4">
@@ -731,519 +236,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@2aece37d]" name="teardown" is-config="true" duration-ms="1" started-at="2021-01-04T23:04:49 PKT" finished-at="2021-01-04T23:04:49 PKT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="teardown" is-config="true" duration-ms="1" started-at="2021-01-06T22:33:18 PKT" finished-at="2021-01-06T22:33:18 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.InfoCabs.common.TestBase -->
-      <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439">
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_ScheduleRide_Button_401(java.lang.String, java.lang.String)[pri:401, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_ScheduleRide_Button_401" duration-ms="11262" started-at="2021-01-04T23:01:22 PKT" finished-at="2021-01-04T23:01:33 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_ScheduleRide_Button_401 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Pick_Cale_Image_is_present_403(java.lang.String)[pri:402, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Pick_Cale_Image_is_present_403" duration-ms="2325" started-at="2021-01-04T23:01:33 PKT" finished-at="2021-01-04T23:01:36 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Pick_Cale_Image_is_present_403 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Pick_Time_Image_is_present_403(java.lang.String)[pri:403, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Pick_Time_Image_is_present_403" duration-ms="2287" started-at="2021-01-04T23:01:36 PKT" finished-at="2021-01-04T23:01:38 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Pick_Time_Image_is_present_403 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_EnterDropofAddress_Cab_404(java.lang.String, java.lang.String)[pri:404, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_EnterDropofAddress_Cab_404" duration-ms="10955" started-at="2021-01-04T23:01:38 PKT" finished-at="2021-01-04T23:01:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_EnterDropofAddress_Cab_404 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_Button_405(java.lang.String, java.lang.String)[pri:405, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_Button_405" duration-ms="2329" started-at="2021-01-04T23:01:49 PKT" finished-at="2021-01-04T23:01:51 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_Button_405 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentYear_is_present_406(java.lang.String)[pri:406, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentYear_is_present_406" duration-ms="2446" started-at="2021-01-04T23:01:51 PKT" finished-at="2021-01-04T23:01:54 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentYear_is_present_406 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentDate_is_present_407(java.lang.String)[pri:407, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentDate_is_present_407" duration-ms="2328" started-at="2021-01-04T23:01:54 PKT" finished-at="2021-01-04T23:01:56 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Pick_Cale_CurrentDate_is_present_407 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Cale_Cancel_Button_408(java.lang.String, java.lang.String)[pri:408, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Cale_Cancel_Button_408" duration-ms="2915" started-at="2021-01-04T23:01:56 PKT" finished-at="2021-01-04T23:01:59 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Cale_Cancel_Button_408 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_On2ndTime_Button_409(java.lang.String)[pri:409, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_On2ndTime_Button_409" duration-ms="5344" started-at="2021-01-04T23:01:59 PKT" finished-at="2021-01-04T23:02:04 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Date_On2ndTime_Button_409 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Cale_OK_Button_410(java.lang.String)[pri:410, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Cale_OK_Button_410" duration-ms="5898" started-at="2021-01-04T23:02:04 PKT" finished-at="2021-01-04T23:02:10 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Cale_OK_Button_410 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_411(java.lang.String, java.lang.String)[pri:411, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_411" duration-ms="2280" started-at="2021-01-04T23:02:10 PKT" finished-at="2021-01-04T23:02:12 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_411 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_PickUpDate_are_Selected_412(java.lang.String)[pri:412, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_PickUpDate_are_Selected_412" duration-ms="2290" started-at="2021-01-04T23:02:12 PKT" finished-at="2021-01-04T23:02:15 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_PickUpDate_are_Selected_412 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_Button_413(java.lang.String)[pri:413, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_Button_413" duration-ms="5343" started-at="2021-01-04T23:02:15 PKT" finished-at="2021-01-04T23:02:20 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_Button_413 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_TimeDisplay_arePresent_414(java.lang.String)[pri:414, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_TimeDisplay_arePresent_414" duration-ms="2294" started-at="2021-01-04T23:02:20 PKT" finished-at="2021-01-04T23:02:22 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_TimeDisplay_arePresent_414 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_check_30minuts_AdvanceTime_415(java.lang.String)[pri:415, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_check_30minuts_AdvanceTime_415" duration-ms="2140" started-at="2021-01-04T23:02:22 PKT" finished-at="2021-01-04T23:02:24 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_check_30minuts_AdvanceTime_415 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_416(java.lang.String, java.lang.String)[pri:416, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_416" duration-ms="2309" started-at="2021-01-04T23:02:24 PKT" finished-at="2021-01-04T23:02:27 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Time_Cancel_Button_416 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_On2nd_Time_Button_417(java.lang.String)[pri:417, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_On2nd_Time_Button_417" duration-ms="5343" started-at="2021-01-04T23:02:27 PKT" finished-at="2021-01-04T23:02:32 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_PickUp_Time_On2nd_Time_Button_417 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Time_OK_Button_418(java.lang.String)[pri:418, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Time_OK_Button_418" duration-ms="5669" started-at="2021-01-04T23:02:32 PKT" finished-at="2021-01-04T23:02:38 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Time_OK_Button_418 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_Time_areSelected_419(java.lang.String)[pri:419, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_Time_areSelected_419" duration-ms="2344" started-at="2021-01-04T23:02:38 PKT" finished-at="2021-01-04T23:02:40 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_Time_areSelected_419 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_SwipeTo_6Seater_420(java.lang.String, java.lang.String)[pri:420, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_SwipeTo_6Seater_420" duration-ms="10096" started-at="2021-01-04T23:02:40 PKT" finished-at="2021-01-04T23:02:50 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_SwipeTo_6Seater_420 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_6_Seater_Text_arePresent_421(java.lang.String)[pri:421, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_6_Seater_Text_arePresent_421" duration-ms="2201" started-at="2021-01-04T23:02:50 PKT" finished-at="2021-01-04T23:02:52 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_6_Seater_Text_arePresent_421 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOnBookNow_Button_Cab_422(java.lang.String, java.lang.String)[pri:422, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOnBookNow_Button_Cab_422" duration-ms="9595" started-at="2021-01-04T23:02:52 PKT" finished-at="2021-01-04T23:03:02 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOnBookNow_Button_Cab_422 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_Time_and_Date_areSelected_423(java.lang.String)[pri:423, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_Time_and_Date_areSelected_423" duration-ms="29923" started-at="2021-01-04T23:03:02 PKT" finished-at="2021-01-04T23:03:32 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_Time_and_Date_areSelected_423 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOnBookConfirmButton_424(java.lang.String, java.lang.String)[pri:424, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOnBookConfirmButton_424" duration-ms="9598" started-at="2021-01-04T23:03:32 PKT" finished-at="2021-01-04T23:03:42 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOnBookConfirmButton_424 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_image_Tick_Icon_425(java.lang.String)[pri:425, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_image_Tick_Icon_425" duration-ms="2603" started-at="2021-01-04T23:03:42 PKT" finished-at="2021-01-04T23:03:44 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_image_Tick_Icon_425 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_check_Your_Ride_ScheduleText_426(java.lang.String)[pri:426, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_check_Your_Ride_ScheduleText_426" duration-ms="2155" started-at="2021-01-04T23:03:44 PKT" finished-at="2021-01-04T23:03:46 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_check_Your_Ride_ScheduleText_426 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_Time_are_Selected_427(java.lang.String)[pri:427, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_Time_are_Selected_427" duration-ms="2246" started-at="2021-01-04T23:03:46 PKT" finished-at="2021-01-04T23:03:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_Schedule_Screen_Time_are_Selected_427 -->
-        <test-method status="PASS" signature="Test_Schedule_Saloon_Ride_check_View_Your_Text_428(java.lang.String)[pri:428, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_Saloon_Ride_check_View_Your_Text_428" duration-ms="2769" started-at="2021-01-04T23:03:49 PKT" finished-at="2021-01-04T23:03:51 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_Saloon_Ride_check_View_Your_Text_428 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Done_Button_429(java.lang.String)[pri:429, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Done_Button_429" duration-ms="5287" started-at="2021-01-04T23:03:51 PKT" finished-at="2021-01-04T23:03:57 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Done_Button_429 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu_Button_430(java.lang.String, java.lang.String)[pri:430, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu_Button_430" duration-ms="11321" started-at="2021-01-04T23:03:57 PKT" finished-at="2021-01-04T23:04:08 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_SideMenu_Button_430 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu__MyTrips_Button_431(java.lang.String, java.lang.String)[pri:431, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu__MyTrips_Button_431" duration-ms="9755" started-at="2021-01-04T23:04:08 PKT" finished-at="2021-01-04T23:04:18 PKT">
+      <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_Section_are_Opened_577(java.lang.String, java.lang.String)[pri:577, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_Section_are_Opened_577" duration-ms="3797" started-at="2021-01-06T22:29:41 PKT" finished-at="2021-01-06T22:29:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -1260,17 +259,68 @@
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_Section_are_Opened_577 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578(java.lang.String)[pri:578, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578" duration-ms="2663" started-at="2021-01-06T22:29:44 PKT" finished-at="2021-01-06T22:29:47 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_SideMenu__MyTrips_Button_431 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_check_MyTrips_Text_432(java.lang.String)[pri:432, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_check_MyTrips_Text_432" duration-ms="2164" started-at="2021-01-04T23:04:18 PKT" finished-at="2021-01-04T23:04:20 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579(java.lang.String, java.lang.String)[pri:579, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579" duration-ms="2747" started-at="2021-01-06T22:29:47 PKT" finished-at="2021-01-06T22:29:50 PKT">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_are_opened_again_580(java.lang.String, java.lang.String)[pri:580, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_are_opened_again_580" duration-ms="5430" started-at="2021-01-06T22:29:50 PKT" finished-at="2021-01-06T22:29:55 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_are_opened_again_580 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581(java.lang.String, java.lang.String)[pri:581, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581" duration-ms="2411" started-at="2021-01-06T22:29:55 PKT" finished-at="2021-01-06T22:29:58 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
               <value>
                 <![CDATA[android.widget.TextView]]>
               </value>
@@ -1281,22 +331,8 @@
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_check_MyTrips_Text_432 -->
-        <test-method status="PASS" signature="Test_Schedule_Saloon_Ride_ClickOn_Done_Button_433(java.lang.String)[pri:433, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_Saloon_Ride_ClickOn_Done_Button_433" duration-ms="5703" started-at="2021-01-04T23:04:20 PKT" finished-at="2021-01-04T23:04:26 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_Saloon_Ride_ClickOn_Done_Button_433 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Icon_434(java.lang.String)[pri:434, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Icon_434" duration-ms="2321" started-at="2021-01-04T23:04:26 PKT" finished-at="2021-01-04T23:04:28 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582(java.lang.String)[pri:582, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582" duration-ms="2602" started-at="2021-01-06T22:29:58 PKT" finished-at="2021-01-06T22:30:00 PKT">
           <params>
             <param index="0">
               <value>
@@ -1309,179 +345,32 @@
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Icon_434 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_UpComingRide_DropOff_Icon_435(java.lang.String)[pri:435, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_DropOff_Icon_435" duration-ms="2301" started-at="2021-01-04T23:04:28 PKT" finished-at="2021-01-04T23:04:30 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582 -->
+        <test-method status="FAIL" signature="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583(java.lang.String, java.lang.String)[pri:583, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583" duration-ms="2289" started-at="2021-01-06T22:30:00 PKT" finished-at="2021-01-06T22:30:03 PKT">
           <params>
             <param index="0">
               <value>
                 <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_UpComingRide_DropOff_Icon_435 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Address_436(java.lang.String)[pri:436, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Address_436" duration-ms="2228" started-at="2021-01-04T23:04:30 PKT" finished-at="2021-01-04T23:04:32 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Address_436 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_UpComingRide_Dropoff_Address_437(java.lang.String)[pri:437, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_Dropoff_Address_437" duration-ms="2282" started-at="2021-01-04T23:04:32 PKT" finished-at="2021-01-04T23:04:35 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_UpComingRide_Dropoff_Address_437 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Time_438(java.lang.String)[pri:438, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Time_438" duration-ms="2298" started-at="2021-01-04T23:04:35 PKT" finished-at="2021-01-04T23:04:37 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Time_438 -->
-        <test-method status="PASS" signature="Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_439(java.lang.String)[pri:439, instance:com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439@5af97850]" name="Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_439" duration-ms="11630" started-at="2021-01-04T23:04:37 PKT" finished-at="2021-01-04T23:04:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_439 -->
-      </class> <!-- com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439 -->
-      <class name="com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343">
-        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="16261" started-at="2021-01-04T22:48:06 PKT" finished-at="2021-01-04T22:48:22 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[00923358391478]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
+                <![CDATA[QA Tester]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21 -->
-        <test-method status="PASS" signature="Test_LunchDriver_App_LunchNewDriver_App_151(java.lang.String, java.lang.String)[pri:151, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_LunchDriver_App_LunchNewDriver_App_151" duration-ms="5963" started-at="2021-01-04T22:48:22 PKT" finished-at="2021-01-04T22:48:28 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[com.infosun.infocabs.SplashActivity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LunchDriver_App_LunchNewDriver_App_151 -->
-        <test-method status="FAIL" signature="Test_LunchDriver_IMEI_Alert_Notification_152()[pri:152, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_LunchDriver_IMEI_Alert_Notification_152" duration-ms="62109" started-at="2021-01-04T22:48:28 PKT" finished-at="2021-01-04T22:49:30 PKT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0fa3363e-016c-4e15-a192-15ed3225dd98
-*** Element info: {Using=id, value=android:id/button1}]]>
+              <![CDATA[expected [QA Tester] but found [Zulfiqar Ali]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.csandroidx, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 0fa3363e-016c-4e15-a192-15ed3225dd98
-*** Element info: {Using=id, value=android:id/button1}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343.Test_LunchDriver_IMEI_Alert_Notification_152(Book_6_Seater_TestCases_321_343.java:71)
+              <![CDATA[java.lang.AssertionError: expected [QA Tester] but found [Zulfiqar Ali]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587.Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583(MyProfile_SideMenue_verification_TestCases_577_587.java:113)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1512,60 +401,14 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_LunchDriver_IMEI_Alert_Notification_152 -->
-        <test-method status="PASS" signature="Test_LunchDriver_App_LogintoRiderApp_153(java.lang.String)[pri:153, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_LunchDriver_App_LogintoRiderApp_153" duration-ms="43041" started-at="2021-01-04T22:49:31 PKT" finished-at="2021-01-04T22:50:14 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2222]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LunchDriver_App_LogintoRiderApp_153 -->
-        <test-method status="PASS" signature="Test_LunchDriver_App_Backto_CustomerApp_155(java.lang.String)[pri:155, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_LunchDriver_App_Backto_CustomerApp_155" duration-ms="8934" started-at="2021-01-04T22:50:14 PKT" finished-at="2021-01-04T22:50:23 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LunchDriver_App_Backto_CustomerApp_155 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_EnterDropofAddress_Cab_321(java.lang.String, java.lang.String)[pri:321, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_EnterDropofAddress_Cab_321" duration-ms="10106" started-at="2021-01-04T22:50:23 PKT" finished-at="2021-01-04T22:50:33 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584(java.lang.String, java.lang.String)[pri:584, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584" duration-ms="2440" started-at="2021-01-06T22:30:03 PKT" finished-at="2021-01-06T22:30:06 PKT">
           <params>
             <param index="0">
               <value>
@@ -1573,36 +416,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_EnterDropofAddress_Cab_321 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnBookNow_Button_Cab_322(java.lang.String, java.lang.String)[pri:322, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnBookNow_Button_Cab_322" duration-ms="11183" started-at="2021-01-04T22:50:33 PKT" finished-at="2021-01-04T22:50:44 PKT">
-          <params>
-            <param index="0">
               <value>
                 <![CDATA[android.widget.TextView]]>
               </value>
             </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585(java.lang.String, java.lang.String)[pri:585, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585" duration-ms="2400" started-at="2021-01-06T22:30:06 PKT" finished-at="2021-01-06T22:30:08 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
+                <![CDATA[android.widget.TextView]]>
               </value>
             </param>
           </params>
@@ -1611,8 +445,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnBookNow_Button_Cab_322 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_6_Seater_Text_arePresent_323(java.lang.String)[pri:323, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_6_Seater_Text_arePresent_323" duration-ms="2274" started-at="2021-01-04T22:50:44 PKT" finished-at="2021-01-04T22:50:46 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586(java.lang.String)[pri:586, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586" duration-ms="2559" started-at="2021-01-06T22:30:08 PKT" finished-at="2021-01-06T22:30:11 PKT">
           <params>
             <param index="0">
               <value>
@@ -1625,8 +459,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_6_Seater_Text_arePresent_323 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnBookNow_Button_Cab_324(java.lang.String, java.lang.String)[pri:324, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnBookNow_Button_Cab_324" duration-ms="9666" started-at="2021-01-04T22:50:46 PKT" finished-at="2021-01-04T22:50:56 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_logout_is_present_587(java.lang.String)[pri:587, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_logout_is_present_587" duration-ms="2609" started-at="2021-01-06T22:30:11 PKT" finished-at="2021-01-06T22:30:13 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_logout_is_present_587 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588" duration-ms="5568" started-at="2021-01-06T22:30:13 PKT" finished-at="2021-01-06T22:30:19 PKT">
           <params>
             <param index="0">
               <value>
@@ -1635,7 +483,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
+                <![CDATA[android.widget.TextView]]>
               </value>
             </param>
           </params>
@@ -1643,15 +491,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589" duration-ms="2288" started-at="2021-01-06T22:30:19 PKT" finished-at="2021-01-06T22:30:21 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnBookNow_Button_Cab_324 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Select_Cash_FromDrop_325(java.lang.String, java.lang.String)[pri:325, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Select_Cash_FromDrop_325" duration-ms="6088" started-at="2021-01-04T22:50:56 PKT" finished-at="2021-01-04T22:51:02 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590" duration-ms="2269" started-at="2021-01-06T22:30:21 PKT" finished-at="2021-01-06T22:30:24 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590 -->
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591" duration-ms="7412" started-at="2021-01-06T22:30:24 PKT" finished-at="2021-01-06T22:30:31 PKT">
           <params>
             <param index="0">
               <value>
@@ -1672,8 +552,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Select_Cash_FromDrop_325 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnBookConfirmButton_326(java.lang.String, java.lang.String)[pri:326, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnBookConfirmButton_326" duration-ms="9797" started-at="2021-01-04T22:51:02 PKT" finished-at="2021-01-04T22:51:12 PKT">
+        </test-method> <!-- Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591 -->
+      </class> <!-- com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587 -->
+      <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576">
+        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="16345" started-at="2021-01-06T22:28:59 PKT" finished-at="2021-01-06T22:29:16 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00923358391478]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_OpenSide_menu_568(java.lang.String, java.lang.String)[pri:568, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_OpenSide_menu_568" duration-ms="2806" started-at="2021-01-06T22:29:16 PKT" finished-at="2021-01-06T22:29:19 PKT">
           <params>
             <param index="0">
               <value>
@@ -1682,7 +594,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -1690,72 +602,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnBookConfirmButton_326 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_327(java.lang.String)[pri:327, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_327" duration-ms="5775" started-at="2021-01-04T22:51:12 PKT" finished-at="2021-01-04T22:51:18 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_327 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_AcceptCustomer_ride_328(java.lang.String)[pri:328, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_AcceptCustomer_ride_328" duration-ms="9309" started-at="2021-01-04T22:51:18 PKT" finished-at="2021-01-04T22:51:27 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_AcceptCustomer_ride_328 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_329(java.lang.String)[pri:329, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_329" duration-ms="17632" started-at="2021-01-04T22:51:27 PKT" finished-at="2021-01-04T22:51:45 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_329 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_weHave_Sent_Text_arePresent_330(java.lang.String)[pri:330, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_weHave_Sent_Text_arePresent_330" duration-ms="39339" started-at="2021-01-04T22:51:45 PKT" finished-at="2021-01-04T22:52:24 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_OpenSide_menu_568 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logo_is_present_569(java.lang.String)[pri:569, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Logo_is_present_569" duration-ms="2591" started-at="2021-01-06T22:29:19 PKT" finished-at="2021-01-06T22:29:21 PKT">
           <params>
             <param index="0">
               <value>
@@ -1768,184 +617,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_weHave_Sent_Text_arePresent_330 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_331(java.lang.String)[pri:331, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_331" duration-ms="13560" started-at="2021-01-04T22:52:24 PKT" finished-at="2021-01-04T22:52:38 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Push_CustomerApp_toBackground_and_start_RiderApp_331 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnWait_ride_332(java.lang.String)[pri:332, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnWait_ride_332" duration-ms="5074" started-at="2021-01-04T22:52:38 PKT" finished-at="2021-01-04T22:52:43 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnWait_ride_332 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnPOB_Button_ride_333(java.lang.String)[pri:333, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnPOB_Button_ride_333" duration-ms="5823" started-at="2021-01-04T22:52:43 PKT" finished-at="2021-01-04T22:52:48 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnPOB_Button_ride_333 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_334(java.lang.String)[pri:334, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_334" duration-ms="17636" started-at="2021-01-04T22:52:48 PKT" finished-at="2021-01-04T22:53:06 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_334 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_You_arein_yourway_Text_arePresent_335(java.lang.String)[pri:335, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_You_arein_yourway_Text_arePresent_335" duration-ms="23529" started-at="2021-01-04T22:53:06 PKT" finished-at="2021-01-04T22:53:30 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_You_arein_yourway_Text_arePresent_335 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_336(java.lang.String)[pri:336, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_336" duration-ms="9537" started-at="2021-01-04T22:53:30 PKT" finished-at="2021-01-04T22:53:39 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_336 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOnSTC_ride_337(java.lang.String)[pri:337, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOnSTC_ride_337" duration-ms="4452" started-at="2021-01-04T22:53:39 PKT" finished-at="2021-01-04T22:53:44 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOnSTC_ride_337 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_ClickOn_Clear_ride_338(java.lang.String)[pri:338, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_ClickOn_Clear_ride_338" duration-ms="4369" started-at="2021-01-04T22:53:44 PKT" finished-at="2021-01-04T22:53:48 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_ClickOn_Clear_ride_338 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_339(java.lang.String)[pri:339, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_339" duration-ms="6917" started-at="2021-01-04T22:53:48 PKT" finished-at="2021-01-04T22:53:55 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Push_Rider_toBackground_and_start_CustomerApp_339 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_Rate_your_ride_Text_arePresent_340(java.lang.String)[pri:340, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_Rate_your_ride_Text_arePresent_340" duration-ms="2325" started-at="2021-01-04T22:53:55 PKT" finished-at="2021-01-04T22:53:57 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_Rate_your_ride_Text_arePresent_340 -->
-        <test-method status="PASS" signature="Test_BBook_6_Seater_Feedback_Field_arePresent_341(java.lang.String, java.lang.String)[pri:341, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_BBook_6_Seater_Feedback_Field_arePresent_341" duration-ms="2789" started-at="2021-01-04T22:53:57 PKT" finished-at="2021-01-04T22:54:00 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_Logo_is_present_569 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570(java.lang.String, java.lang.String)[pri:570, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570" duration-ms="4490" started-at="2021-01-06T22:29:21 PKT" finished-at="2021-01-06T22:29:26 PKT">
           <params>
             <param index="0">
               <value>
@@ -1954,7 +627,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rider was good and drive well his behavior was out standings]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -1963,27 +636,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_BBook_6_Seater_Feedback_Field_arePresent_341 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_SubmitFeedback_ButtonAndText_342(java.lang.String)[pri:342, instance:com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343@548a102f]" name="Test_Book_6_Seater_SubmitFeedback_ButtonAndText_342" duration-ms="4239" started-at="2021-01-04T22:54:00 PKT" finished-at="2021-01-04T22:54:04 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_SubmitFeedback_ButtonAndText_342 -->
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_TestCases_321_343 -->
-      <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378">
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_EnterDropofAddress_Cab_344(java.lang.String, java.lang.String)[pri:344, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_EnterDropofAddress_Cab_344" duration-ms="11942" started-at="2021-01-04T22:54:04 PKT" finished-at="2021-01-04T22:54:16 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_Dashboard_is_present_570 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571(java.lang.String, java.lang.String)[pri:571, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571" duration-ms="2459" started-at="2021-01-06T22:29:26 PKT" finished-at="2021-01-06T22:29:28 PKT">
           <params>
             <param index="0">
               <value>
@@ -1992,35 +646,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_EnterDropofAddress_Cab_344 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_345(java.lang.String, java.lang.String)[pri:345, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_345" duration-ms="10009" started-at="2021-01-04T22:54:16 PKT" finished-at="2021-01-04T22:54:26 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2029,22 +655,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_345 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_6_Seater_Text_arePresent_346(java.lang.String)[pri:346, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_6_Seater_Text_arePresent_346" duration-ms="2197" started-at="2021-01-04T22:54:26 PKT" finished-at="2021-01-04T22:54:28 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_6_Seater_Text_arePresent_346 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_347(java.lang.String, java.lang.String)[pri:347, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_347" duration-ms="9600" started-at="2021-01-04T22:54:28 PKT" finished-at="2021-01-04T22:54:38 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_MyProfile_is_present_571 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572(java.lang.String, java.lang.String)[pri:572, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572" duration-ms="2495" started-at="2021-01-06T22:29:28 PKT" finished-at="2021-01-06T22:29:31 PKT">
           <params>
             <param index="0">
               <value>
@@ -2053,7 +665,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2061,15 +673,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_ClickOnBookNow_Button_Cab_347 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_PrmoCode_ClickOn_AddPrmoCode_Button_Cab_348(java.lang.String, java.lang.String)[pri:348, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_With_PrmoCode_ClickOn_AddPrmoCode_Button_Cab_348" duration-ms="4489" started-at="2021-01-04T22:54:38 PKT" finished-at="2021-01-04T22:54:43 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573(java.lang.String, java.lang.String)[pri:573, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573" duration-ms="2494" started-at="2021-01-06T22:29:31 PKT" finished-at="2021-01-06T22:29:33 PKT">
           <params>
             <param index="0">
               <value>
@@ -2078,24 +684,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_PrmoCode_ClickOn_AddPrmoCode_Button_Cab_348 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_CrossButton_is_present_349(java.lang.String)[pri:349, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_CrossButton_is_present_349" duration-ms="2255" started-at="2021-01-04T22:54:43 PKT" finished-at="2021-01-04T22:54:45 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2104,50 +693,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_CrossButton_is_present_349 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_350(java.lang.String)[pri:350, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_350" duration-ms="2141" started-at="2021-01-04T22:54:45 PKT" finished-at="2021-01-04T22:54:47 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_350 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_351(java.lang.String)[pri:351, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_351" duration-ms="2279" started-at="2021-01-04T22:54:47 PKT" finished-at="2021-01-04T22:54:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_EnterPromoCode_Text_arePresent_351 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_EnterPrmocodeFirst_Validation_Text_arePresent_352(java.lang.String)[pri:352, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_EnterPrmocodeFirst_Validation_Text_arePresent_352" duration-ms="2134" started-at="2021-01-04T22:54:49 PKT" finished-at="2021-01-04T22:54:51 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_EnterPrmocodeFirst_Validation_Text_arePresent_352 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Enter_InvalidPromocode_chk_Validation_353(java.lang.String, java.lang.String)[pri:353, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Enter_InvalidPromocode_chk_Validation_353" duration-ms="8387" started-at="2021-01-04T22:54:51 PKT" finished-at="2021-01-04T22:55:00 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_MyTrips_is_present_573 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574(java.lang.String, java.lang.String)[pri:574, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574" duration-ms="2546" started-at="2021-01-06T22:29:33 PKT" finished-at="2021-01-06T22:29:36 PKT">
           <params>
             <param index="0">
               <value>
@@ -2156,7 +703,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[12345abc]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2165,22 +712,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Enter_InvalidPromocode_chk_Validation_353 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_InvalidPromoCode_Validation_Text_arePresent_354(java.lang.String)[pri:354, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_InvalidPromoCode_Validation_Text_arePresent_354" duration-ms="2146" started-at="2021-01-04T22:55:00 PKT" finished-at="2021-01-04T22:55:02 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_InvalidPromoCode_Validation_Text_arePresent_354 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Enter_validPromocode_chk_Validation_355(java.lang.String, java.lang.String)[pri:355, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Enter_validPromocode_chk_Validation_355" duration-ms="5891" started-at="2021-01-04T22:55:02 PKT" finished-at="2021-01-04T22:55:08 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_AboutUs_is_present_574 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Share_is_present_575(java.lang.String, java.lang.String)[pri:575, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Share_is_present_575" duration-ms="2579" started-at="2021-01-06T22:29:36 PKT" finished-at="2021-01-06T22:29:38 PKT">
           <params>
             <param index="0">
               <value>
@@ -2189,7 +722,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[QATester]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2198,78 +731,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Enter_validPromocode_chk_Validation_355 -->
-        <test-method status="PASS" signature="Test_BBook_6_Seater_with_PromoCode_validPromoCode_Validation_Text_arePresent_356(java.lang.String)[pri:356, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_BBook_6_Seater_with_PromoCode_validPromoCode_Validation_Text_arePresent_356" duration-ms="2124" started-at="2021-01-04T22:55:08 PKT" finished-at="2021-01-04T22:55:10 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_BBook_6_Seater_with_PromoCode_validPromoCode_Validation_Text_arePresent_356 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_SuccessMessage_Code_357(java.lang.String)[pri:357, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_SuccessMessage_Code_357" duration-ms="2387" started-at="2021-01-04T22:55:10 PKT" finished-at="2021-01-04T22:55:12 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_SuccessMessage_Code_357 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_PromoCode_Text_Validation_358(java.lang.String)[pri:358, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_PromoCode_Text_Validation_358" duration-ms="2170" started-at="2021-01-04T22:55:12 PKT" finished-at="2021-01-04T22:55:14 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_PromoCode_Text_Validation_358 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Without_Discount_Price_359(java.lang.String)[pri:359, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Without_Discount_Price_359" duration-ms="2157" started-at="2021-01-04T22:55:14 PKT" finished-at="2021-01-04T22:55:17 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Without_Discount_Price_359 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_With_DiscountPrice_360(java.lang.String)[pri:360, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_With_DiscountPrice_360" duration-ms="2163" started-at="2021-01-04T22:55:17 PKT" finished-at="2021-01-04T22:55:19 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_With_DiscountPrice_360 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_ClickOnBookConfirmButton_361(java.lang.String, java.lang.String)[pri:361, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_ClickOnBookConfirmButton_361" duration-ms="9643" started-at="2021-01-04T22:55:19 PKT" finished-at="2021-01-04T22:55:28 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_Share_is_present_575 -->
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logout_is_present_576(java.lang.String, java.lang.String)[pri:576, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Logout_is_present_576" duration-ms="2450" started-at="2021-01-06T22:29:38 PKT" finished-at="2021-01-06T22:29:41 PKT">
           <params>
             <param index="0">
               <value>
@@ -2278,90 +741,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_ClickOnBookConfirmButton_361 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_362(java.lang.String)[pri:362, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_362" duration-ms="10650" started-at="2021-01-04T22:55:28 PKT" finished-at="2021-01-04T22:55:39 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_362 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_AcceptCustomer_ride_364(java.lang.String)[pri:364, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_AcceptCustomer_ride_364" duration-ms="9872" started-at="2021-01-04T22:55:39 PKT" finished-at="2021-01-04T22:55:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_AcceptCustomer_ride_364 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_365(java.lang.String)[pri:365, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_365" duration-ms="19562" started-at="2021-01-04T22:55:49 PKT" finished-at="2021-01-04T22:56:09 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_365 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_weHave_Sent_Text_arePresent_366(java.lang.String)[pri:366, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_weHave_Sent_Text_arePresent_366" duration-ms="17937" started-at="2021-01-04T22:56:09 PKT" finished-at="2021-01-04T22:56:26 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
+                <![CDATA[//android.widget.CheckedTextView]]>
               </value>
             </param>
           </params>
@@ -2370,311 +750,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_weHave_Sent_Text_arePresent_366 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_367(java.lang.String)[pri:367, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_367" duration-ms="13573" started-at="2021-01-04T22:56:26 PKT" finished-at="2021-01-04T22:56:40 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Push_CustomerApp_toBackground_and_start_RiderApp_367 -->
-        <test-method status="PASS" signature="Test_BBook_6_Seater_with_PromoCode_ClickOnWait_ride_368(java.lang.String)[pri:368, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_BBook_6_Seater_with_PromoCode_ClickOnWait_ride_368" duration-ms="4833" started-at="2021-01-04T22:56:40 PKT" finished-at="2021-01-04T22:56:45 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_BBook_6_Seater_with_PromoCode_ClickOnWait_ride_368 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_ClickOnPOB_Button_ride_369(java.lang.String)[pri:369, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_ClickOnPOB_Button_ride_369" duration-ms="4412" started-at="2021-01-04T22:56:45 PKT" finished-at="2021-01-04T22:56:49 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_ClickOnPOB_Button_ride_369 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_371(java.lang.String)[pri:370, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_371" duration-ms="19637" started-at="2021-01-04T22:56:49 PKT" finished-at="2021-01-04T22:57:09 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_371 -->
-        <test-method status="PASS" signature="Test_Book_SaloonWith_PrmoCode_You_arein_yourway_Text_arePresent_371(java.lang.String)[pri:371, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_SaloonWith_PrmoCode_You_arein_yourway_Text_arePresent_371" duration-ms="12572" started-at="2021-01-04T22:57:09 PKT" finished-at="2021-01-04T22:57:21 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_SaloonWith_PrmoCode_You_arein_yourway_Text_arePresent_371 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_372(java.lang.String)[pri:372, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_372" duration-ms="9513" started-at="2021-01-04T22:57:21 PKT" finished-at="2021-01-04T22:57:31 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_372 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_ClickOnSTC_ride_373(java.lang.String)[pri:373, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_ClickOnSTC_ride_373" duration-ms="5161" started-at="2021-01-04T22:57:31 PKT" finished-at="2021-01-04T22:57:36 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_ClickOnSTC_ride_373 -->
-        <test-method status="PASS" signature="Test_SBook_6_Seater_with_PromoCode_ClickOn_Clear_ride_374(java.lang.String)[pri:374, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_SBook_6_Seater_with_PromoCode_ClickOn_Clear_ride_374" duration-ms="5086" started-at="2021-01-04T22:57:36 PKT" finished-at="2021-01-04T22:57:41 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_SBook_6_Seater_with_PromoCode_ClickOn_Clear_ride_374 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_375(java.lang.String)[pri:375, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_375" duration-ms="6973" started-at="2021-01-04T22:57:41 PKT" finished-at="2021-01-04T22:57:48 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Push_Rider_toBackground_and_start_CustomerApp_375 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Rate_your_ride_Text_arePresent_376(java.lang.String)[pri:376, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Rate_your_ride_Text_arePresent_376" duration-ms="2257" started-at="2021-01-04T22:57:48 PKT" finished-at="2021-01-04T22:57:50 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Rate_your_ride_Text_arePresent_376 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_Feedback_Field_arePresent_377(java.lang.String, java.lang.String)[pri:377, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_Feedback_Field_arePresent_377" duration-ms="2809" started-at="2021-01-04T22:57:50 PKT" finished-at="2021-01-04T22:57:53 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rider was good and drive well his behavior was out standings]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_Feedback_Field_arePresent_377 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_with_PromoCode_SubmitFeedback_ButtonAndText_378(java.lang.String)[pri:378, instance:com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378@5762806e]" name="Test_Book_6_Seater_with_PromoCode_SubmitFeedback_ButtonAndText_378" duration-ms="4319" started-at="2021-01-04T22:57:53 PKT" finished-at="2021-01-04T22:57:58 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_with_PromoCode_SubmitFeedback_ButtonAndText_378 -->
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378 -->
-      <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401">
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_EnterDropofAddress_Cab_379(java.lang.String, java.lang.String)[pri:379, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_EnterDropofAddress_Cab_379" duration-ms="11646" started-at="2021-01-04T22:57:58 PKT" finished-at="2021-01-04T22:58:09 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_EnterDropofAddress_Cab_379 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_380(java.lang.String, java.lang.String)[pri:380, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_380" duration-ms="9969" started-at="2021-01-04T22:58:09 PKT" finished-at="2021-01-04T22:58:19 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_380 -->
-        <test-method status="PASS" signature="Test_BBook_6_Seater_With_CreditCards_6_Seater_Text_arePresent_381(java.lang.String)[pri:381, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_BBook_6_Seater_With_CreditCards_6_Seater_Text_arePresent_381" duration-ms="2179" started-at="2021-01-04T22:58:19 PKT" finished-at="2021-01-04T22:58:21 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_BBook_6_Seater_With_CreditCards_6_Seater_Text_arePresent_381 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_382(java.lang.String, java.lang.String)[pri:382, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_382" duration-ms="9614" started-at="2021-01-04T22:58:21 PKT" finished-at="2021-01-04T22:58:31 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnBookNow_Button_Cab_382 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Select_Cash_FromDrop_383(java.lang.String, java.lang.String)[pri:383, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Select_Cash_FromDrop_383" duration-ms="13197" started-at="2021-01-04T22:58:31 PKT" finished-at="2021-01-04T22:58:44 PKT">
+        </test-method> <!-- Test_Side_Menu_elements_verification_check_Logout_is_present_576 -->
+      </class> <!-- com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576 -->
+      <class name="com.InfoCabs.testcases.Change_Password_TestCases_588_610">
+        <test-method status="PASS" signature="Test_Change_Password_Click_On_ChangePwd_Button_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Click_On_ChangePwd_Button_588" duration-ms="2870" started-at="2021-01-06T22:30:31 PKT" finished-at="2021-01-06T22:30:34 PKT">
           <params>
             <param index="0">
               <value>
@@ -2691,12 +770,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Select_Cash_FromDrop_383 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnBookConfirmButton_384(java.lang.String, java.lang.String)[pri:384, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnBookConfirmButton_384" duration-ms="9656" started-at="2021-01-04T22:58:44 PKT" finished-at="2021-01-04T22:58:54 PKT">
+        </test-method> <!-- Test_Change_Password_Click_On_ChangePwd_Button_588 -->
+        <test-method status="PASS" signature="Test_Change_Password_Click_On_Cross_Button_Icon_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Click_On_Cross_Button_Icon_589" duration-ms="6222" started-at="2021-01-06T22:30:34 PKT" finished-at="2021-01-06T22:30:40 PKT">
           <params>
             <param index="0">
               <value>
@@ -2704,262 +780,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
             <param index="1">
-              <value>
-                <![CDATA[21 Newsome Road, Huddersfield, UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnBookConfirmButton_384 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_385(java.lang.String)[pri:385, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_385" duration-ms="7722" started-at="2021-01-04T22:58:54 PKT" finished-at="2021-01-04T22:59:02 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_385 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_AcceptCustomer_ride_387(java.lang.String)[pri:387, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_AcceptCustomer_ride_387" duration-ms="8526" started-at="2021-01-04T22:59:02 PKT" finished-at="2021-01-04T22:59:10 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_AcceptCustomer_ride_387 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_387(java.lang.String)[pri:387, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_387" duration-ms="17740" started-at="2021-01-04T22:59:10 PKT" finished-at="2021-01-04T22:59:28 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_387 -->
-        <test-method status="PASS" signature="Test_BBook_6_Seater_With_CreditCards_weHave_Sent_Text_arePresent_388(java.lang.String)[pri:388, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_BBook_6_Seater_With_CreditCards_weHave_Sent_Text_arePresent_388" duration-ms="17181" started-at="2021-01-04T22:59:28 PKT" finished-at="2021-01-04T22:59:45 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_BBook_6_Seater_With_CreditCards_weHave_Sent_Text_arePresent_388 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_389(java.lang.String)[pri:389, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_389" duration-ms="13620" started-at="2021-01-04T22:59:45 PKT" finished-at="2021-01-04T22:59:59 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Push_CustomerApp_toBackground_and_start_RiderApp_389 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnWait_ride_390(java.lang.String)[pri:390, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnWait_ride_390" duration-ms="4547" started-at="2021-01-04T22:59:59 PKT" finished-at="2021-01-04T23:00:03 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnWait_ride_390 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnPOB_Button_ride_391(java.lang.String)[pri:391, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnPOB_Button_ride_391" duration-ms="4311" started-at="2021-01-04T23:00:03 PKT" finished-at="2021-01-04T23:00:08 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnPOB_Button_ride_391 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_392(java.lang.String)[pri:392, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_392" duration-ms="17690" started-at="2021-01-04T23:00:08 PKT" finished-at="2021-01-04T23:00:25 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Push_Rider_toBackground_and_start_CustomerApp_392 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_You_arein_yourway_Text_arePresent_393(java.lang.String)[pri:393, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_You_arein_yourway_Text_arePresent_393" duration-ms="22159" started-at="2021-01-04T23:00:25 PKT" finished-at="2021-01-04T23:00:47 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx:id/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_You_arein_yourway_Text_arePresent_393 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_394(java.lang.String)[pri:394, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_394" duration-ms="9529" started-at="2021-01-04T23:00:47 PKT" finished-at="2021-01-04T23:00:57 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.infocabs]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_CS_App_Push_CustomerApp_toBackground_and_start_RiderApp_394 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOnSTC_ride_395(java.lang.String)[pri:395, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOnSTC_ride_395" duration-ms="4486" started-at="2021-01-04T23:00:57 PKT" finished-at="2021-01-04T23:01:01 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOnSTC_ride_395 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_ClickOn_Clear_ride_396(java.lang.String)[pri:396, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_ClickOn_Clear_ride_396" duration-ms="4296" started-at="2021-01-04T23:01:01 PKT" finished-at="2021-01-04T23:01:06 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_ClickOn_Clear_ride_396 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Rider_toBackground_and_start_CustomerApp_397(java.lang.String)[pri:397, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Rider_toBackground_and_start_CustomerApp_397" duration-ms="6994" started-at="2021-01-04T23:01:06 PKT" finished-at="2021-01-04T23:01:13 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.csandroidx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Rider_toBackground_and_start_CustomerApp_397 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Rate_your_ride_Text_arePresent_398(java.lang.String)[pri:398, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Rate_your_ride_Text_arePresent_398" duration-ms="2270" started-at="2021-01-04T23:01:13 PKT" finished-at="2021-01-04T23:01:15 PKT">
-          <params>
-            <param index="0">
               <value>
                 <![CDATA[android.widget.TextView]]>
               </value>
@@ -2970,8 +790,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Rate_your_ride_Text_arePresent_398 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_Feedback_Field_arePresent_399(java.lang.String, java.lang.String)[pri:399, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_Feedback_Field_arePresent_399" duration-ms="2717" started-at="2021-01-04T23:01:15 PKT" finished-at="2021-01-04T23:01:18 PKT">
+        </test-method> <!-- Test_Change_Password_Click_On_Cross_Button_Icon_589 -->
+        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Change_Password_is_present_590" duration-ms="3947" started-at="2021-01-06T22:30:40 PKT" finished-at="2021-01-06T22:30:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -2980,7 +800,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rider was good and drive well his behavior was out standings]]>
+                <![CDATA[android.widget.TextView]]>
               </value>
             </param>
           </params>
@@ -2989,10 +809,376 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_Feedback_Field_arePresent_399 -->
-        <test-method status="PASS" signature="Test_Book_6_Seater_With_CreditCards_SubmitFeedback_ButtonAndText_400(java.lang.String)[pri:400, instance:com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401@17c386de]" name="Test_Book_6_Seater_With_CreditCards_SubmitFeedback_ButtonAndText_400" duration-ms="4249" started-at="2021-01-04T23:01:18 PKT" finished-at="2021-01-04T23:01:22 PKT">
+        </test-method> <!-- Test_Change_Password_check_Change_Password_is_present_590 -->
+        <test-method status="PASS" signature="Test_Change_Password_check_Current_Password_is_present_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Current_Password_is_present_591" duration-ms="2506" started-at="2021-01-06T22:30:44 PKT" finished-at="2021-01-06T22:30:47 PKT">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_check_Current_Password_is_present_591 -->
+        <test-method status="PASS" signature="Test_Change_Password_check_New_Password_is_present_592(java.lang.String, java.lang.String)[pri:592, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_New_Password_is_present_592" duration-ms="2553" started-at="2021-01-06T22:30:47 PKT" finished-at="2021-01-06T22:30:49 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_check_New_Password_is_present_592 -->
+        <test-method status="PASS" signature="Test_Change_Password_check_Confirm_Password_is_present_593(java.lang.String, java.lang.String)[pri:593, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Confirm_Password_is_present_593" duration-ms="2541" started-at="2021-01-06T22:30:49 PKT" finished-at="2021-01-06T22:30:52 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_check_Confirm_Password_is_present_593 -->
+        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_594(java.lang.String, java.lang.String)[pri:594, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Change_Password_is_present_594" duration-ms="2521" started-at="2021-01-06T22:30:52 PKT" finished-at="2021-01-06T22:30:54 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_check_Change_Password_is_present_594 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595(java.lang.String)[pri:595, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595" duration-ms="1616" started-at="2021-01-06T22:30:54 PKT" finished-at="2021-01-06T22:30:56 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596(java.lang.String, java.lang.String)[pri:596, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596" duration-ms="8798" started-at="2021-01-06T22:30:56 PKT" finished-at="2021-01-06T22:31:05 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597(java.lang.String, java.lang.String, java.lang.String)[pri:597, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597" duration-ms="16689" started-at="2021-01-06T22:31:05 PKT" finished-at="2021-01-06T22:31:21 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598(java.lang.String, java.lang.String)[pri:598, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598" duration-ms="9269" started-at="2021-01-06T22:31:21 PKT" finished-at="2021-01-06T22:31:31 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598 -->
+        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_599(java.lang.String, java.lang.String, java.lang.String)[pri:599, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_599" duration-ms="4971" started-at="2021-01-06T22:31:31 PKT" finished-at="2021-01-06T22:31:36 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_Clear_New_and_ConfirmPWD_599 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600(java.lang.String, java.lang.String)[pri:600, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600" duration-ms="5375" started-at="2021-01-06T22:31:36 PKT" finished-at="2021-01-06T22:31:41 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601(java.lang.String, java.lang.String)[pri:601, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601" duration-ms="8662" started-at="2021-01-06T22:31:41 PKT" finished-at="2021-01-06T22:31:50 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602(java.lang.String, java.lang.String)[pri:602, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602" duration-ms="8119" started-at="2021-01-06T22:31:50 PKT" finished-at="2021-01-06T22:31:58 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603(java.lang.String, java.lang.String)[pri:603, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603" duration-ms="1211" started-at="2021-01-06T22:31:58 PKT" finished-at="2021-01-06T22:31:59 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604(java.lang.String, java.lang.String)[pri:604, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604" duration-ms="4190" started-at="2021-01-06T22:31:59 PKT" finished-at="2021-01-06T22:32:03 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604 -->
+        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605(java.lang.String, java.lang.String, java.lang.String)[pri:605, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605" duration-ms="4911" started-at="2021-01-06T22:32:03 PKT" finished-at="2021-01-06T22:32:08 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605 -->
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606(java.lang.String, java.lang.String, java.lang.String)[pri:606, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606" duration-ms="11344" started-at="2021-01-06T22:32:08 PKT" finished-at="2021-01-06T22:32:19 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345677]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606 -->
+        <test-method status="PASS" signature="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607(java.lang.String, java.lang.String)[pri:607, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607" duration-ms="17058" started-at="2021-01-06T22:32:19 PKT" finished-at="2021-01-06T22:32:36 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607 -->
+        <test-method status="PASS" signature="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608(java.lang.String, java.lang.String, java.lang.String)[pri:608, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608" duration-ms="13451" started-at="2021-01-06T22:32:36 PKT" finished-at="2021-01-06T22:32:50 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00923358391478]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345677]]>
+              </value>
+            </param>
+            <param index="2">
               <value>
                 <![CDATA[com.infosun.csandroidx:id/]]>
               </value>
@@ -3006,8 +1192,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Book_6_Seater_With_CreditCards_SubmitFeedback_ButtonAndText_400 -->
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401 -->
+        </test-method> <!-- Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608 -->
+        <test-method status="PASS" signature="Test_Change_Password_Go_Back_ChangePWD_page_609(java.lang.String, java.lang.String, java.lang.String)[pri:609, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Go_Back_ChangePWD_page_609" duration-ms="5753" started-at="2021-01-06T22:32:50 PKT" finished-at="2021-01-06T22:32:56 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_Go_Back_ChangePWD_page_609 -->
+        <test-method status="PASS" signature="Test_Change_Password_Change_PWD_again_to_Orignal_610(java.lang.String, java.lang.String, java.lang.String)[pri:610, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Change_PWD_again_to_Orignal_610" duration-ms="22360" started-at="2021-01-06T22:32:56 PKT" finished-at="2021-01-06T22:33:18 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345677]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Change_Password_Change_PWD_again_to_Orignal_610 -->
+      </class> <!-- com.InfoCabs.testcases.Change_Password_TestCases_588_610 -->
     </test> <!-- InfoCabSnapperApp.com -->
   </suite> <!-- Suite -->
 </testng-results>
