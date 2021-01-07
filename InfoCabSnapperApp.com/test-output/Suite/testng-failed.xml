@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
   <parameter name="DeviceUDID" value="RF8NA302BXL"/>
+  <parameter name="CVV" value="123"/>
   <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
   <parameter name="InavlidPin" value="123abcd"/>
+  <parameter name="ExpireDate" value="2/2023"/>
+  <parameter name="Invalid_CVV" value="1"/>
   <parameter name="validPromoCode" value="QATester"/>
   <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
   <parameter name="Invalid_email" value="abcd1234"/>
+  <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
   <parameter name="Name" value="QA Tester"/>
   <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
   <parameter name="PhoneNum" value="00923358391478"/>
@@ -19,11 +23,13 @@
   <parameter name="Invalid_PhoneNum" value="1234"/>
   <parameter name="CommID" value="15"/>
   <parameter name="CommonLocator_ForAlerts" value="com.android.packageinstaller:id/"/>
+  <parameter name="Incorrect_CreditCardNumber" value="12334567890123456"/>
   <parameter name="PickUpAddress" value="18 Chapel Hill, Huddersfield, UK"/>
   <parameter name="CommonLocator_ClassImageView" value="android.widget.ImageView"/>
   <parameter name="Change_Pwd" value="12345677"/>
   <parameter name="DeviceVersion" value="10"/>
   <parameter name="Invalid_Pwd" value="123a"/>
+  <parameter name="Invalid_CreditCardNumber" value="123"/>
   <parameter name="Change_PhoneNumber" value="00923438211271"/>
   <parameter name="Incorrect_Pwd" value="1234567ab"/>
   <parameter name="InvalidPromoCode" value="12345abc"/>
@@ -32,9 +38,11 @@
   <parameter name="validPin" value="123456"/>
   <parameter name="AppPackage" value="com.infosun.csandroidx"/>
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
+  <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
   <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
   <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>
   <parameter name="NotRegister_email" value="ab12@cd.com"/>
+  <parameter name="CreditCardName" value="QA Tester"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
   <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
   <parameter name="NotRegister_PhoneNum" value="12345678912"/>
@@ -46,13 +54,13 @@
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587">
+      <class name="com.InfoCabs.testcases.Add_CreditCards_TestCases">
         <methods>
-          <include name="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583" invocation-numbers="0"/>
+          <include name="Test__Add_CreditCards_EnterCVV_639" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587 -->
+      </class> <!-- com.InfoCabs.testcases.Add_CreditCards_TestCases -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

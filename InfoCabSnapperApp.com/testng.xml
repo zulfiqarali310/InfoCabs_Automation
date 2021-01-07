@@ -5,8 +5,8 @@
          
          <!-- Device and Application  Details That might be change -->
          
-  <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
-  <parameter name="DeviceType" value="Android"/>
+     <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
+     <parameter name="DeviceType" value="Android"/>
  
   <parameter name="DeviceVersion" value="10"/>
   <parameter name="DeviceName" value="Galaxy A31"/>
@@ -23,6 +23,7 @@
   <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
    <parameter name="CommonLocator_ClassImageView" value="android.widget.ImageView"/>
+   <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
    
   <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
     <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
@@ -48,6 +49,16 @@
      <parameter name="validPin" value="123456"/>
      <parameter name="InavlidPin" value="123abcd"/>
        <parameter name="Name" value="QA Tester"/>
+       
+       
+       <!-- CabSnapper Credit Card Details -->
+        <parameter name="CreditCardName" value="QA Tester"/>
+         <parameter name="Invalid_CreditCardNumber" value="123"/>
+         <parameter name="Incorrect_CreditCardNumber" value="12334567890123456"/>
+         <parameter name="ExpireDate" value="2/2023"/>
+         <parameter name="CVV" value="123"/>
+         <parameter name="Invalid_CVV" value="1"/>
+         <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
   
  <!-- CabSnapper Add PickUp Point Data -->
  
@@ -79,16 +90,20 @@
        <class name="com.InfoCabs.common.TestBase"/>
        <!-- The to-be-commented XML block goes here. -->
        
-        <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+    
+
+             <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
        <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
         <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
         <class name="com.InfoCabs.testcases.Delete_RegesteredUser_API_Requests_72"/>
          <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_72_82"/>
+         
       <class name="com.InfoCabs.testcases.MainHomePage_TestCases_83_109"/>
          <class name="com.InfoCabs.testcases.ChoosevehiclePage_TestCases_110_119"/>
          <class name="com.InfoCabs.testcases.ConfirmYourRidePage_TestCases_120_135"/>
          <class name="com.InfoCabs.testcases.BookingVehiclePage_TestCases_136_147"/>
+         
          <class name="com.InfoCabs.testcases.LunchDriver_App_148_158"/>
          <class name="com.InfoCabs.testcases.BookingAcceptedPage_On_CS_App_158_180"/>
          <class name="com.InfoCabs.testcases.POB_Page_TestCases_181_217"/>
@@ -109,9 +124,15 @@
             <class name="com.InfoCabs.testcases.Book_8_Seater_with_CreaditCards_TestCases_503_525"/>
              <class name="com.InfoCabs.testcases.Scedule_8_Seater_Cab_TestCases_527_567"/>
 
-             <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576"/>
+              <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576"/>
             <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587"/>
             <class name="com.InfoCabs.testcases.Change_Password_TestCases_588_610"/>
+            <class name="com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622"/>
+            <class name="com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639"/>
+            <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651"/>
+            <class name="com.InfoCabs.testcases.About_Us_Page_TestCases_652_659"/>
+            <class name="com.InfoCabs.testcases.Share_Page_TestCases_660_661"/>
+            <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_662_665"/>
   
      
       

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="6" total="54" passed="47">
+<testng-results skipped="0" failed="0" ignored="18" total="122" passed="104">
   <reporter-output>
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
@@ -187,15 +187,228 @@
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
     </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
+    <line>
+      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="276694" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:33:18 PKT">
+  <suite name="Suite" duration-ms="511565" started-at="2021-01-07T21:52:55 PKT" finished-at="2021-01-07T22:01:27 PKT">
     <groups>
     </groups>
-    <test name="InfoCab App Complete Testing Flow" duration-ms="18" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:28:41 PKT">
+    <test name="InfoCab App Complete Testing Flow" duration-ms="16" started-at="2021-01-07T21:52:55 PKT" finished-at="2021-01-07T21:52:55 PKT">
     </test> <!-- InfoCab App Complete Testing Flow -->
-    <test name="InfoCabSnapperApp.com" duration-ms="276505" started-at="2021-01-06T22:28:41 PKT" finished-at="2021-01-06T22:33:18 PKT">
+    <test name="InfoCabSnapperApp.com" duration-ms="511516" started-at="2021-01-07T21:52:55 PKT" finished-at="2021-01-07T22:01:27 PKT">
       <class name="com.InfoCabs.common.TestBase">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="setup" is-config="true" duration-ms="17789" started-at="2021-01-06T22:28:42 PKT" finished-at="2021-01-06T22:28:59 PKT">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@14a2f921]" name="setup" is-config="true" duration-ms="13266" started-at="2021-01-07T21:52:55 PKT" finished-at="2021-01-07T21:53:09 PKT">
           <params>
             <param index="0">
               <value>
@@ -236,13 +449,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="teardown" is-config="true" duration-ms="1" started-at="2021-01-06T22:33:18 PKT" finished-at="2021-01-06T22:33:18 PKT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@14a2f921]" name="teardown" is-config="true" duration-ms="0" started-at="2021-01-07T22:01:27 PKT" finished-at="2021-01-07T22:01:27 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.InfoCabs.common.TestBase -->
       <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587">
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_Section_are_Opened_577(java.lang.String, java.lang.String)[pri:577, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_Section_are_Opened_577" duration-ms="3797" started-at="2021-01-06T22:29:41 PKT" finished-at="2021-01-06T22:29:44 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_Section_are_Opened_577(java.lang.String, java.lang.String)[pri:577, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_Section_are_Opened_577" duration-ms="2494" started-at="2021-01-07T21:53:44 PKT" finished-at="2021-01-07T21:53:47 PKT">
           <params>
             <param index="0">
               <value>
@@ -261,7 +474,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_Section_are_Opened_577 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578(java.lang.String)[pri:578, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578" duration-ms="2663" started-at="2021-01-06T22:29:44 PKT" finished-at="2021-01-06T22:29:47 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578(java.lang.String)[pri:578, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578" duration-ms="2367" started-at="2021-01-07T21:53:47 PKT" finished-at="2021-01-07T21:53:49 PKT">
           <params>
             <param index="0">
               <value>
@@ -275,7 +488,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_BackButton_is_present_578 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579(java.lang.String, java.lang.String)[pri:579, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579" duration-ms="2747" started-at="2021-01-06T22:29:47 PKT" finished-at="2021-01-06T22:29:50 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579(java.lang.String, java.lang.String)[pri:579, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579" duration-ms="2486" started-at="2021-01-07T21:53:49 PKT" finished-at="2021-01-07T21:53:52 PKT">
           <params>
             <param index="0">
               <value>
@@ -294,7 +507,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_arrwo_button_closed_sidemenu_579 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_are_opened_again_580(java.lang.String, java.lang.String)[pri:580, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_are_opened_again_580" duration-ms="5430" started-at="2021-01-06T22:29:50 PKT" finished-at="2021-01-06T22:29:55 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_are_opened_again_580(java.lang.String, java.lang.String)[pri:580, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_are_opened_again_580" duration-ms="4776" started-at="2021-01-07T21:53:52 PKT" finished-at="2021-01-07T21:53:57 PKT">
           <params>
             <param index="0">
               <value>
@@ -313,7 +526,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_are_opened_again_580 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581(java.lang.String, java.lang.String)[pri:581, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581" duration-ms="2411" started-at="2021-01-06T22:29:55 PKT" finished-at="2021-01-06T22:29:58 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581(java.lang.String, java.lang.String)[pri:581, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581" duration-ms="2306" started-at="2021-01-07T21:53:57 PKT" finished-at="2021-01-07T21:53:59 PKT">
           <params>
             <param index="0">
               <value>
@@ -332,7 +545,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_MyProfile_is_present_581 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582(java.lang.String)[pri:582, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582" duration-ms="2602" started-at="2021-01-06T22:29:58 PKT" finished-at="2021-01-06T22:30:00 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582(java.lang.String)[pri:582, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582" duration-ms="2359" started-at="2021-01-07T21:53:59 PKT" finished-at="2021-01-07T21:54:01 PKT">
           <params>
             <param index="0">
               <value>
@@ -346,7 +559,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Profileimage_is_present_582 -->
-        <test-method status="FAIL" signature="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583(java.lang.String, java.lang.String)[pri:583, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583" duration-ms="2289" started-at="2021-01-06T22:30:00 PKT" finished-at="2021-01-06T22:30:03 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583(java.lang.String, java.lang.String)[pri:583, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583" duration-ms="2166" started-at="2021-01-07T21:54:01 PKT" finished-at="2021-01-07T21:54:03 PKT">
           <params>
             <param index="0">
               <value>
@@ -359,56 +572,13 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [QA Tester] but found [Zulfiqar Ali]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [QA Tester] but found [Zulfiqar Ali]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587.Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583(MyProfile_SideMenue_verification_TestCases_577_587.java:113)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Username_text_is_present_583 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584(java.lang.String, java.lang.String)[pri:584, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584" duration-ms="2440" started-at="2021-01-06T22:30:03 PKT" finished-at="2021-01-06T22:30:06 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584(java.lang.String, java.lang.String)[pri:584, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584" duration-ms="2257" started-at="2021-01-07T21:54:03 PKT" finished-at="2021-01-07T21:54:06 PKT">
           <params>
             <param index="0">
               <value>
@@ -427,7 +597,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ChangePwd_text_is_present_584 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585(java.lang.String, java.lang.String)[pri:585, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585" duration-ms="2400" started-at="2021-01-06T22:30:06 PKT" finished-at="2021-01-06T22:30:08 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585(java.lang.String, java.lang.String)[pri:585, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585" duration-ms="2262" started-at="2021-01-07T21:54:06 PKT" finished-at="2021-01-07T21:54:08 PKT">
           <params>
             <param index="0">
               <value>
@@ -446,7 +616,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_LogOut_text_is_present_585 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586(java.lang.String)[pri:586, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586" duration-ms="2559" started-at="2021-01-06T22:30:08 PKT" finished-at="2021-01-06T22:30:11 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586(java.lang.String)[pri:586, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586" duration-ms="2381" started-at="2021-01-07T21:54:08 PKT" finished-at="2021-01-07T21:54:10 PKT">
           <params>
             <param index="0">
               <value>
@@ -460,7 +630,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ChangePwdwithIcon_is_present_586 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_logout_is_present_587(java.lang.String)[pri:587, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_logout_is_present_587" duration-ms="2609" started-at="2021-01-06T22:30:11 PKT" finished-at="2021-01-06T22:30:13 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_logout_is_present_587(java.lang.String)[pri:587, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_logout_is_present_587" duration-ms="2359" started-at="2021-01-07T21:54:10 PKT" finished-at="2021-01-07T21:54:13 PKT">
           <params>
             <param index="0">
               <value>
@@ -474,7 +644,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_logout_is_present_587 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588" duration-ms="5568" started-at="2021-01-06T22:30:13 PKT" finished-at="2021-01-06T22:30:19 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588" duration-ms="5328" started-at="2021-01-07T21:54:13 PKT" finished-at="2021-01-07T21:54:18 PKT">
           <params>
             <param index="0">
               <value>
@@ -493,7 +663,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_ClickOn_LogOutButton_588 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589" duration-ms="2288" started-at="2021-01-06T22:30:19 PKT" finished-at="2021-01-06T22:30:21 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589" duration-ms="2137" started-at="2021-01-07T21:54:18 PKT" finished-at="2021-01-07T21:54:20 PKT">
           <params>
             <param index="0">
               <value>
@@ -512,7 +682,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Do_youwant_Logout_Text_589 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590" duration-ms="2269" started-at="2021-01-06T22:30:21 PKT" finished-at="2021-01-06T22:30:24 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590" duration-ms="2144" started-at="2021-01-07T21:54:20 PKT" finished-at="2021-01-07T21:54:22 PKT">
           <params>
             <param index="0">
               <value>
@@ -531,7 +701,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_Yes_ill_ComeBack_Text_590 -->
-        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@240237d2]" name="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591" duration-ms="7412" started-at="2021-01-06T22:30:24 PKT" finished-at="2021-01-06T22:30:31 PKT">
+        <test-method status="PASS" signature="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587@2aece37d]" name="Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591" duration-ms="7255" started-at="2021-01-07T21:54:22 PKT" finished-at="2021-01-07T21:54:30 PKT">
           <params>
             <param index="0">
               <value>
@@ -554,8 +724,587 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- Test_MyProfile_SideMenue_verification_check_No_Keep_me_Login_Text_591 -->
       </class> <!-- com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587 -->
+      <class name="com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639">
+        <test-method status="PASS" signature="Test_Add_CreditCards_Click_to_Open_CardMenu_623(java.lang.String, java.lang.String)[pri:623, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Click_to_Open_CardMenu_623" duration-ms="2559" started-at="2021-01-07T21:57:52 PKT" finished-at="2021-01-07T21:57:55 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Click_to_Open_CardMenu_623 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Click_to_Cross_Button_624(java.lang.String, java.lang.String)[pri:624, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Click_to_Cross_Button_624" duration-ms="2530" started-at="2021-01-07T21:57:55 PKT" finished-at="2021-01-07T21:57:57 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Click_to_Cross_Button_624 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Again_Back_to_CreditCardPage_625(java.lang.String, java.lang.String)[pri:625, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Again_Back_to_CreditCardPage_625" duration-ms="4062" started-at="2021-01-07T21:57:57 PKT" finished-at="2021-01-07T21:58:01 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Again_Back_to_CreditCardPage_625 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_AddCreditCards_text_626(java.lang.String, java.lang.String)[pri:626, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_AddCreditCards_text_626" duration-ms="2364" started-at="2021-01-07T21:58:01 PKT" finished-at="2021-01-07T21:58:04 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_AddCreditCards_text_626 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_CardHolder_text_627(java.lang.String, java.lang.String)[pri:627, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_CardHolder_text_627" duration-ms="2352" started-at="2021-01-07T21:58:04 PKT" finished-at="2021-01-07T21:58:06 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_CardHolder_text_627 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Card_number_text_628(java.lang.String, java.lang.String)[pri:628, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Card_number_text_628" duration-ms="2371" started-at="2021-01-07T21:58:06 PKT" finished-at="2021-01-07T21:58:08 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Card_number_text_628 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Expiry_text_629(java.lang.String, java.lang.String)[pri:629, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Expiry_text_629" duration-ms="2368" started-at="2021-01-07T21:58:08 PKT" finished-at="2021-01-07T21:58:11 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Expiry_text_629 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Expiry_text_630(java.lang.String, java.lang.String)[pri:630, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Expiry_text_630" duration-ms="2332" started-at="2021-01-07T21:58:11 PKT" finished-at="2021-01-07T21:58:13 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Expiry_text_630 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Expiry_text_631(java.lang.String, java.lang.String)[pri:631, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Expiry_text_631" duration-ms="2357" started-at="2021-01-07T21:58:13 PKT" finished-at="2021-01-07T21:58:15 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Expiry_text_631 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_Check_CardHoldername_errorMessage_632(java.lang.String, java.lang.String)[pri:632, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_Check_CardHoldername_errorMessage_632" duration-ms="5382" started-at="2021-01-07T21:58:15 PKT" finished-at="2021-01-07T21:58:21 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_Check_CardHoldername_errorMessage_632 -->
+        <test-method status="PASS" signature="Test_Add_CreditCards_EnterCreditCardname_633(java.lang.String, java.lang.String)[pri:633, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_Add_CreditCards_EnterCreditCardname_633" duration-ms="4123" started-at="2021-01-07T21:58:21 PKT" finished-at="2021-01-07T21:58:25 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA Tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_CreditCards_EnterCreditCardname_633 -->
+        <test-method status="PASS" signature="Test__Add_CreditCards_EnterCreditCardnumber_check_Validation_634(java.lang.String, java.lang.String)[pri:634, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test__Add_CreditCards_EnterCreditCardnumber_check_Validation_634" duration-ms="6279" started-at="2021-01-07T21:58:25 PKT" finished-at="2021-01-07T21:58:31 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test__Add_CreditCards_EnterCreditCardnumber_check_Validation_634 -->
+        <test-method status="PASS" signature="Test__Add_CreditCards_EnterCreditCardnumber_check_for_Incorrect_Validation_635(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:635, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test__Add_CreditCards_EnterCreditCardnumber_check_for_Incorrect_Validation_635" duration-ms="13617" started-at="2021-01-07T21:58:31 PKT" finished-at="2021-01-07T21:58:45 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12334567890123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2/2023]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android.widget.Button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test__Add_CreditCards_EnterCreditCardnumber_check_for_Incorrect_Validation_635 -->
+        <test-method status="PASS" signature="Test_dd_CreditCards_Number_Expire_CVV_636(java.lang.String, java.lang.String, java.lang.String)[pri:636, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test_dd_CreditCards_Number_Expire_CVV_636" duration-ms="7215" started-at="2021-01-07T21:58:45 PKT" finished-at="2021-01-07T21:58:52 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_dd_CreditCards_Number_Expire_CVV_636 -->
+        <test-method status="PASS" signature="Test__Add_CreditCards_EnterCreditCardnumber_check_CVVValidation_637(java.lang.String, java.lang.String)[pri:637, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test__Add_CreditCards_EnterCreditCardnumber_check_CVVValidation_637" duration-ms="4458" started-at="2021-01-07T21:58:52 PKT" finished-at="2021-01-07T21:58:56 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4242424242424242]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test__Add_CreditCards_EnterCreditCardnumber_check_CVVValidation_637 -->
+        <test-method status="PASS" signature="Test__Add_CreditCards_check_CVValidation_message_638(java.lang.String, java.lang.String)[pri:638, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test__Add_CreditCards_check_CVValidation_message_638" duration-ms="7687" started-at="2021-01-07T21:58:56 PKT" finished-at="2021-01-07T21:59:04 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test__Add_CreditCards_check_CVValidation_message_638 -->
+        <test-method status="PASS" signature="Test__Add_CreditCards_EnterCVV_639(java.lang.String, java.lang.String, java.lang.String)[pri:639, instance:com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639@17c386de]" name="Test__Add_CreditCards_EnterCVV_639" duration-ms="7798" started-at="2021-01-07T21:59:04 PKT" finished-at="2021-01-07T21:59:12 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[android.widget.Button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test__Add_CreditCards_EnterCVV_639 -->
+      </class> <!-- com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639 -->
+      <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651">
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_ClickTO_Open_Carddetails_640(java.lang.String, java.lang.String)[pri:640, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_ClickTO_Open_Carddetails_640" duration-ms="3546" started-at="2021-01-07T21:59:12 PKT" finished-at="2021-01-07T21:59:15 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_ClickTO_Open_Carddetails_640 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_check_CrossButton_is_present_641(java.lang.String)[pri:641, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_check_CrossButton_is_present_641" duration-ms="2345" started-at="2021-01-07T21:59:15 PKT" finished-at="2021-01-07T21:59:18 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_check_CrossButton_is_present_641 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_AddPostPay_text_642(java.lang.String, java.lang.String)[pri:642, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_AddPostPay_text_642" duration-ms="2377" started-at="2021-01-07T21:59:18 PKT" finished-at="2021-01-07T21:59:20 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_AddPostPay_text_642 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_EnterPostPay_text_643(java.lang.String, java.lang.String)[pri:643, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_EnterPostPay_text_643" duration-ms="2357" started-at="2021-01-07T21:59:20 PKT" finished-at="2021-01-07T21:59:23 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_EnterPostPay_text_643 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_Email_Address_text_644(java.lang.String, java.lang.String, java.lang.String)[pri:644, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_Email_Address_text_644" duration-ms="2971" started-at="2021-01-07T21:59:23 PKT" finished-at="2021-01-07T21:59:25 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zulfiqar@infosun.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_Email_Address_text_644 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_Password_Address_text_645(java.lang.String, java.lang.String, java.lang.String)[pri:645, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_Password_Address_text_645" duration-ms="2969" started-at="2021-01-07T21:59:25 PKT" finished-at="2021-01-07T21:59:28 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_Password_Address_text_645 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_Add_Account_Button_646(java.lang.String, java.lang.String)[pri:646, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_Add_Account_Button_646" duration-ms="2544" started-at="2021-01-07T21:59:28 PKT" finished-at="2021-01-07T21:59:31 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_Add_Account_Button_646 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_ClickTo_DeletePostPay_account_647(java.lang.String, java.lang.String)[pri:647, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_ClickTo_DeletePostPay_account_647" duration-ms="4063" started-at="2021-01-07T21:59:31 PKT" finished-at="2021-01-07T21:59:35 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.ImageView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_ClickTo_DeletePostPay_account_647 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_AreYouSurewant_to_delete_text_648(java.lang.String, java.lang.String)[pri:648, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_AreYouSurewant_to_delete_text_648" duration-ms="2354" started-at="2021-01-07T21:59:35 PKT" finished-at="2021-01-07T21:59:37 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_AreYouSurewant_to_delete_text_648 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_YesDeleteCard_Text_and_Button_649(java.lang.String, java.lang.String)[pri:649, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_YesDeleteCard_Text_and_Button_649" duration-ms="2478" started-at="2021-01-07T21:59:37 PKT" finished-at="2021-01-07T21:59:40 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_YesDeleteCard_Text_and_Button_649 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_Account_NoCancel_Text_and_Button_650(java.lang.String, java.lang.String)[pri:650, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_Account_NoCancel_Text_and_Button_650" duration-ms="2479" started-at="2021-01-07T21:59:40 PKT" finished-at="2021-01-07T21:59:42 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_Account_NoCancel_Text_and_Button_650 -->
+        <test-method status="PASS" signature="Test_Add_PostPay_GoBack_To_HomeScreen_651()[pri:651, instance:com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651@5af97850]" name="Test_Add_PostPay_GoBack_To_HomeScreen_651" duration-ms="8180" started-at="2021-01-07T21:59:42 PKT" finished-at="2021-01-07T21:59:51 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PostPay_GoBack_To_HomeScreen_651 -->
+      </class> <!-- com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651 -->
       <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576">
-        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="16345" started-at="2021-01-06T22:28:59 PKT" finished-at="2021-01-06T22:29:16 PKT">
+        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="13165" started-at="2021-01-07T21:53:09 PKT" finished-at="2021-01-07T21:53:22 PKT">
           <params>
             <param index="0">
               <value>
@@ -585,7 +1334,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_OpenSide_menu_568(java.lang.String, java.lang.String)[pri:568, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_OpenSide_menu_568" duration-ms="2806" started-at="2021-01-06T22:29:16 PKT" finished-at="2021-01-06T22:29:19 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_OpenSide_menu_568(java.lang.String, java.lang.String)[pri:568, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_OpenSide_menu_568" duration-ms="2550" started-at="2021-01-07T21:53:22 PKT" finished-at="2021-01-07T21:53:24 PKT">
           <params>
             <param index="0">
               <value>
@@ -604,7 +1353,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_OpenSide_menu_568 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logo_is_present_569(java.lang.String)[pri:569, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Logo_is_present_569" duration-ms="2591" started-at="2021-01-06T22:29:19 PKT" finished-at="2021-01-06T22:29:21 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logo_is_present_569(java.lang.String)[pri:569, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_Logo_is_present_569" duration-ms="2389" started-at="2021-01-07T21:53:24 PKT" finished-at="2021-01-07T21:53:27 PKT">
           <params>
             <param index="0">
               <value>
@@ -618,7 +1367,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_Logo_is_present_569 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570(java.lang.String, java.lang.String)[pri:570, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570" duration-ms="4490" started-at="2021-01-06T22:29:21 PKT" finished-at="2021-01-06T22:29:26 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570(java.lang.String, java.lang.String)[pri:570, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_Dashboard_is_present_570" duration-ms="3952" started-at="2021-01-07T21:53:27 PKT" finished-at="2021-01-07T21:53:31 PKT">
           <params>
             <param index="0">
               <value>
@@ -637,7 +1386,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_Dashboard_is_present_570 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571(java.lang.String, java.lang.String)[pri:571, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571" duration-ms="2459" started-at="2021-01-06T22:29:26 PKT" finished-at="2021-01-06T22:29:28 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571(java.lang.String, java.lang.String)[pri:571, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_MyProfile_is_present_571" duration-ms="2388" started-at="2021-01-07T21:53:31 PKT" finished-at="2021-01-07T21:53:33 PKT">
           <params>
             <param index="0">
               <value>
@@ -656,7 +1405,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_MyProfile_is_present_571 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572(java.lang.String, java.lang.String)[pri:572, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572" duration-ms="2495" started-at="2021-01-06T22:29:28 PKT" finished-at="2021-01-06T22:29:31 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572(java.lang.String, java.lang.String)[pri:572, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572" duration-ms="2272" started-at="2021-01-07T21:53:33 PKT" finished-at="2021-01-07T21:53:35 PKT">
           <params>
             <param index="0">
               <value>
@@ -675,7 +1424,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573(java.lang.String, java.lang.String)[pri:573, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573" duration-ms="2494" started-at="2021-01-06T22:29:31 PKT" finished-at="2021-01-06T22:29:33 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573(java.lang.String, java.lang.String)[pri:573, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_MyTrips_is_present_573" duration-ms="2255" started-at="2021-01-07T21:53:35 PKT" finished-at="2021-01-07T21:53:38 PKT">
           <params>
             <param index="0">
               <value>
@@ -694,7 +1443,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_MyTrips_is_present_573 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574(java.lang.String, java.lang.String)[pri:574, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574" duration-ms="2546" started-at="2021-01-06T22:29:33 PKT" finished-at="2021-01-06T22:29:36 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574(java.lang.String, java.lang.String)[pri:574, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_AboutUs_is_present_574" duration-ms="2243" started-at="2021-01-07T21:53:38 PKT" finished-at="2021-01-07T21:53:40 PKT">
           <params>
             <param index="0">
               <value>
@@ -713,7 +1462,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_AboutUs_is_present_574 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Share_is_present_575(java.lang.String, java.lang.String)[pri:575, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Share_is_present_575" duration-ms="2579" started-at="2021-01-06T22:29:36 PKT" finished-at="2021-01-06T22:29:38 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Share_is_present_575(java.lang.String, java.lang.String)[pri:575, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_Share_is_present_575" duration-ms="2253" started-at="2021-01-07T21:53:40 PKT" finished-at="2021-01-07T21:53:42 PKT">
           <params>
             <param index="0">
               <value>
@@ -732,7 +1481,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Side_Menu_elements_verification_check_Share_is_present_575 -->
-        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logout_is_present_576(java.lang.String, java.lang.String)[pri:576, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@12d3a4e9]" name="Test_Side_Menu_elements_verification_check_Logout_is_present_576" duration-ms="2450" started-at="2021-01-06T22:29:38 PKT" finished-at="2021-01-06T22:29:41 PKT">
+        <test-method status="PASS" signature="Test_Side_Menu_elements_verification_check_Logout_is_present_576(java.lang.String, java.lang.String)[pri:576, instance:com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576@3c87521]" name="Test_Side_Menu_elements_verification_check_Logout_is_present_576" duration-ms="2263" started-at="2021-01-07T21:53:42 PKT" finished-at="2021-01-07T21:53:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -753,7 +1502,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Test_Side_Menu_elements_verification_check_Logout_is_present_576 -->
       </class> <!-- com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576 -->
       <class name="com.InfoCabs.testcases.Change_Password_TestCases_588_610">
-        <test-method status="PASS" signature="Test_Change_Password_Click_On_ChangePwd_Button_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Click_On_ChangePwd_Button_588" duration-ms="2870" started-at="2021-01-06T22:30:31 PKT" finished-at="2021-01-06T22:30:34 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Click_On_ChangePwd_Button_588(java.lang.String, java.lang.String)[pri:588, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Click_On_ChangePwd_Button_588" duration-ms="2716" started-at="2021-01-07T21:54:30 PKT" finished-at="2021-01-07T21:54:32 PKT">
           <params>
             <param index="0">
               <value>
@@ -772,7 +1521,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Click_On_ChangePwd_Button_588 -->
-        <test-method status="PASS" signature="Test_Change_Password_Click_On_Cross_Button_Icon_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Click_On_Cross_Button_Icon_589" duration-ms="6222" started-at="2021-01-06T22:30:34 PKT" finished-at="2021-01-06T22:30:40 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Click_On_Cross_Button_Icon_589(java.lang.String, java.lang.String)[pri:589, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Click_On_Cross_Button_Icon_589" duration-ms="6075" started-at="2021-01-07T21:54:32 PKT" finished-at="2021-01-07T21:54:38 PKT">
           <params>
             <param index="0">
               <value>
@@ -791,7 +1540,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Click_On_Cross_Button_Icon_589 -->
-        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Change_Password_is_present_590" duration-ms="3947" started-at="2021-01-06T22:30:40 PKT" finished-at="2021-01-06T22:30:44 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_590(java.lang.String, java.lang.String)[pri:590, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_check_Change_Password_is_present_590" duration-ms="3470" started-at="2021-01-07T21:54:38 PKT" finished-at="2021-01-07T21:54:42 PKT">
           <params>
             <param index="0">
               <value>
@@ -810,7 +1559,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_check_Change_Password_is_present_590 -->
-        <test-method status="PASS" signature="Test_Change_Password_check_Current_Password_is_present_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Current_Password_is_present_591" duration-ms="2506" started-at="2021-01-06T22:30:44 PKT" finished-at="2021-01-06T22:30:47 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_check_Current_Password_is_present_591(java.lang.String, java.lang.String)[pri:591, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_check_Current_Password_is_present_591" duration-ms="2417" started-at="2021-01-07T21:54:42 PKT" finished-at="2021-01-07T21:54:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -829,7 +1578,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_check_Current_Password_is_present_591 -->
-        <test-method status="PASS" signature="Test_Change_Password_check_New_Password_is_present_592(java.lang.String, java.lang.String)[pri:592, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_New_Password_is_present_592" duration-ms="2553" started-at="2021-01-06T22:30:47 PKT" finished-at="2021-01-06T22:30:49 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_check_New_Password_is_present_592(java.lang.String, java.lang.String)[pri:592, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_check_New_Password_is_present_592" duration-ms="2377" started-at="2021-01-07T21:54:44 PKT" finished-at="2021-01-07T21:54:47 PKT">
           <params>
             <param index="0">
               <value>
@@ -848,7 +1597,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_check_New_Password_is_present_592 -->
-        <test-method status="PASS" signature="Test_Change_Password_check_Confirm_Password_is_present_593(java.lang.String, java.lang.String)[pri:593, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Confirm_Password_is_present_593" duration-ms="2541" started-at="2021-01-06T22:30:49 PKT" finished-at="2021-01-06T22:30:52 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_check_Confirm_Password_is_present_593(java.lang.String, java.lang.String)[pri:593, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_check_Confirm_Password_is_present_593" duration-ms="2377" started-at="2021-01-07T21:54:47 PKT" finished-at="2021-01-07T21:54:49 PKT">
           <params>
             <param index="0">
               <value>
@@ -867,7 +1616,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_check_Confirm_Password_is_present_593 -->
-        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_594(java.lang.String, java.lang.String)[pri:594, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_check_Change_Password_is_present_594" duration-ms="2521" started-at="2021-01-06T22:30:52 PKT" finished-at="2021-01-06T22:30:54 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_check_Change_Password_is_present_594(java.lang.String, java.lang.String)[pri:594, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_check_Change_Password_is_present_594" duration-ms="2405" started-at="2021-01-07T21:54:49 PKT" finished-at="2021-01-07T21:54:51 PKT">
           <params>
             <param index="0">
               <value>
@@ -886,7 +1635,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_check_Change_Password_is_present_594 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595(java.lang.String)[pri:595, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595" duration-ms="1616" started-at="2021-01-06T22:30:54 PKT" finished-at="2021-01-06T22:30:56 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595(java.lang.String)[pri:595, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595" duration-ms="1340" started-at="2021-01-07T21:54:51 PKT" finished-at="2021-01-07T21:54:53 PKT">
           <params>
             <param index="0">
               <value>
@@ -897,7 +1646,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_without_Entering_Pwd_595 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596(java.lang.String, java.lang.String)[pri:596, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596" duration-ms="8798" started-at="2021-01-06T22:30:56 PKT" finished-at="2021-01-06T22:31:05 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596(java.lang.String, java.lang.String)[pri:596, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596" duration-ms="8421" started-at="2021-01-07T21:54:53 PKT" finished-at="2021-01-07T21:55:01 PKT">
           <params>
             <param index="0">
               <value>
@@ -916,7 +1665,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Minimum_Validation_596 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597(java.lang.String, java.lang.String, java.lang.String)[pri:597, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597" duration-ms="16689" started-at="2021-01-06T22:31:05 PKT" finished-at="2021-01-06T22:31:21 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597(java.lang.String, java.lang.String, java.lang.String)[pri:597, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597" duration-ms="18335" started-at="2021-01-07T21:55:01 PKT" finished-at="2021-01-07T21:55:20 PKT">
           <params>
             <param index="0">
               <value>
@@ -946,7 +1695,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_IncorrectPWD_Validation_597 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598(java.lang.String, java.lang.String)[pri:598, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598" duration-ms="9269" started-at="2021-01-06T22:31:21 PKT" finished-at="2021-01-06T22:31:31 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598(java.lang.String, java.lang.String)[pri:598, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598" duration-ms="8844" started-at="2021-01-07T21:55:20 PKT" finished-at="2021-01-07T21:55:28 PKT">
           <params>
             <param index="0">
               <value>
@@ -965,7 +1714,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Same_PWD_Validation_598 -->
-        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_599(java.lang.String, java.lang.String, java.lang.String)[pri:599, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_599" duration-ms="4971" started-at="2021-01-06T22:31:31 PKT" finished-at="2021-01-06T22:31:36 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_599(java.lang.String, java.lang.String, java.lang.String)[pri:599, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_599" duration-ms="4648" started-at="2021-01-07T21:55:28 PKT" finished-at="2021-01-07T21:55:33 PKT">
           <params>
             <param index="0">
               <value>
@@ -992,7 +1741,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Clear_New_and_ConfirmPWD_599 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600(java.lang.String, java.lang.String)[pri:600, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600" duration-ms="5375" started-at="2021-01-06T22:31:36 PKT" finished-at="2021-01-06T22:31:41 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600(java.lang.String, java.lang.String)[pri:600, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600" duration-ms="5293" started-at="2021-01-07T21:55:33 PKT" finished-at="2021-01-07T21:55:38 PKT">
           <params>
             <param index="0">
               <value>
@@ -1008,7 +1757,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_NewPwd_requiredMsg_600 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601(java.lang.String, java.lang.String)[pri:601, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601" duration-ms="8662" started-at="2021-01-06T22:31:41 PKT" finished-at="2021-01-06T22:31:50 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601(java.lang.String, java.lang.String)[pri:601, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601" duration-ms="8363" started-at="2021-01-07T21:55:38 PKT" finished-at="2021-01-07T21:55:47 PKT">
           <params>
             <param index="0">
               <value>
@@ -1027,7 +1776,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Newpwd_Minimum_Validation_601 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602(java.lang.String, java.lang.String)[pri:602, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602" duration-ms="8119" started-at="2021-01-06T22:31:50 PKT" finished-at="2021-01-06T22:31:58 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602(java.lang.String, java.lang.String)[pri:602, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602" duration-ms="7898" started-at="2021-01-07T21:55:47 PKT" finished-at="2021-01-07T21:55:55 PKT">
           <params>
             <param index="0">
               <value>
@@ -1046,7 +1795,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Minimum_Validation_602 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603(java.lang.String, java.lang.String)[pri:603, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603" duration-ms="1211" started-at="2021-01-06T22:31:58 PKT" finished-at="2021-01-06T22:31:59 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603(java.lang.String, java.lang.String)[pri:603, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603" duration-ms="837" started-at="2021-01-07T21:55:55 PKT" finished-at="2021-01-07T21:55:55 PKT">
           <params>
             <param index="0">
               <value>
@@ -1062,7 +1811,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_ConfirmPwd_requiredMsg_603 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604(java.lang.String, java.lang.String)[pri:604, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604" duration-ms="4190" started-at="2021-01-06T22:31:59 PKT" finished-at="2021-01-06T22:32:03 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604(java.lang.String, java.lang.String)[pri:604, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604" duration-ms="3865" started-at="2021-01-07T21:55:55 PKT" finished-at="2021-01-07T21:55:59 PKT">
           <params>
             <param index="0">
               <value>
@@ -1081,7 +1830,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_check_Confirmpwd_Notmached_Validation_604 -->
-        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605(java.lang.String, java.lang.String, java.lang.String)[pri:605, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605" duration-ms="4911" started-at="2021-01-06T22:32:03 PKT" finished-at="2021-01-06T22:32:08 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605(java.lang.String, java.lang.String, java.lang.String)[pri:605, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605" duration-ms="4590" started-at="2021-01-07T21:55:59 PKT" finished-at="2021-01-07T21:56:04 PKT">
           <params>
             <param index="0">
               <value>
@@ -1108,7 +1857,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Clear_New_and_ConfirmPWD_On2nd_time_605 -->
-        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606(java.lang.String, java.lang.String, java.lang.String)[pri:606, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606" duration-ms="11344" started-at="2021-01-06T22:32:08 PKT" finished-at="2021-01-06T22:32:19 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606(java.lang.String, java.lang.String, java.lang.String)[pri:606, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606" duration-ms="7805" started-at="2021-01-07T21:56:04 PKT" finished-at="2021-01-07T21:56:12 PKT">
           <params>
             <param index="0">
               <value>
@@ -1135,7 +1884,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_To_Click_On_ChangePwdButton_to_ChangePWD_606 -->
-        <test-method status="PASS" signature="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607(java.lang.String, java.lang.String)[pri:607, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607" duration-ms="17058" started-at="2021-01-06T22:32:19 PKT" finished-at="2021-01-06T22:32:36 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607(java.lang.String, java.lang.String)[pri:607, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607" duration-ms="16560" started-at="2021-01-07T21:56:12 PKT" finished-at="2021-01-07T21:56:28 PKT">
           <params>
             <param index="0">
               <value>
@@ -1166,7 +1915,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Go_Back_to_HomeScreen_and_Logout_607 -->
-        <test-method status="PASS" signature="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608(java.lang.String, java.lang.String, java.lang.String)[pri:608, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608" duration-ms="13451" started-at="2021-01-06T22:32:36 PKT" finished-at="2021-01-06T22:32:50 PKT">
+        <test-method status="PASS" signature="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608(java.lang.String, java.lang.String, java.lang.String)[pri:608, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608" duration-ms="13155" started-at="2021-01-07T21:56:28 PKT" finished-at="2021-01-07T21:56:41 PKT">
           <params>
             <param index="0">
               <value>
@@ -1193,7 +1942,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test__Change_Password_Allow_user_to_LoginWith_ChangePWD_608 -->
-        <test-method status="PASS" signature="Test_Change_Password_Go_Back_ChangePWD_page_609(java.lang.String, java.lang.String, java.lang.String)[pri:609, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Go_Back_ChangePWD_page_609" duration-ms="5753" started-at="2021-01-06T22:32:50 PKT" finished-at="2021-01-06T22:32:56 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Go_Back_ChangePWD_page_609(java.lang.String, java.lang.String, java.lang.String)[pri:609, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Go_Back_ChangePWD_page_609" duration-ms="5089" started-at="2021-01-07T21:56:41 PKT" finished-at="2021-01-07T21:56:47 PKT">
           <params>
             <param index="0">
               <value>
@@ -1217,7 +1966,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Go_Back_ChangePWD_page_609 -->
-        <test-method status="PASS" signature="Test_Change_Password_Change_PWD_again_to_Orignal_610(java.lang.String, java.lang.String, java.lang.String)[pri:610, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@25a65b77]" name="Test_Change_Password_Change_PWD_again_to_Orignal_610" duration-ms="22360" started-at="2021-01-06T22:32:56 PKT" finished-at="2021-01-06T22:33:18 PKT">
+        <test-method status="PASS" signature="Test_Change_Password_Change_PWD_again_to_Orignal_610(java.lang.String, java.lang.String, java.lang.String)[pri:610, instance:com.InfoCabs.testcases.Change_Password_TestCases_588_610@548a102f]" name="Test_Change_Password_Change_PWD_again_to_Orignal_610" duration-ms="32242" started-at="2021-01-07T21:56:47 PKT" finished-at="2021-01-07T21:57:19 PKT">
           <params>
             <param index="0">
               <value>
@@ -1251,9 +2000,552 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test_Change_Password_Change_PWD_again_to_Orignal_610 -->
       </class> <!-- com.InfoCabs.testcases.Change_Password_TestCases_588_610 -->
+      <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_662_665">
+        <test-method status="PASS" signature="Test_LogOut_Page_ClickTO_Open_Share_Page_662(java.lang.String, java.lang.String)[pri:662, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_662_665@16aa0a0a]" name="Test_LogOut_Page_ClickTO_Open_Share_Page_662" duration-ms="4029" started-at="2021-01-07T22:01:11 PKT" finished-at="2021-01-07T22:01:15 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut_Page_ClickTO_Open_Share_Page_662 -->
+        <test-method status="PASS" signature="Test_LogOut_Page_check_Do_youwant_Logout_Text_663(java.lang.String, java.lang.String)[pri:663, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_662_665@16aa0a0a]" name="Test_LogOut_Page_check_Do_youwant_Logout_Text_663" duration-ms="2116" started-at="2021-01-07T22:01:15 PKT" finished-at="2021-01-07T22:01:17 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut_Page_check_Do_youwant_Logout_Text_663 -->
+        <test-method status="PASS" signature="Test_LogOut_Page_check_Yes_ill_ComeBack_Text_664(java.lang.String, java.lang.String)[pri:664, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_662_665@16aa0a0a]" name="Test_LogOut_Page_check_Yes_ill_ComeBack_Text_664" duration-ms="2131" started-at="2021-01-07T22:01:17 PKT" finished-at="2021-01-07T22:01:20 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut_Page_check_Yes_ill_ComeBack_Text_664 -->
+        <test-method status="PASS" signature="Test_LogOut_Page_check_No_Keep_me_Login_Text_665(java.lang.String, java.lang.String)[pri:665, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_662_665@16aa0a0a]" name="Test_LogOut_Page_check_No_Keep_me_Login_Text_665" duration-ms="7233" started-at="2021-01-07T22:01:20 PKT" finished-at="2021-01-07T22:01:27 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut_Page_check_No_Keep_me_Login_Text_665 -->
+      </class> <!-- com.InfoCabs.testcases.LogOut_Page_TestCases_662_665 -->
+      <class name="com.InfoCabs.testcases.About_Us_Page_TestCases_652_659">
+        <test-method status="PASS" signature="Test_About_Us_Page_ClickTO_Open_About_Us_Page_652(java.lang.String, java.lang.String)[pri:652, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_ClickTO_Open_About_Us_Page_652" duration-ms="4039" started-at="2021-01-07T21:59:51 PKT" finished-at="2021-01-07T21:59:55 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_ClickTO_Open_About_Us_Page_652 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_BackButton_is_present_653(java.lang.String)[pri:653, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_BackButton_is_present_653" duration-ms="2756" started-at="2021-01-07T21:59:55 PKT" finished-at="2021-01-07T21:59:57 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_BackButton_is_present_653 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_CompanyDescritption_text_is_present_654(java.lang.String, java.lang.String)[pri:654, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_CompanyDescritption_text_is_present_654" duration-ms="2123" started-at="2021-01-07T21:59:57 PKT" finished-at="2021-01-07T21:59:59 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_CompanyDescritption_text_is_present_654 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_CompanyMobile_Number_is_present_655(java.lang.String, java.lang.String, java.lang.String)[pri:655, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_CompanyMobile_Number_is_present_655" duration-ms="12337" started-at="2021-01-07T22:00:00 PKT" finished-at="2021-01-07T22:00:12 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_CompanyMobile_Number_is_present_655 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_CompanyEmail_address_is_present_656(java.lang.String, java.lang.String, java.lang.String)[pri:656, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_CompanyEmail_address_is_present_656" duration-ms="10464" started-at="2021-01-07T22:00:12 PKT" finished-at="2021-01-07T22:00:22 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_CompanyEmail_address_is_present_656 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_Company_Website_is_present_657(java.lang.String, java.lang.String, java.lang.String)[pri:657, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_Company_Website_is_present_657" duration-ms="12269" started-at="2021-01-07T22:00:22 PKT" finished-at="2021-01-07T22:00:35 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_Company_Website_is_present_657 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_check_Company_Address_is_present_658(java.lang.String, java.lang.String, java.lang.String)[pri:658, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_check_Company_Address_is_present_658" duration-ms="12863" started-at="2021-01-07T22:00:35 PKT" finished-at="2021-01-07T22:00:47 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_check_Company_Address_is_present_658 -->
+        <test-method status="PASS" signature="Test_About_Us_Page_GoBack_To_HomeScreen_659()[pri:659, instance:com.InfoCabs.testcases.About_Us_Page_TestCases_652_659@5ef60048]" name="Test_About_Us_Page_GoBack_To_HomeScreen_659" duration-ms="8816" started-at="2021-01-07T22:00:47 PKT" finished-at="2021-01-07T22:00:56 PKT">
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_About_Us_Page_GoBack_To_HomeScreen_659 -->
+      </class> <!-- com.InfoCabs.testcases.About_Us_Page_TestCases_652_659 -->
+      <class name="com.InfoCabs.testcases.Share_Page_TestCases_660_661">
+        <test-method status="PASS" signature="Test_Share_Page_ClickTO_Open_Share_Page_660(java.lang.String, java.lang.String)[pri:660, instance:com.InfoCabs.testcases.Share_Page_TestCases_660_661@1d548a08]" name="Test_Share_Page_ClickTO_Open_Share_Page_660" duration-ms="4108" started-at="2021-01-07T22:00:56 PKT" finished-at="2021-01-07T22:01:00 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Share_Page_ClickTO_Open_Share_Page_660 -->
+        <test-method status="PASS" signature="Test_Share_Page_check_ShareText_is_present_661(java.lang.String, java.lang.String, java.lang.String)[pri:661, instance:com.InfoCabs.testcases.Share_Page_TestCases_660_661@1d548a08]" name="Test_Share_Page_check_ShareText_is_present_661" duration-ms="10984" started-at="2021-01-07T22:01:00 PKT" finished-at="2021-01-07T22:01:11 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.infosun.csandroidx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Share_Page_check_ShareText_is_present_661 -->
+      </class> <!-- com.InfoCabs.testcases.Share_Page_TestCases_660_661 -->
+      <class name="com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622">
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_are_sections_611(java.lang.String, java.lang.String)[pri:611, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_are_sections_611" duration-ms="4075" started-at="2021-01-07T21:57:19 PKT" finished-at="2021-01-07T21:57:23 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_are_sections_611 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_PaymentMethods_is_present_611(java.lang.String, java.lang.String)[pri:611, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_PaymentMethods_is_present_611" duration-ms="2544" started-at="2021-01-07T21:57:23 PKT" finished-at="2021-01-07T21:57:25 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_PaymentMethods_is_present_611 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_BackButton_is_present_612(java.lang.String)[pri:612, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_BackButton_is_present_612" duration-ms="2357" started-at="2021-01-07T21:57:25 PKT" finished-at="2021-01-07T21:57:28 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_BackButton_is_present_612 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_CardContainer_is_present_613(java.lang.String)[pri:613, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_CardContainer_is_present_613" duration-ms="2352" started-at="2021-01-07T21:57:28 PKT" finished-at="2021-01-07T21:57:30 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_CardContainer_is_present_613 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_CardIcon_is_present_614(java.lang.String)[pri:614, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_CardIcon_is_present_614" duration-ms="2350" started-at="2021-01-07T21:57:30 PKT" finished-at="2021-01-07T21:57:32 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_CardIcon_is_present_614 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_Cash_text_is_present_615(java.lang.String, java.lang.String)[pri:615, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_Cash_text_is_present_615" duration-ms="2159" started-at="2021-01-07T21:57:32 PKT" finished-at="2021-01-07T21:57:35 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_Cash_text_is_present_615 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_Add_PaymentMethods_Button_is_present_616(java.lang.String, java.lang.String)[pri:616, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_Add_PaymentMethods_Button_is_present_616" duration-ms="2311" started-at="2021-01-07T21:57:35 PKT" finished-at="2021-01-07T21:57:37 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_Add_PaymentMethods_Button_is_present_616 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_CrossButton_is_Working_617(java.lang.String, java.lang.String)[pri:617, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_CrossButton_is_Working_617" duration-ms="3963" started-at="2021-01-07T21:57:37 PKT" finished-at="2021-01-07T21:57:41 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//android.widget.CheckedTextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_CrossButton_is_Working_617 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_Add_PaymentMethods_text_is_present_618(java.lang.String, java.lang.String)[pri:618, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_Add_PaymentMethods_text_is_present_618" duration-ms="2136" started-at="2021-01-07T21:57:41 PKT" finished-at="2021-01-07T21:57:43 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_Add_PaymentMethods_text_is_present_618 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_CardDetails_field_is_present_619(java.lang.String)[pri:619, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_CardDetails_field_is_present_619" duration-ms="2374" started-at="2021-01-07T21:57:43 PKT" finished-at="2021-01-07T21:57:45 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_CardDetails_field_is_present_619 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_Add_CreditCard_text_is_present_620(java.lang.String, java.lang.String)[pri:620, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_Add_CreditCard_text_is_present_620" duration-ms="2130" started-at="2021-01-07T21:57:45 PKT" finished-at="2021-01-07T21:57:48 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_Add_CreditCard_text_is_present_620 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_PostPayDetails_field_is_present_621(java.lang.String)[pri:621, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_PostPayDetails_field_is_present_621" duration-ms="2358" started-at="2021-01-07T21:57:48 PKT" finished-at="2021-01-07T21:57:50 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_PostPayDetails_field_is_present_621 -->
+        <test-method status="PASS" signature="Test_Add_PaymentsMethods_check_Add_PostPay_text_is_present_622(java.lang.String, java.lang.String)[pri:622, instance:com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622@5762806e]" name="Test_Add_PaymentsMethods_check_Add_PostPay_text_is_present_622" duration-ms="2127" started-at="2021-01-07T21:57:50 PKT" finished-at="2021-01-07T21:57:52 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.infosun.csandroidx:id/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android.widget.TextView]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Add_PaymentsMethods_check_Add_PostPay_text_is_present_622 -->
+      </class> <!-- com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622 -->
     </test> <!-- InfoCabSnapperApp.com -->
   </suite> <!-- Suite -->
 </testng-results>

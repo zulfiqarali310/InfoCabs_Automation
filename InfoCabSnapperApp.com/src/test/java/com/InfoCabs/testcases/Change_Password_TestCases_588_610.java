@@ -567,6 +567,9 @@ public class Change_Password_TestCases_588_610 extends TestBase {
 			Thread.sleep(4000);
 			driver.pressKey(new KeyEvent(AndroidKey.BACK));
 			HelperMethods.waitForPageLoaded();
+			Thread.sleep(4000);
+			driver.pressKey(new KeyEvent(AndroidKey.BACK));
+			HelperMethods.waitForPageLoaded();
 
 		} else {
 			System.out.println("Test:610, Password updated successfully message are not displayed");
