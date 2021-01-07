@@ -476,14 +476,6 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 		boolean expected = true;
 		Assert.assertEquals(ImageLogo, expected);
 
-		/*
-		 * if (L1.isDisplayed()) { String Get_text1 = L1.getText();
-		 * Assert.assertEquals(Get_text1, "View your scheduled rides at\r\n" +
-		 * "Menu > My Trips"); } else { System.out.
-		 * println("Test:286, View your scheduled rides at Menu > My Trips text are not present"
-		 * ); }
-		 */
-
 	}
 
 	@Test(priority = 429)
@@ -635,8 +627,6 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 			Thread.sleep(3000);
 			((AndroidDriver) driver).findElement(By.id("android:id/button1")).click();
 			Thread.sleep(4000);
-			// ((AndroidDriver) driver).pressKeyCode(AndroidKeyCode.BACK);
-			// driver.navigate().back();
 			driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
 			HelperMethods.waitForPageLoaded();
 

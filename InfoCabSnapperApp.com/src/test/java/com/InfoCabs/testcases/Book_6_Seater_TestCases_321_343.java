@@ -25,7 +25,7 @@ public class Book_6_Seater_TestCases_321_343 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
-	@Test(priority = 21)
+	/*@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
 			String CommonLocator) throws InterruptedException {
@@ -52,7 +52,7 @@ public class Book_6_Seater_TestCases_321_343 extends TestBase {
 		} else {
 			System.out.println("Test:21, User are not able to login may be some issue");
 		}
-	}
+	}*/
 
 	@Test(priority = 151)
 	@Parameters({ "Rider_AppPackage", "Rider_AppActivity" })
@@ -67,7 +67,7 @@ public class Book_6_Seater_TestCases_321_343 extends TestBase {
 	@Test(priority = 152)
 	public void Test_LunchDriver_IMEI_Alert_Notification_152() {
 		HelperMethods.waitForPageLoaded();
-		WebDriverWait wait = new WebDriverWait(driver, 40);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement L4 = driver.findElement(By.id("android:id/button1"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/button1")));
 		L4.click();

@@ -18,7 +18,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
-	@Test(priority = 21)
+	/*@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
 			String CommonLocator) throws InterruptedException {
@@ -45,7 +45,7 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		} else {
 			System.out.println("Test:21, User are not able to login may be some issue");
 		}
-	}
+	}*/
 
 	@Test(priority = 300)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
@@ -388,6 +388,19 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 		} else {
 			System.out.println("Test:320, Submit Feedback text are not present");
 		}
+	}
+	@Test(priority = 321)
+	@Parameters({ "Rider_AppPackage" })
+	public void Test_Book_Saloon_With_CreditCard_With_CreditCards_Closed_DriverApp_321(String Rider_AppPackage)
+			throws InterruptedException {
+		Thread.sleep(4000);
+		HelperMethods.waitForPageLoaded();
+		driver.activateApp(Rider_AppPackage);
+		Thread.sleep(5000);
+		driver.closeApp();
+		driver.hideKeyboard();
+		System.out.println("Driver are closed");
+
 	}
 
 }

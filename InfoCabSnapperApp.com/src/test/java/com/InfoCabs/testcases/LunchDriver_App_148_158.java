@@ -74,36 +74,36 @@ public class LunchDriver_App_148_158 extends TestBase {
 	@Test(priority = 152)
 	public void Test_LunchDriver_IMEI_Alert_Notification_152() {
 		HelperMethods.waitForPageLoaded();
-		WebDriverWait wait = new WebDriverWait(driver, 40);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement L4 = driver.findElement(By.id("android:id/button1"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/button1")));
 		L4.click();
-		/*if (L4.isDisplayed()) {
-			L4.click();
-		} else {
-			System.out.println("Notification alert are not avalible");
-		}*/
 
 	}
 
 	@Test(priority = 153)
 	@Parameters({ "Rider_PWD" })
-	public void Test_LunchDriver_App_LogintoRiderApp_153(String Rider_PWD) {
+	public void Test_LunchDriver_App_LogintoRiderApp_153(String Rider_PWD) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id("com.infosun.infocabs:id/button_infocabs"));
 		HelperMethods.waitForElementToBeClickable(L1);
 		L1.click();
-		// Select driverDropdown = new
-		// Select(driver.findElement(By.id("com.infosun.infocabs:id/spinner_username")));
-		// driverDropdown.selectByVisibleText("Tony Stark");
 		HelperMethods.waitForPageLoaded();
-		WebElement L2 = driver.findElement(By.id("com.infosun.infocabs:id/edit_password"));
-		L2.sendKeys(Rider_PWD);
+		WebElement L4 = driver.findElement(By.id("com.infosun.infocabs:id/spinner_username"));
+		L4.click();
 		HelperMethods.waitForPageLoaded();
-		WebElement L3 = driver.findElement(By.id("com.infosun.infocabs:id/button_login"));
-		HelperMethods.waitForElementToBeClickable(L3);
-		L3.click();
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().text(\"Tony Stark\"));").click();
+		Thread.sleep(2000);
+		HelperMethods.waitForPageLoaded();
+		WebElement L3 = driver.findElement(By.id("com.infosun.infocabs:id/edit_password"));
+		L3.sendKeys(Rider_PWD);
+		HelperMethods.waitForPageLoaded();
+		WebElement L5 = driver.findElement(By.id("com.infosun.infocabs:id/button_login"));
+		HelperMethods.waitForElementToBeClickable(L5);
+		L5.click();
+		HelperMethods.waitForPageLoaded();
 
 	}
 

@@ -181,23 +181,6 @@ public class Book_6_Seater_With_CreditCards_TestCases_379_401 extends TestBase {
 
 	}
 
-	/*
-	 * @Test(priority = 386)
-	 * 
-	 * @Parameters({ "Rider_AppPackage" }) public void
-	 * Test_Book_6_Seater_With_CreditCards_Refresh_RiderApp_386(String
-	 * Rider_AppPackage) throws InterruptedException {
-	 * HelperMethods.waitForPageLoaded(); Thread.sleep(2000); WebDriverWait wait =
-	 * new WebDriverWait(driver, 40); WebElement L7 =
-	 * driver.findElement(By.className("android.widget.ImageView"));
-	 * wait.until(ExpectedConditions.elementToBeClickable(By.className(
-	 * "android.widget.ImageView"))); Thread.sleep(2000); L7.click(); WebElement L8
-	 * = driver.findElement(By.id("com.infosun.infocabs:id/title"));
-	 * wait.until(ExpectedConditions.elementToBeClickable(By.id(
-	 * "com.infosun.infocabs:id/title"))); Thread.sleep(2000); L7.click();
-	 * 
-	 * }
-	 */
 
 	@Test(priority = 387)
 	@Parameters({ "AppPackage" })

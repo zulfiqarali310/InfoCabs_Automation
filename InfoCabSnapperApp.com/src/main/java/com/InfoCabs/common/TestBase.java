@@ -16,7 +16,7 @@ public class TestBase {
 
 	public static AndroidDriver<MobileElement> driver;
 	static String UserDir = System.getProperty("user.dir");
-	static String ApplicationPath = UserDir + "\\Apps\\cs_5.8_stage.apk";
+	static String ApplicationPath = UserDir + "\\Apps\\Stage.apk";
 	//public static String Rider_AppPackage="com.infosun.infocabs";
 	//public static String Rider_AppActivity="com.infosun.infocabs.SplashActivity";
 

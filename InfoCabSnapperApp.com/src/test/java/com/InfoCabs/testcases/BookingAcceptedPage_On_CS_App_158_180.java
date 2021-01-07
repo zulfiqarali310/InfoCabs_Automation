@@ -282,43 +282,4 @@ public class BookingAcceptedPage_On_CS_App_158_180 extends TestBase {
 		}
 	}
 
-	/*
-	 * @Test(priority = 178)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * Test_BookingAcceptedPage_On_CS_App_Alert_OperatorLenght_Text_arePresent_178(
-	 * String CommonLocator) { HelperMethods.waitForPageLoaded(); WebElement L1 =
-	 * driver.findElement(By.id(CommonLocator + "tv_accept")); if (L1.isDisplayed())
-	 * { String Get_text1 = L1.getText(); Assert.assertEquals(Get_text1,
-	 * "The operator probably couldn’t find an available vehicle or something came up."
-	 * ); } else { System.out.println(
-	 * "Test:178, The operator probably couldn’t find an available vehicle or something came up. ride text are not present"
-	 * ); }
-	 * 
-	 * }
-	 * 
-	 * @Test(priority = 179)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * Test_BookingAcceptedPage_On_CS_App_Alert_closeButton_arePresent_179(String
-	 * CommonLocator) { HelperMethods.waitForPageLoaded(); WebElement L1 =
-	 * driver.findElement(By.id(CommonLocator + "close")); if (L1.isDisplayed()) {
-	 * L1.click();
-	 * 
-	 * } else { System.out.println("Test:179, close button may not be avalible"); }
-	 * }
-	 * 
-	 * /*
-	 * 
-	 * @Test(priority = 180)
-	 * 
-	 * @Parameters("CommonLocator") public void
-	 * Test_BookingAcceptedPage_On_CS_App_For_2ndClose_Alert_closeButton_arePresent_180
-	 * (String CommonLocator) { HelperMethods.waitForPageLoaded(); WebElement L1 =
-	 * driver.findElement(By.id(CommonLocator + "close")); if (L1.isDisplayed()) {
-	 * L1.click();
-	 * 
-	 * } else { System.out.println("Test:178, close button may not be avalible"); }
-	 * }
-	 */
 }
