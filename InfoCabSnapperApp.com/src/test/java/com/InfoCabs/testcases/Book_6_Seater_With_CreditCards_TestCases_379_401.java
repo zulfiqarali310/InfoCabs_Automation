@@ -406,11 +406,11 @@ public class Book_6_Seater_With_CreditCards_TestCases_379_401 extends TestBase {
 			throws InterruptedException {
 		Thread.sleep(4000);
 		HelperMethods.waitForPageLoaded();
-		driver.activateApp(Rider_AppPackage);
-		Thread.sleep(5000);
-		driver.closeApp();
+		//driver.activateApp(Rider_AppPackage);
+		//Thread.sleep(5000);
+		//driver.closeApp();
 		driver.hideKeyboard();
-		System.out.println("Driver are closed");
+		//System.out.println("Driver are closed");
 
 	}
 

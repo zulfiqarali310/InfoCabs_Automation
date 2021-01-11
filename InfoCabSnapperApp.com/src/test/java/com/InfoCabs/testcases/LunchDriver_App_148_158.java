@@ -71,7 +71,7 @@ public class LunchDriver_App_148_158 extends TestBase {
 
 	}
 
-	@Test(priority = 152)
+	/*@Test(priority = 152)
 	public void Test_LunchDriver_IMEI_Alert_Notification_152() {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -79,7 +79,7 @@ public class LunchDriver_App_148_158 extends TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/button1")));
 		L4.click();
 
-	}
+	}*/
 
 	@Test(priority = 153)
 	@Parameters({ "Rider_PWD" })

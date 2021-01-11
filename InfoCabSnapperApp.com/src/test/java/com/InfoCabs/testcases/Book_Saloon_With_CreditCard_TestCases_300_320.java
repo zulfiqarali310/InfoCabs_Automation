@@ -395,11 +395,11 @@ public class Book_Saloon_With_CreditCard_TestCases_300_320 extends TestBase {
 			throws InterruptedException {
 		Thread.sleep(4000);
 		HelperMethods.waitForPageLoaded();
-		driver.activateApp(Rider_AppPackage);
-		Thread.sleep(5000);
-		driver.closeApp();
-		driver.hideKeyboard();
-		System.out.println("Driver are closed");
+		//driver.activateApp(Rider_AppPackage);
+		//Thread.sleep(5000);
+		//driver.closeApp();
+		//driver.hideKeyboard();
+		//System.out.println("Driver are closed");
 
 	}
 

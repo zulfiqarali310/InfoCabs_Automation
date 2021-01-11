@@ -262,7 +262,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 
 	}
 	
-	@Test(priority = 250)
+	/*@Test(priority = 250)
 	@Parameters({ "Rider_AppPackage" })
 	public void Test_Book_SaloonWith_PrmoCode_Refresh_RiderApp_250(String Rider_AppPackage) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
@@ -277,7 +277,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 		Thread.sleep(2000);
 		L7.click();
 
-	}
+	}*/
 
 	@Test(priority = 251)
 	@Parameters({ "AppPackage" })

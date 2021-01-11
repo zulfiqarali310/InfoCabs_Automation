@@ -47,8 +47,24 @@ public class LogOut_Page_TestCases_662_665 extends TestBase {
 		}
 
 	}
-
+	
 	@Test(priority = 664)
+	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
+	public void Test_LogOut_Page_check_No_Keep_me_Login_Text_664(String CommonLocator, String CommonLocator_ClassView)
+			throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_reject"));
+		if (L1.isDisplayed()) {
+			String Get_text1 = L1.getText();
+			Assert.assertEquals(Get_text1, "No, Keep me logged in");
+
+		} else {
+			System.out.println("Test:665, No, Keep me logged in text are not present");
+		}
+
+	}
+
+	@Test(priority = 665)
 	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
 	public void Test_LogOut_Page_check_Yes_ill_ComeBack_Text_664(String CommonLocator, String CommonLocator_ClassView)
 			throws InterruptedException {
@@ -57,28 +73,15 @@ public class LogOut_Page_TestCases_662_665 extends TestBase {
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "Yes, I’ll come back later");
+			Thread.sleep(3000);
+			L1.click();
+			HelperMethods.waitForPageLoaded();
 		} else {
 			System.out.println("Test:664, Yes, I’ll come back later text are not present");
 		}
 
 	}
 
-	@Test(priority = 665)
-	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
-	public void Test_LogOut_Page_check_No_Keep_me_Login_Text_665(String CommonLocator, String CommonLocator_ClassView)
-			throws InterruptedException {
-		HelperMethods.waitForPageLoaded();
-		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_reject"));
-		if (L1.isDisplayed()) {
-			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, "No, Keep me logged in");
-			Thread.sleep(3000);
-			L1.click();
-			HelperMethods.waitForPageLoaded();
-		} else {
-			System.out.println("Test:665, No, Keep me logged in text are not present");
-		}
 
-	}
 
 }

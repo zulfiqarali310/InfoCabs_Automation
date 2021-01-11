@@ -88,7 +88,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 
 	}
 
-	@Test(priority = 185)
+	/*@Test(priority = 185)
 	@Parameters({ "Rider_AppPackage" })
 	public void Test_POB_Page_Refresh_RiderApp_185(String Rider_AppPackage) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
@@ -103,7 +103,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 		Thread.sleep(2000);
 		L7.click();
 
-	}
+	}*/
 
 	@Test(priority = 186)
 	@Parameters({ "AppPackage" })

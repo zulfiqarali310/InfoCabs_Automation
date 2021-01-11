@@ -64,7 +64,7 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	}
 
-	@Test(priority = 441)
+	/*@Test(priority = 441)
 	public void Test_Book_8_Seater_LunchDriver_IMEI_Alert_Notification_441() {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -72,7 +72,7 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("android:id/button1")));
 		L4.click();
 
-	}
+	}*/
 
 	@Test(priority = 442)
 	@Parameters({ "Rider_PWD" })
