@@ -59,13 +59,13 @@
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657">
+      <class name="com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724">
         <methods>
-          <include name="Test_Add_PostPay_Account_EnterPostPay_Email_Validation_errorMessage_645" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="Test_Completed_trip_Details_CarRating_718" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657 -->
+      </class> <!-- com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

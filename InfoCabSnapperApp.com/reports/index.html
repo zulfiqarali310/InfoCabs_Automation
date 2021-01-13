@@ -35,7 +35,8 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>InfoCabSnapper Automation Test Results</span>
@@ -44,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jan 13, 2021 01:02:38 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Jan 13, 2021 11:22:19 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -60,6 +61,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -102,10 +104,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>42</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='98.413%'><span class='strong'>62</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='1.587%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -126,14 +128,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21</span>
-						<span class='test-time'>Jan 13, 2021 01:03:04 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:22:43 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:04 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:15 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+577ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:22:43 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:22:54 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+749ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -147,7 +149,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:15 AM</td>
+				<td class='timestamp'>11:22:54 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21 Test Case  Passed Successfull</b></span>
 					
@@ -161,14 +163,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666</span>
-						<span class='test-time'>Jan 13, 2021 01:03:15 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:22:54 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:15 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:27 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+211ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:22:54 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+722ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -182,7 +184,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:27 AM</td>
+				<td class='timestamp'>11:23:06 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666 Test Case  Passed Successfull</b></span>
 					
@@ -196,14 +198,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667</span>
-						<span class='test-time'>Jan 13, 2021 01:03:27 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:06 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:27 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:37 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+615ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:06 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:15 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+549ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -217,7 +219,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:37 AM</td>
+				<td class='timestamp'>11:23:15 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667 Test Case  Passed Successfull</b></span>
 					
@@ -231,14 +233,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668</span>
-						<span class='test-time'>Jan 13, 2021 01:03:37 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:15 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:37 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:45 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+744ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:15 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+995ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -252,7 +254,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:45 AM</td>
+				<td class='timestamp'>11:23:24 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668 Test Case  Passed Successfull</b></span>
 					
@@ -266,14 +268,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669</span>
-						<span class='test-time'>Jan 13, 2021 01:03:45 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:24 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:45 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:55 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+866ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:24 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+602ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -287,7 +289,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:55 AM</td>
+				<td class='timestamp'>11:23:34 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669 Test Case  Passed Successfull</b></span>
 					
@@ -301,14 +303,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670</span>
-						<span class='test-time'>Jan 13, 2021 01:03:55 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:34 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:55 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:03:58 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+279ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:34 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+316ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -322,7 +324,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:03:58 AM</td>
+				<td class='timestamp'>11:23:37 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670 Test Case  Passed Successfull</b></span>
 					
@@ -336,14 +338,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671</span>
-						<span class='test-time'>Jan 13, 2021 01:03:58 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:37 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:03:58 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:10 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+521ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:37 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:23:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+872ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -357,7 +359,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:10 AM</td>
+				<td class='timestamp'>11:23:49 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671 Test Case  Passed Successfull</b></span>
 					
@@ -371,14 +373,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672</span>
-						<span class='test-time'>Jan 13, 2021 01:04:10 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:23:49 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:10 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:20 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+248ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:23:49 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+699ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -392,7 +394,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:20 AM</td>
+				<td class='timestamp'>11:24:01 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672 Test Case  Passed Successfull</b></span>
 					
@@ -406,14 +408,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673</span>
-						<span class='test-time'>Jan 13, 2021 01:04:20 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:01 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:20 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:23 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+458ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:01 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+397ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -427,7 +429,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:23 AM</td>
+				<td class='timestamp'>11:24:03 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673 Test Case  Passed Successfull</b></span>
 					
@@ -441,14 +443,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674</span>
-						<span class='test-time'>Jan 13, 2021 01:04:23 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:03 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:23 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:29 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+856ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:03 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+847ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -462,7 +464,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:29 AM</td>
+				<td class='timestamp'>11:24:09 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674 Test Case  Passed Successfull</b></span>
 					
@@ -476,14 +478,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675</span>
-						<span class='test-time'>Jan 13, 2021 01:04:29 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:09 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:29 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:31 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+605ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:09 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+445ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -497,7 +499,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:31 AM</td>
+				<td class='timestamp'>11:24:12 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675 Test Case  Passed Successfull</b></span>
 					
@@ -511,14 +513,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676</span>
-						<span class='test-time'>Jan 13, 2021 01:04:31 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:12 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:31 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:34 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+385ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:12 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:14 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+314ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -532,7 +534,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:34 AM</td>
+				<td class='timestamp'>11:24:14 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676 Test Case  Passed Successfull</b></span>
 					
@@ -546,14 +548,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677</span>
-						<span class='test-time'>Jan 13, 2021 01:04:34 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:14 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:34 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:36 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+337ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:14 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:16 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+274ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -567,7 +569,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:36 AM</td>
+				<td class='timestamp'>11:24:16 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677 Test Case  Passed Successfull</b></span>
 					
@@ -581,14 +583,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678</span>
-						<span class='test-time'>Jan 13, 2021 01:04:36 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:16 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:36 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:38 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+299ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:16 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+315ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -602,7 +604,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:38 AM</td>
+				<td class='timestamp'>11:24:19 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678 Test Case  Passed Successfull</b></span>
 					
@@ -616,14 +618,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679</span>
-						<span class='test-time'>Jan 13, 2021 01:04:38 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:19 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:38 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:42 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+417ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:19 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+644ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -637,7 +639,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:42 AM</td>
+				<td class='timestamp'>11:24:22 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679 Test Case  Passed Successfull</b></span>
 					
@@ -651,13 +653,13 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680</span>
-						<span class='test-time'>Jan 13, 2021 01:04:42 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:22 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:42 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:44 AM</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:22 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:25 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+328ms</span>
 </div>
 <div class='test-steps'>
@@ -672,7 +674,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:44 AM</td>
+				<td class='timestamp'>11:24:25 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680 Test Case  Passed Successfull</b></span>
 					
@@ -686,14 +688,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681</span>
-						<span class='test-time'>Jan 13, 2021 01:04:44 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:44 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:46 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+208ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:25 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+167ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -707,7 +709,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:46 AM</td>
+				<td class='timestamp'>11:24:27 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681 Test Case  Passed Successfull</b></span>
 					
@@ -721,14 +723,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682</span>
-						<span class='test-time'>Jan 13, 2021 01:04:46 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:46 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:48 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+181ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:27 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+122ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -742,7 +744,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:48 AM</td>
+				<td class='timestamp'>11:24:29 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682 Test Case  Passed Successfull</b></span>
 					
@@ -756,14 +758,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='19'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683</span>
-						<span class='test-time'>Jan 13, 2021 01:04:48 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:29 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:48 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:51 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+325ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:29 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:31 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+317ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -777,7 +779,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:51 AM</td>
+				<td class='timestamp'>11:24:31 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683 Test Case  Passed Successfull</b></span>
 					
@@ -791,14 +793,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='20'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684</span>
-						<span class='test-time'>Jan 13, 2021 01:04:51 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:31 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:51 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:53 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+330ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:31 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:33 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+297ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -812,7 +814,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:53 AM</td>
+				<td class='timestamp'>11:24:33 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684 Test Case  Passed Successfull</b></span>
 					
@@ -826,14 +828,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685</span>
-						<span class='test-time'>Jan 13, 2021 01:04:53 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:33 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:53 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:04:56 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+406ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:33 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+320ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -847,7 +849,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:04:56 AM</td>
+				<td class='timestamp'>11:24:37 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685 Test Case  Passed Successfull</b></span>
 					
@@ -861,14 +863,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='22'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686</span>
-						<span class='test-time'>Jan 13, 2021 01:04:56 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:37 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:04:56 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:01 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+716ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:37 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:24:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+994ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -882,7 +884,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:01 AM</td>
+				<td class='timestamp'>11:24:42 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686 Test Case  Passed Successfull</b></span>
 					
@@ -896,14 +898,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688</span>
-						<span class='test-time'>Jan 13, 2021 01:05:01 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:24:42 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:01 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:19 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+440ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:24:42 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:25:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 18s+420ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -917,7 +919,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:19 AM</td>
+				<td class='timestamp'>11:25:00 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688 Test Case  Passed Successfull</b></span>
 					
@@ -931,14 +933,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='24'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689</span>
-						<span class='test-time'>Jan 13, 2021 01:05:19 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:25:00 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:19 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:26 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+71ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:25:00 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:25:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+254ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -952,7 +954,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:26 AM</td>
+				<td class='timestamp'>11:25:07 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689 Test Case  Passed Successfull</b></span>
 					
@@ -966,14 +968,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='25'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690</span>
-						<span class='test-time'>Jan 13, 2021 01:05:26 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:25:07 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:26 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:35 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+575ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:25:07 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:25:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+557ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -987,7 +989,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:35 AM</td>
+				<td class='timestamp'>11:25:17 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690 Test Case  Passed Successfull</b></span>
 					
@@ -1001,14 +1003,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='26'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691</span>
-						<span class='test-time'>Jan 13, 2021 01:05:35 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:25:17 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:35 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:45 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+563ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:25:17 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:25:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+560ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1022,7 +1024,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:45 AM</td>
+				<td class='timestamp'>11:25:27 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691 Test Case  Passed Successfull</b></span>
 					
@@ -1036,14 +1038,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='27'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692</span>
-						<span class='test-time'>Jan 13, 2021 01:05:45 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:25:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:45 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:05:52 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+622ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:25:27 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:25:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+619ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1057,7 +1059,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:05:52 AM</td>
+				<td class='timestamp'>11:25:34 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692 Test Case  Passed Successfull</b></span>
 					
@@ -1071,14 +1073,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='28'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693</span>
-						<span class='test-time'>Jan 13, 2021 01:05:52 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:25:34 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:05:52 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:15 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 22s+610ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:25:34 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+749ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1092,7 +1094,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:15 AM</td>
+				<td class='timestamp'>11:26:00 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693 Test Case  Passed Successfull</b></span>
 					
@@ -1106,14 +1108,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='29'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694</span>
-						<span class='test-time'>Jan 13, 2021 01:06:15 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:00 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:15 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:23 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+874ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:00 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:08 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+77ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1127,7 +1129,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:23 AM</td>
+				<td class='timestamp'>11:26:08 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694 Test Case  Passed Successfull</b></span>
 					
@@ -1141,14 +1143,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='30'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695</span>
-						<span class='test-time'>Jan 13, 2021 01:06:23 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:08 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:23 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:31 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+399ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:08 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+652ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1162,7 +1164,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:31 AM</td>
+				<td class='timestamp'>11:26:17 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695 Test Case  Passed Successfull</b></span>
 					
@@ -1176,14 +1178,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='31'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696</span>
-						<span class='test-time'>Jan 13, 2021 01:06:31 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:17 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:31 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:40 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+6ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:17 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+83ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1197,7 +1199,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:40 AM</td>
+				<td class='timestamp'>11:26:25 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696 Test Case  Passed Successfull</b></span>
 					
@@ -1211,14 +1213,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='32'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697</span>
-						<span class='test-time'>Jan 13, 2021 01:06:40 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:40 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:48 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+330ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:25 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:33 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+7ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1232,7 +1234,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:48 AM</td>
+				<td class='timestamp'>11:26:33 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697 Test Case  Passed Successfull</b></span>
 					
@@ -1246,14 +1248,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='33'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698</span>
-						<span class='test-time'>Jan 13, 2021 01:06:48 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:33 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:48 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:55 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+209ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:33 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:40 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+425ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1267,7 +1269,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:55 AM</td>
+				<td class='timestamp'>11:26:40 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698 Test Case  Passed Successfull</b></span>
 					
@@ -1281,14 +1283,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='34'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699</span>
-						<span class='test-time'>Jan 13, 2021 01:06:55 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:40 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:55 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:06:57 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+182ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:40 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+245ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1302,7 +1304,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:06:57 AM</td>
+				<td class='timestamp'>11:26:42 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699 Test Case  Passed Successfull</b></span>
 					
@@ -1316,14 +1318,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='35'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700</span>
-						<span class='test-time'>Jan 13, 2021 01:06:57 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:42 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:06:57 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:07:00 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+799ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:42 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+736ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1337,7 +1339,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:07:00 AM</td>
+				<td class='timestamp'>11:26:45 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700 Test Case  Passed Successfull</b></span>
 					
@@ -1351,14 +1353,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='36'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701</span>
-						<span class='test-time'>Jan 13, 2021 01:07:00 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:07:00 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:07:04 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+249ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:45 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:26:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+244ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1372,7 +1374,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:07:04 AM</td>
+				<td class='timestamp'>11:26:49 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701 Test Case  Passed Successfull</b></span>
 					
@@ -1386,14 +1388,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='37'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702</span>
-						<span class='test-time'>Jan 13, 2021 01:07:04 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:26:49 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:07:04 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:07:15 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+294ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:26:49 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+494ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1407,7 +1409,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:07:15 AM</td>
+				<td class='timestamp'>11:27:01 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702 Test Case  Passed Successfull</b></span>
 					
@@ -1421,14 +1423,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='38'>
 					<div class='test-heading'>
 						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703</span>
-						<span class='test-time'>Jan 13, 2021 01:07:15 AM</span>
+						<span class='test-time'>Jan 13, 2021 11:27:01 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:07:15 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:07:25 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+976ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:27:01 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:11 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+641ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1442,7 +1444,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:07:25 AM</td>
+				<td class='timestamp'>11:27:11 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703 Test Case  Passed Successfull</b></span>
 					
@@ -1455,15 +1457,15 @@
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='39'>
 					<div class='test-heading'>
-						<span class='test-name'>Test_LogOut_Page_ClickTO_Open_Share_Page_750</span>
-						<span class='test-time'>Jan 13, 2021 01:07:25 AM</span>
+						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704</span>
+						<span class='test-time'>Jan 13, 2021 11:27:11 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:07:25 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:08:08 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 42s+233ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:27:11 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:13 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+510ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1477,9 +1479,9 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:08:08 AM</td>
+				<td class='timestamp'>11:27:13 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text green'><b>Test_LogOut_Page_ClickTO_Open_Share_Page_750 Test Case  Passed Successfull</b></span>
+						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704 Test Case  Passed Successfull</b></span>
 					
 				</td>
 			</tr>
@@ -1490,15 +1492,15 @@
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='40'>
 					<div class='test-heading'>
-						<span class='test-name'>Test_LogOut_Page_check_Do_youwant_Logout_Text_751</span>
-						<span class='test-time'>Jan 13, 2021 01:08:08 AM</span>
+						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705</span>
+						<span class='test-time'>Jan 13, 2021 11:27:13 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:08:08 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:08:10 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+550ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:27:13 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:15 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+370ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1512,9 +1514,9 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:08:10 AM</td>
+				<td class='timestamp'>11:27:15 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text green'><b>Test_LogOut_Page_check_Do_youwant_Logout_Text_751 Test Case  Passed Successfull</b></span>
+						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705 Test Case  Passed Successfull</b></span>
 					
 				</td>
 			</tr>
@@ -1525,15 +1527,15 @@
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='41'>
 					<div class='test-heading'>
-						<span class='test-name'>Test_LogOut_Page_check_No_Keep_me_Login_Text_752</span>
-						<span class='test-time'>Jan 13, 2021 01:08:10 AM</span>
+						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706</span>
+						<span class='test-time'>Jan 13, 2021 11:27:15 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:08:10 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:08:12 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+133ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:27:15 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+363ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1547,9 +1549,9 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:08:12 AM</td>
+				<td class='timestamp'>11:27:18 PM</td>
 				<td class='step-details'>
-						<span class='badge white-text green'><b>Test_LogOut_Page_check_No_Keep_me_Login_Text_752 Test Case  Passed Successfull</b></span>
+						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706 Test Case  Passed Successfull</b></span>
 					
 				</td>
 			</tr>
@@ -1560,15 +1562,15 @@
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='42'>
 					<div class='test-heading'>
-						<span class='test-name'>Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753</span>
-						<span class='test-time'>Jan 13, 2021 01:08:12 AM</span>
+						<span class='test-name'>Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707</span>
+						<span class='test-time'>Jan 13, 2021 11:27:18 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 13, 2021 01:08:12 AM</span>
-	<span class='label end-time'>Jan 13, 2021 01:08:20 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+292ms</span>
+	<span class='label start-time'>Jan 13, 2021 11:27:18 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+282ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -1582,7 +1584,821 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:08:20 AM</td>
+				<td class='timestamp'>11:27:20 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708</span>
+						<span class='test-time'>Jan 13, 2021 11:27:20 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:20 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+306ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709</span>
+						<span class='test-time'>Jan 13, 2021 11:27:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:22 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+311ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:25 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710</span>
+						<span class='test-time'>Jan 13, 2021 11:27:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:25 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+473ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:34 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='46'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_BackArrow_711</span>
+						<span class='test-time'>Jan 13, 2021 11:27:34 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:34 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+294ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:37 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_BackArrow_711 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_Trip_Details_Text_712</span>
+						<span class='test-time'>Jan 13, 2021 11:27:37 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:37 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+159ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:39 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_Trip_Details_Text_712 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='48'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_Your_Ride_with_Driver_713</span>
+						<span class='test-time'>Jan 13, 2021 11:27:39 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:39 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+284ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:41 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_Your_Ride_with_Driver_713 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_Start_Address_714</span>
+						<span class='test-time'>Jan 13, 2021 11:27:41 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:41 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:43 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+257ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:43 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_Start_Address_714 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_End_Address_715</span>
+						<span class='test-time'>Jan 13, 2021 11:27:43 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:43 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+274ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:45 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_End_Address_715 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_DriverName_716</span>
+						<span class='test-time'>Jan 13, 2021 11:27:45 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:45 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+359ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:48 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_DriverName_716 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='52'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_CarNumber_717</span>
+						<span class='test-time'>Jan 13, 2021 11:27:48 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:48 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:27:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+271ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:27:50 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_CarNumber_717 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_CarRating_718</span>
+						<span class='test-time'>Jan 13, 2021 11:27:50 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:27:50 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:28:53 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 3s+71ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:53 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'><b>Test_Completed_trip_Details_CarRating_718 Test Case  Failed</b></span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:53 PM</td>
+				<td class='step-details'>
+						<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ce433b53-bddc-4f47-b032-9de1ee76344e
+*** Element info: {Using=id, value=com.infosun.dialaride:id/atingBar}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724.Test_Completed_trip_Details_CarRating_718(Completed_trip_Details_TestCases_711_724.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>11:28:53 PM</td>
+				<td class='step-details'>
+						<b><font color=red>Screenshot of failure</font></b>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\92336\git\InfoCabs_Automation\InfoCabSnapperApp.com\screenshots\Test_Completed_trip_Details_CarRating_718_Wed_Jan_13_23_28_53_PKT_2021.png' src='C:\Users\92336\git\InfoCabs_Automation\InfoCabSnapperApp.com\screenshots\Test_Completed_trip_Details_CarRating_718_Wed_Jan_13_23_28_53_PKT_2021.png' data-src='C:\Users\92336\git\InfoCabs_Automation\InfoCabSnapperApp.com\screenshots\Test_Completed_trip_Details_CarRating_718_Wed_Jan_13_23_28_53_PKT_2021.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='54'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_TV_Help_Text_719</span>
+						<span class='test-time'>Jan 13, 2021 11:28:53 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:28:53 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:28:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+128ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:28:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_TV_Help_Text_719 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='55'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_ReBookButton_ButtonAndText_720</span>
+						<span class='test-time'>Jan 13, 2021 11:28:55 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:28:55 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+302ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:00 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_ReBookButton_ButtonAndText_720 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721</span>
+						<span class='test-time'>Jan 13, 2021 11:29:00 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:00 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+511ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:09 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='57'>
+					<div class='test-heading'>
+						<span class='test-name'>TestCompleted_trip_Details_Select_CeditCard_FromDrop_722</span>
+						<span class='test-time'>Jan 13, 2021 11:29:09 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:09 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+107ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:18 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>TestCompleted_trip_Details_Select_CeditCard_FromDrop_722 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='58'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_ClickOnBookConfirmButton_723</span>
+						<span class='test-time'>Jan 13, 2021 11:29:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:18 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 9s+753ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:28 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_ClickOnBookConfirmButton_723 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='59'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724</span>
+						<span class='test-time'>Jan 13, 2021 11:29:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:28 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:31 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+302ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:31 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='60'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_LogOut_Page_ClickTO_Open_Share_Page_750</span>
+						<span class='test-time'>Jan 13, 2021 11:29:31 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:31 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+733ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:48 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_LogOut_Page_ClickTO_Open_Share_Page_750 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_LogOut_Page_check_Do_youwant_Logout_Text_751</span>
+						<span class='test-time'>Jan 13, 2021 11:29:48 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:48 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+170ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:50 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_LogOut_Page_check_Do_youwant_Logout_Text_751 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='62'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_LogOut_Page_check_No_Keep_me_Login_Text_752</span>
+						<span class='test-time'>Jan 13, 2021 11:29:50 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:50 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:29:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+129ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:29:52 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text green'><b>Test_LogOut_Page_check_No_Keep_me_Login_Text_752 Test Case  Passed Successfull</b></span>
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='63'>
+					<div class='test-heading'>
+						<span class='test-name'>Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753</span>
+						<span class='test-time'>Jan 13, 2021 11:29:52 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 13, 2021 11:29:52 PM</span>
+	<span class='label end-time'>Jan 13, 2021 11:30:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+793ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>11:30:00 PM</td>
 				<td class='step-details'>
 						<span class='badge white-text green'><b>Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753 Test Case  Passed Successfull</b></span>
 					
@@ -1613,7 +2429,125 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='exception-collection' class='exception-collection'>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Jan 13, 2021 11:27:50 PM</td>
+										<td class='linked' test-id='53'>Test_Completed_trip_Details_CarRating_718</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ce433b53-bddc-4f47-b032-9de1ee76344e
+*** Element info: {Using=id, value=com.infosun.dialaride:id/atingBar}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724.Test_Completed_trip_Details_CarRating_718(Completed_trip_Details_TestCases_711_724.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='exception-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -1621,7 +2555,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>42</div>
+					<div class='panel-lead'>63</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -1633,19 +2567,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 13, 2021 01:02:38 AM</div>
+					<div class='panel-lead'>Jan 13, 2021 11:22:19 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 13, 2021 01:08:20 AM</div>
+			 		<div class='panel-lead'>Jan 13, 2021 11:30:00 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 5m 41s+754ms</div>
+					<div class='panel-lead'>0h 7m 40s+990ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -1688,14 +2622,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 42,
-				passParent: 42,
-				failParent: 0,
+                parentCount: 63,
+				passParent: 62,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -1720,7 +2654,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21":10.577,"Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666":12.211,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667":9.615,"Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668":8.744,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669":9.866,"Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670":3.279,"Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671":11.521,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672":10.248,"Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673":2.458,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674":5.856,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675":2.605,"Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676":2.385,"Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677":2.337,"Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678":2.299,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679":3.417,"Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680":2.328,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681":2.208,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682":2.181,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683":2.325,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684":2.33,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685":3.406,"Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686":4.716,"Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688":17.44,"Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689":7.071,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690":9.575,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691":9.563,"Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692":7.622,"Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693":22.61,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694":7.874,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695":8.399,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696":9.006,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697":7.33,"Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698":7.209,"Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699":2.182,"Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700":2.799,"Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701":4.249,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702":11.294,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703":9.976,"Test_LogOut_Page_ClickTO_Open_Share_Page_750":42.233,"Test_LogOut_Page_check_Do_youwant_Logout_Text_751":2.55,"Test_LogOut_Page_check_No_Keep_me_Login_Text_752":2.133,"Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753":7.292
+			        "Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21":10.749,"Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666":11.722,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667":9.549,"Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668":8.995,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669":9.602,"Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670":3.316,"Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671":11.872,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672":11.699,"Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673":2.397,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674":5.847,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675":2.445,"Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676":2.314,"Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677":2.274,"Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678":2.315,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679":3.644,"Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680":2.328,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681":2.167,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682":2.122,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683":2.317,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684":2.297,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685":3.32,"Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686":4.994,"Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688":18.42,"Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689":7.254,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690":9.557,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691":9.56,"Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692":7.619,"Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693":25.749,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694":8.077,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695":8.652,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696":8.083,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697":8.007,"Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698":7.425,"Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699":2.245,"Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700":2.736,"Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701":4.244,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702":11.494,"Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703":9.641,"Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704":2.51,"Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705":2.37,"Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706":2.363,"Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707":2.282,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708":2.306,"Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709":2.311,"Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710":9.473,"Test_Completed_trip_Details_BackArrow_711":2.294,"Test_Completed_trip_Details_Trip_Details_Text_712":2.159,"Test_Completed_trip_Details_Your_Ride_with_Driver_713":2.284,"Test_Completed_trip_Details_Start_Address_714":2.257,"Test_Completed_trip_Details_End_Address_715":2.274,"Test_Completed_trip_Details_DriverName_716":2.359,"Test_Completed_trip_Details_CarNumber_717":2.271,"Test_Completed_trip_Details_CarRating_718":63.071,"Test_Completed_trip_Details_TV_Help_Text_719":2.128,"Test_Completed_trip_Details_ReBookButton_ButtonAndText_720":4.302,"Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721":9.511,"TestCompleted_trip_Details_Select_CeditCard_FromDrop_722":9.107,"Test_Completed_trip_Details_ClickOnBookConfirmButton_723":9.753,"Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724":3.302,"Test_LogOut_Page_ClickTO_Open_Share_Page_750":16.733,"Test_LogOut_Page_check_Do_youwant_Logout_Text_751":2.17,"Test_LogOut_Page_check_No_Keep_me_Login_Text_752":2.129,"Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753":7.793
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

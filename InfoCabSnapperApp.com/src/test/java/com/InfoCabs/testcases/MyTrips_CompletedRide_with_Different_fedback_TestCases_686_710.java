@@ -13,7 +13,7 @@ import com.InfoCabs.common.TestBase;
 
 import io.appium.java_client.android.Activity;
 
-public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_703 extends TestBase {
+public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
@@ -354,7 +354,7 @@ public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_703 exte
 	
 	@Test(priority = 710)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu_Button_710(String CommonLocator, String DropoffAddress)
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -367,6 +367,8 @@ public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_703 exte
 		HelperMethods.waitForPageLoaded();
 
 	}
+	
+	
 
 
 }

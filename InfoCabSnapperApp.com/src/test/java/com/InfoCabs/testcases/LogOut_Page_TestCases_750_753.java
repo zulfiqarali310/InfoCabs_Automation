@@ -26,6 +26,8 @@ public class LogOut_Page_TestCases_750_753 extends TestBase {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_menu"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_menu")));
 		L1.click();
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 
 		WebElement L2 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='Logout']"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(Sidermenue_CommonText + "[@text='Logout']")));

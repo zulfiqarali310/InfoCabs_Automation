@@ -144,11 +144,12 @@
            <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657"/>
            <class name="com.InfoCabs.testcases.About_Us_Page_TestCases_658_666"/>
               <class name="com.InfoCabs.testcases.Share_Page_TestCases_667_668"/>
-              
-        
+             
             <class name="com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685"/>
-            <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_703"/>
+            <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710"/>
+            <class name="com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724"/>
             <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_750_753"/>
+      
             
             
 
