@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+   <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
+    <parameter name="AppCommonPermision_TextS2" value="Allow CabSnapper (Beta) to access this device's location?"/>
+    <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>

@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="Incorrect_PostPay_Pwd" value="12344455"/>
   <parameter name="DeviceUDID" value="52006c45b4f164dd"/>
-  <parameter name="CVV" value="123"/>
-  <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
-  <parameter name="InavlidPin" value="123abcd"/>
   <parameter name="ExpireDate" value="2/2023"/>
-  <parameter name="Invalid_CVV" value="1"/>
   <parameter name="validPromoCode" value="QATester"/>
+  <parameter name="Name" value="QA Tester"/>
+  <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
+  <parameter name="Pwd" value="12345678"/>
+  <parameter name="Invalid_PostPayEmail" value="Tester@infosun.co.uk"/>
+  <parameter name="Invalid_Pwd" value="123a"/>
+  <parameter name="Change_PhoneNumber" value="00923438211271"/>
+  <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
+  <parameter name="DeviceType" value="Android"/>
+  <parameter name="validPin" value="123456"/>
+  <parameter name="AppPackage" value="com.infosun.dialaride"/>
+  <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
+  <parameter name="NotRegister_email" value="ab12@cd.com"/>
+  <parameter name="CreditCardName" value="QA Tester"/>
+  <parameter name="NotRegister_PhoneNum" value="12345678912"/>
+  <parameter name="Rider_PWD" value="2222"/>
+  <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="CVV" value="123"/>
+  <parameter name="PostPay_Pwd" value="12345678"/>
+  <parameter name="CommonLocator" value="com.infosun.dialaride:id/"/>
+  <parameter name="InavlidPin" value="123abcd"/>
+  <parameter name="Invalid_CVV" value="1"/>
   <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
   <parameter name="Invalid_email" value="abcd1234"/>
   <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
-  <parameter name="Name" value="QA Tester"/>
-  <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
   <parameter name="PhoneNum" value="00923358391478"/>
   <parameter name="Feedback" value="Rider was good and drive well his behavior was out standings"/>
   <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
-  <parameter name="Pwd" value="12345678"/>
   <parameter name="valid_email" value="zulfiqar@infosun.co.uk"/>
+  <parameter name="Invalid_PostPay_Pwd" value="12"/>
   <parameter name="DriverNote" value="please follow map, you will catch me at picking point."/>
   <parameter name="Invalid_PhoneNum" value="1234"/>
   <parameter name="CommID" value="15"/>
@@ -28,48 +43,29 @@
   <parameter name="CommonLocator_ClassImageView" value="android.widget.ImageView"/>
   <parameter name="Change_Pwd" value="12345677"/>
   <parameter name="DeviceVersion" value="7"/>
-  <parameter name="Invalid_Pwd" value="123a"/>
   <parameter name="Invalid_CreditCardNumber" value="123"/>
-  <parameter name="Change_PhoneNumber" value="00923438211271"/>
   <parameter name="Incorrect_Pwd" value="1234567ab"/>
   <parameter name="InvalidPromoCode" value="12345abc"/>
-  <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
-  <parameter name="DeviceType" value="Android"/>
-  <parameter name="validPin" value="123456"/>
-  <parameter name="AppPackage" value="com.infosun.csandroidx"/>
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
   <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
-  <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
-  <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>
-  <parameter name="NotRegister_email" value="ab12@cd.com"/>
-  <parameter name="CreditCardName" value="QA Tester"/>
+  <parameter name="PostPayEmail" value="jeet@infosun.co.uk"/>
+  <parameter name="AppCommonPermision_TextS3" value="Allow Dial-A-Ride (Beta) to send and view SMS messages?"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
-  <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
-  <parameter name="NotRegister_PhoneNum" value="12345678912"/>
-  <parameter name="Rider_PWD" value="2222"/>
-  <parameter name="AppCommonPermision_TextS2" value="Allow CabSnapper (Beta) to access this device&#039;s location?"/>
+  <parameter name="AppCommonPermision_TextS1" value="Allow Dial-A-Ride (Beta) to access photos, media and files on your device?"/>
+  <parameter name="AppCommonPermision_TextS2" value="Allow Dial-A-Ride (Beta) to access this device&#039;s location?"/>
   <parameter name="DeviceName" value="Galaxy J7 Pro"/>
   <listeners>
     <listener class-name="com.InfoCabs.common.TestListeners"/>
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299">
+      <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657">
         <methods>
+          <include name="Test_Add_PostPay_Account_EnterPostPay_Email_Validation_errorMessage_645" invocation-numbers="0"/>
           <include name="setup"/>
-          <include name="Test_Schedule_Saloon_Ride_Pick_Cale_CurrentYear_is_present_268" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.Schedule_Saloon_Ride_263_299 -->
-      <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651">
-        <methods>
-          <include name="Test_Add_PostPay_Account_NoCancel_Text_and_Button_650" invocation-numbers="0"/>
-          <include name="Test_Add_PostPay_Account_YesDeleteCard_Text_and_Button_649" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="Test_Add_PostPay_Account_AreYouSurewant_to_delete_text_648" invocation-numbers="0"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651 -->
+      </class> <!-- com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -16,9 +16,11 @@
   <parameter name="DeviceName" value="Galaxy J7 Pro"/>
   <parameter name="DeviceUDID" value="52006c45b4f164dd"/>
   
-   <parameter name="AppPackage" value="com.infosun.csandroidx"/>
+   <parameter name="AppPackage" value="com.infosun.dialaride"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
-  <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
+  <parameter name="CommonLocator" value="com.infosun.dialaride:id/"/>
+  
+  
   
   <parameter name="CommonLocator_ForAlerts" value="com.android.packageinstaller:id/"/>
   <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
@@ -27,9 +29,9 @@
    <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
   <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
   
-    <parameter name="AppCommonPermision_TextS1" value="Allow CabSnapper (Beta) to access photos, media and files on your device?"/>
-    <parameter name="AppCommonPermision_TextS2" value="Allow CabSnapper (Beta) to access this device's location?"/>
-    <parameter name="AppCommonPermision_TextS3" value="Allow CabSnapper (Beta) to send and view SMS messages?"/>
+    <parameter name="AppCommonPermision_TextS1" value="Allow Dial-A-Ride (Beta) to access photos, media and files on your device?"/>
+    <parameter name="AppCommonPermision_TextS2" value="Allow Dial-A-Ride (Beta) to access this device's location?"/>
+    <parameter name="AppCommonPermision_TextS3" value="Allow Dial-A-Ride (Beta) to send and view SMS messages?"/>
 
   
            <!-- CabSnapper Data -->
@@ -60,6 +62,17 @@
          <parameter name="CVV" value="123"/>
          <parameter name="Invalid_CVV" value="1"/>
          <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
+         
+                <!-- CabSnapper Credit Card Details -->
+        <parameter name="PostPayEmail" value="jeet@infosun.co.uk"/>
+        <parameter name="Invalid_PostPayEmail" value="Tester@infosun.co.uk"/>
+         <parameter name="PostPay_Pwd" value="12345678"/>
+         <parameter name="Incorrect_PostPay_Pwd" value="12344455"/>
+         <parameter name="Invalid_PostPay_Pwd" value="12"/>
+         
+         
+         
+         
   
  <!-- CabSnapper Add PickUp Point Data -->
  
@@ -91,8 +104,7 @@
        <class name="com.InfoCabs.common.TestBase"/>
        <!-- The to-be-commented XML block goes here. -->
        
-
-        <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
+       <class name="com.InfoCabs.testcases.LoginPage_TestCases_1_22"/>
        <class name="com.InfoCabs.testcases.ForgotPhoneNumberPage_TestCases_23_32"/> 
         <class name="com.InfoCabs.testcases.ForgotPasswordPage_TestCases_33_41"/>
         <class name="com.InfoCabs.testcases.CreateNewUserPage_TestCases_42_71"/>
@@ -117,25 +129,27 @@
            <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378"/>
            <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401"/>
            <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439"/>
-
-            <class name="com.InfoCabs.testcases.Book_8_Seater_TestCases_440_466"/>
+          
+              <class name="com.InfoCabs.testcases.Book_8_Seater_TestCases_440_466"/>
             <class name="com.InfoCabs.testcases.Book_8_Seater_with_PromoCode_TestCases_467_502"/>
             <class name="com.InfoCabs.testcases.Book_8_Seater_with_CreaditCards_TestCases_503_525"/>
              <class name="com.InfoCabs.testcases.Scedule_8_Seater_Cab_TestCases_527_567"/>
              
-                   <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576"/>
+             <class name="com.InfoCabs.testcases.Side_Menu_elements_verification_TestCases_568_576"/>
             <class name="com.InfoCabs.testcases.MyProfile_SideMenue_verification_TestCases_577_587"/>
             <class name="com.InfoCabs.testcases.Change_Password_TestCases_588_610"/>
             <class name="com.InfoCabs.testcases.Add_PaymentsMethods_TestCases_611_622"/>
             <class name="com.InfoCabs.testcases.Add_CreditCards_TestCases_623_639"/>
-            <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_651"/>
-            <class name="com.InfoCabs.testcases.About_Us_Page_TestCases_652_659"/>
-            <class name="com.InfoCabs.testcases.Share_Page_TestCases_660_661"/>
-            <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_662_665"/>
             
-            
-            
+           <class name="com.InfoCabs.testcases.Add_PostPay_Account_TestCases_640_657"/>
+           <class name="com.InfoCabs.testcases.About_Us_Page_TestCases_658_666"/>
+              <class name="com.InfoCabs.testcases.Share_Page_TestCases_667_668"/>
+              
+        
             <class name="com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685"/>
+            <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_703"/>
+            <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_750_753"/>
+            
             
 
      
