@@ -23,7 +23,7 @@ public class LunchDriver_App_148_158 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
-	@Test(priority = 21)
+	/*@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
 			String CommonLocator) throws InterruptedException {
@@ -50,7 +50,7 @@ public class LunchDriver_App_148_158 extends TestBase {
 		} else {
 			System.out.println("Test:21, User are not able to login may be some issue");
 		}
-	}
+	}*/
 
 	@Test(priority = 150)
 	public void Test_LunchDriver_App_PushCustomer_App_to_BackGround_150() {
@@ -129,7 +129,10 @@ public class LunchDriver_App_148_158 extends TestBase {
 
 	@Test(priority = 156)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_LunchDriver_App_EnterDropofAddress_Cab_156(String CommonLocator, String DropoffAddress) {
+	public void Test_LunchDriver_App_EnterDropofAddress_Cab_156(String CommonLocator, String DropoffAddress) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);

@@ -14,8 +14,11 @@ public class ForgotPasswordPage_TestCases_33_41 extends TestBase {
 
 	@Test(priority = 33)
 	@Parameters("CommonLocator")
-	public void Test_ForgotPhoneNumber_Button_is_clickable_On_LoginPage_33(String CommonLocator) {
+	public void Test_ForgotPhoneNumber_Button_is_clickable_On_LoginPage_33(String CommonLocator) throws InterruptedException {
 
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_forgot_pass"));
 		HelperMethods.waitForElementToBeClickable(L1);
 		L1.click();
@@ -159,7 +162,7 @@ public class ForgotPasswordPage_TestCases_33_41 extends TestBase {
 		if (L4.isDisplayed()) {
 			String Get_text1 = L4.getText();
 			Assert.assertEquals(Get_text1,
-					"You'll receive an email from CabSnapper with a instruction to recover password");
+					"You'll receive an email from London Cars with a instruction to recover password");
 
 		} else {
 			System.out.println("Test:39, Message send Success Message are not displayed");

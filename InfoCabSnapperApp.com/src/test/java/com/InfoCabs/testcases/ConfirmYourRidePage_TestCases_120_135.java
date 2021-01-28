@@ -17,9 +17,11 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 
 	@Test(priority = 120)
 	@Parameters({ "CommonLocator" })
-	public void Test_ConfirmYourRidePage_Confirmride_Text_120(String CommonLocator) {
-
+	public void Test_ConfirmYourRidePage_Confirmride_Text_120(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tvTitle"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -34,6 +36,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_Notification_Icon_121(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_notif")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -43,6 +46,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_Pickup_Icon_122(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_pick")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -52,6 +56,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_Dropoff_Icon_123(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_drop")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -63,6 +68,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 			String PickUpAddress) {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_pick"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -79,6 +85,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 			String DropoffAddress) {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_destination"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -94,6 +101,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	public void Test_ConfirmYourRidePage_AddNotes_Text_Verification_126(String CommonLocator) {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_notes"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -108,6 +116,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_CarImage_arePresent_127(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_car")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -117,6 +126,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_SaloonCar_Text_arePresent_127(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_car_name"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -131,6 +141,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_EstimatedFares_Text_arePresent_128(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_hint"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -145,6 +156,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_FaresValue_inNumbers_129(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "tv_price")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -154,6 +166,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_AddPromocode_Text_arePresent_130(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_promo"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -168,6 +181,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_Paymentmethod_icon_arePresent_131(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_pay")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -191,6 +205,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ConfirmYourRidePage_LetsGo_Button_Text_arePresent_133(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm_book"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -205,6 +220,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	@Parameters({ "CommonLocator", "DriverNote" })
 	public void Test_ConfirmYourRidePage_AddNote_toTheDriver_134(String CommonLocator, String DriverNote) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_notes"));
 
 		if (L1.isDisplayed()) {
@@ -225,6 +241,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 	public void Test_MConfirmYourRidePage_ClickOn_LetsGo_Button_135(String CommonLocator) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm_book"));
 		HelperMethods.waitForElementToBeClickable(L1);
 		L1.click();

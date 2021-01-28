@@ -15,6 +15,33 @@ public class Add_PaymentsMethods_TestCases_611_622 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
+	/*@Test(priority = 21)
+	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
+	public void Test_Check_Remeber_Featur_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
+			String CommonLocator) throws InterruptedException {
+
+		HelperMethods.waitForPageLoaded();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
+		HelperMethods.waitForElementToBeVisible(L1);
+		L1.sendKeys(PhoneNum);
+
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "et_password"));
+		HelperMethods.waitForElementToBeVisible(L2);
+		L2.sendKeys(Pwd);
+
+		WebElement L3 = driver.findElement(By.id(CommonLocator + "btn_login"));
+		HelperMethods.waitForElementToBeClickable(L3);
+		L3.click();
+		HelperMethods.waitForPageLoaded();
+		WebElement L4 = driver.findElement(By.id(CommonLocator + "tvTitle"));
+		if (L4.isDisplayed()) {
+			String Get_text1 = L4.getText();
+			Assert.assertEquals(Get_text1, "Add a Pickup Point");
+		} else {
+			System.out.println("Test:21, User are not able to login may be some issue");
+		}
+	}*/
+	
 	@Test(priority = 611)
 	@Parameters({ "CommonLocator", "Sidermenue_CommonText" })
 	public void Test_Add_PaymentsMethods_are_sections_611(String CommonLocator, String Sidermenue_CommonText) {

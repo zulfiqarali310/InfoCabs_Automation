@@ -216,8 +216,10 @@ public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 exte
 	@Test(priority = 699)
 	@Parameters("CommonLocator_ClassView")
 	public void Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699(
-			String CommonLocator_ClassView) {
+			String CommonLocator_ClassView) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Rate your ride']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -260,6 +262,7 @@ public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 exte
 	public void Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702(String CommonLocator,
 			String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		WebElement L5 = driver.findElement(By.id(CommonLocator + "btn_menu"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -276,6 +279,7 @@ public class MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 exte
 	public void Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703(
 			String CommonLocator, String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		WebElement L2 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='My Trips']"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);

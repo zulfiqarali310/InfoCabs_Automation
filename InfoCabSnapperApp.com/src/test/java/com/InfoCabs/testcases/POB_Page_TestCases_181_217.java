@@ -22,9 +22,9 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 
 	@Test(priority = 181)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_POB_Page_EnterDropofAddress_Cab_181(String CommonLocator, String DropoffAddress) {
+	public void Test_POB_Page_EnterDropofAddress_Cab_181(String CommonLocator, String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
-		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
@@ -169,7 +169,10 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 
 	@Test(priority = 190)
 	@Parameters("CommonLocator")
-	public void Test_POB_Page_You_arein_yourway_Text_arePresent_190(String CommonLocator) {
+	public void Test_POB_Page_You_arein_yourway_Text_arePresent_190(String CommonLocator) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
@@ -236,6 +239,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_Distance_Text_arePresent_196(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Distance']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -260,6 +264,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_Price_Text_arePresent_198(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Price']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -284,6 +289,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_ETA_Text_arePresent_200(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='ETA']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -308,6 +314,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_Payment_Text_arePresent_202(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Payment']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -333,6 +340,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	public void Test_POB_Page_On_CS_App_ClikOn_ShareRide_Button_and_Text_arePresent_204(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_call_driver"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -353,6 +361,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	public void Test_POB_Page_On_CS_App_ClikOn_I_Needto_MakeaCall_Button_and_Text_arePresent_205(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_cancel_ride"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -371,6 +380,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	public void Test_POB_Page_On_CS_App_I_Needto_MakeaCall_Alert_and_button_areWorking_206(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "iv_close"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "iv_close")));
@@ -386,6 +396,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_POB_Page_car_name_I_Needtomake_aCall_Text_arePresent_207(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_text"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -410,6 +421,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_POB_Page_car_name_Contact_Operator_Text_arePresent_209(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_driver_title"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -424,6 +436,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_Contact_Operator_2nd_Text_arePresent_210(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Contact Operator']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -448,6 +461,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_POB_Page_car_name_Emergency_Text_arePresent_212(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_alert"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -462,6 +476,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator_ClassView")
 	public void Test_POB_Page_car_name_Contact_Text_arePresent_213(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Contact']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -476,6 +491,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_POB_Page_ClickOn_Contact_Operator__214(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "container_driver_contact"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "container_driver_contact")));
@@ -488,6 +504,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	@Parameters({ "CommonLocator", "AppPackage" })
 	public void Test_POB_Page_On_CS_App_Backto_CSApp_from_PhoneDialpad_215(String CommonLocator, String AppPackage) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		driver.activateApp(AppPackage);
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
@@ -498,6 +515,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	public void Test_POB_Page_On_CS_App_Now_Try_Emergency_Contact_OpenAlert_Again_216(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_cancel_ride"));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "tv_cancel_ride")));
@@ -511,6 +529,7 @@ public class POB_Page_TestCases_181_217 extends TestBase {
 	public void Test_POB_Page_On_CS_App_Now_Try_Emergency_Contact_217(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		HelperMethods.waitForPageLoaded();
 		WebElement L2 = driver.findElement(By.id(CommonLocator + "container_emergency_contact"));

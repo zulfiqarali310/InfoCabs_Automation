@@ -73,8 +73,9 @@ public class STC_And_FeedBack_Page_TestCases_218_232 extends TestBase {
 
 	@Test(priority = 222)
 	@Parameters("CommonLocator")
-	public void Test_STC_And_FeedBack_Page_BackButton_is_present_222(String CommonLocator) {
+	public void Test_STC_And_FeedBack_Page_BackButton_is_present_222(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_back")).isDisplayed();
 		boolean expected = true;

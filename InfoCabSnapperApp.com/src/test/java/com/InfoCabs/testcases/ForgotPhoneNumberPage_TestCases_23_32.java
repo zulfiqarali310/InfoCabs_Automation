@@ -16,8 +16,11 @@ public class ForgotPhoneNumberPage_TestCases_23_32 extends TestBase {
 
 	@Test(priority = 23)
 	@Parameters("CommonLocator")
-	public void Test_ForgotPhoneNumber_Button_is_clickable_On_LoginPage_23(String CommonLocator) {
+	public void Test_ForgotPhoneNumber_Button_is_clickable_On_LoginPage_23(String CommonLocator) throws InterruptedException {
 
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_forgot_phone"));
 		HelperMethods.waitForElementToBeClickable(L1);
 		L1.click();
@@ -34,8 +37,9 @@ public class ForgotPhoneNumberPage_TestCases_23_32 extends TestBase {
 
 	@Test(priority = 24)
 	@Parameters("CommonLocator")
-	public void Test_ForgotPhoneNumberPage_Logo_24(String CommonLocator) {
+	public void Test_ForgotPhoneNumberPage_Logo_24(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_logo")).isDisplayed();

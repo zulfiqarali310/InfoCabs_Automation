@@ -30,6 +30,7 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 			String CommonLocator) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
@@ -47,7 +48,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 		WebElement L4 = driver.findElement(By.id(CommonLocator + "tvTitle"));
 		if (L4.isDisplayed()) {
 			String Get_text1 = L4.getText();
+			HelperMethods.waitForPageLoaded();
 			Assert.assertEquals(Get_text1, "Add a Pickup Point");
+			HelperMethods.waitForPageLoaded();
 		} else {
 			System.out.println("Test:21, User are not able to login may be some issue");
 		}
@@ -299,10 +302,13 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_Book_8_Seater_weHave_Sent_Text_arePresent_454(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
+			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			Assert.assertEquals(Get_text1, "We have sent you a cab.");
 			Thread.sleep(4000);
 
@@ -375,10 +381,13 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 	public void Test_Book_8_Seater_You_arein_yourway_Text_arePresent_459(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
+			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			Assert.assertEquals(Get_text1, "You are on your way.");
 			Thread.sleep(5000);
 
@@ -442,8 +451,9 @@ public class Book_8_Seater_TestCases_440_466 extends TestBase {
 
 	@Test(priority = 464)
 	@Parameters("CommonLocator_ClassView")
-	public void Test_Book_8_Seater_Rate_your_ride_Text_arePresent_464(String CommonLocator_ClassView) {
+	public void Test_Book_8_Seater_Rate_your_ride_Text_arePresent_464(String CommonLocator_ClassView) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Rate your ride']"));
 		if (L1.isDisplayed()) {

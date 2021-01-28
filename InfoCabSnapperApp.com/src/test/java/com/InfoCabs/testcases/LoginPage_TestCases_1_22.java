@@ -151,48 +151,60 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			System.out.println("Test:11, Screen=3 Locators are not properly get or may be someother issue");
 		}
 	}
-
+	
 	@Test(priority = 12)
 	@Parameters("CommonLocator")
-	public void Test_LoginPage_ForgotPassword_Text_12(String CommonLocator) {
+	public void Test_LoginPage_Check_Rememberme_text_12(String CommonLocator) {
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "cbRemember"));
+		if (L1.isDisplayed()) {
+			String Get_text1 = L1.getText();
+			Assert.assertEquals(Get_text1, "Remember me");
+		} else {
+			System.out.println("Test:12, Remember me text are not present");
+		}
+	}
+
+	@Test(priority = 13)
+	@Parameters("CommonLocator")
+	public void Test_LoginPage_ForgotPassword_Text_13(String CommonLocator) {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_forgot_pass"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "Forgot password?");
 		} else {
-			System.out.println("Test:12, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:13, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 13)
+	@Test(priority = 14)
 	@Parameters("CommonLocator")
-	public void Test_LoginPage_NewUser_Text_13(String CommonLocator) {
+	public void Test_LoginPage_NewUser_Text_14(String CommonLocator) {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "hint_register"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "New User?");
-		} else {
-			System.out.println("Test:13, Screen=3 Locators are not properly get or may be someother issue");
-		}
-	}
-
-	@Test(priority = 14)
-	@Parameters("CommonLocator_ClassView")
-	public void Test_LoginPage_SignUP_Text_14(String CommonLocator_ClassView) {
-		WebElement L1 = driver
-				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Sign up for new account']"));
-		if (L1.isDisplayed()) {
-			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, "Sign up for new account");
 		} else {
 			System.out.println("Test:14, Screen=3 Locators are not properly get or may be someother issue");
 		}
 	}
 
 	@Test(priority = 15)
+	@Parameters("CommonLocator_ClassView")
+	public void Test_LoginPage_SignUP_Text_15(String CommonLocator_ClassView) {
+		WebElement L1 = driver
+				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Sign up for new account']"));
+		if (L1.isDisplayed()) {
+			String Get_text1 = L1.getText();
+			Assert.assertEquals(Get_text1, "Sign up for new account");
+		} else {
+			System.out.println("Test:15, Screen=3 Locators are not properly get or may be someother issue");
+		}
+	}
+
+	@Test(priority = 16)
 	@Parameters("CommonLocator")
-	public void Test_LoginPage_PhoneNumber_RequiredErrorMessage_15(String CommonLocator) {
+	public void Test_LoginPage_PhoneNumber_RequiredErrorMessage_16(String CommonLocator) {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_login"));
 		HelperMethods.waitForElementToBeClickable(L1);
 		L1.click();
@@ -202,14 +214,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			String Get_text1 = L2.getText();
 			Assert.assertEquals(Get_text1, "Enter phone number");
 		} else {
-			System.out.println("Test:15, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:16, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 16)
+	@Test(priority = 17)
 	@Parameters({ "Invalid_PhoneNum", "CommonLocator" })
-	public void Test_LoginPage_PhoneNumber_ValidationErrorMessage_16(String Invalid_PhoneNum, String CommonLocator) {
+	public void Test_LoginPage_PhoneNumber_ValidationErrorMessage_17(String Invalid_PhoneNum, String CommonLocator) {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(Invalid_PhoneNum);
@@ -223,14 +235,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			Assert.assertEquals(Get_text1, "Enter valid phone number");
 			L1.clear();
 		} else {
-			System.out.println("Test:16, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:17, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 17)
+	@Test(priority = 18)
 	@Parameters({ "PhoneNum", "CommonLocator" })
-	public void Test_LoginPage_PasswordRequired_error_Message_17(String PhoneNum, String CommonLocator) {
+	public void Test_LoginPage_PasswordRequired_error_Message_18(String PhoneNum, String CommonLocator) {
 
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
 		HelperMethods.waitForElementToBeVisible(L1);
@@ -245,14 +257,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			Assert.assertEquals(Get_text1, "Enter password ");
 			L1.clear();
 		} else {
-			System.out.println("Test:17, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:18, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 18)
+	@Test(priority = 19)
 	@Parameters({ "PhoneNum", "Invalid_Pwd", "CommonLocator" })
-	public void Test_LoginPage__Password_ValidationErrorMessage_18(String PhoneNum, String Invalid_Pwd,
+	public void Test_LoginPage__Password_ValidationErrorMessage_19(String PhoneNum, String Invalid_Pwd,
 			String CommonLocator) {
 
 		HelperMethods.waitForPageLoaded();
@@ -275,14 +287,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			L1.clear();
 			L2.clear();
 		} else {
-			System.out.println("Test:18, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:19, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 19)
+	@Test(priority = 20)
 	@Parameters({ "PhoneNum", "Incorrect_Pwd", "CommonLocator" })
-	public void Test_LoginPage_IcorrectPassword_Validation_19(String PhoneNum, String Incorrect_Pwd,
+	public void Test_LoginPage_IcorrectPassword_Validation_20(String PhoneNum, String Incorrect_Pwd,
 			String CommonLocator) {
 
 		HelperMethods.waitForPageLoaded();
@@ -306,14 +318,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			L1.clear();
 			L2.clear();
 		} else {
-			System.out.println("Test:19, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:20, Screen=3 Locators are not properly get or may be someother issue");
 		}
 
 	}
 
-	@Test(priority = 20)
+	@Test(priority = 21)
 	@Parameters({ "Pwd", "CommonLocator" })
-	public void Test_LoginPage_PasswordView_eyeIcon_MakePassword_Visisble_20(String Pwd, String CommonLocator) {
+	public void Test_LoginPage_PasswordView_eyeIcon_MakePassword_Visisble_21(String Pwd, String CommonLocator) {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_password"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(Pwd);
@@ -322,14 +334,14 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 		L2.click();
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, Pwd);
+			Assert.assertEquals(Get_text1, Pwd+ ", Password");
 			L1.clear();
 		} else {
-			System.out.println("Test:20, Screen=3 Locators are not properly get or may be someother issue");
+			System.out.println("Test:21, Screen=3 Locators are not properly get or may be someother issue");
 		}
 	}
 
-	@Test(priority = 21)
+	@Test(priority = 22)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
 			String CommonLocator) throws InterruptedException {
@@ -352,15 +364,16 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			String Get_text1 = L4.getText();
 			Assert.assertEquals(Get_text1, "Add a Pickup Point");
 		} else {
-			System.out.println("Test:21, User are not able to login may be some issue");
+			System.out.println("Test:22, User are not able to login may be some issue");
 		}
 	}
 
-	@Test(priority = 22)
+	@Test(priority = 23)
 	@Parameters({ "CommonLocator", "Sidermenue_CommonText" })
-	public void Test_User_Logout_from_Application_22(String CommonLocator, String Sidermenue_CommonText) {
+	public void Test_User_Logout_from_Application_23(String CommonLocator, String Sidermenue_CommonText) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+        Thread.sleep(3000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_menu"));
 		HelperMethods.waitForElementToBeClickable(L1);
@@ -384,7 +397,7 @@ public class LoginPage_TestCases_1_22 extends TestBase {
 			String Get_text1 = L4.getText();
 			Assert.assertEquals(Get_text1, "Log In");
 		} else {
-			System.out.println("Test:22, User are not able to Logout may be some issue");
+			System.out.println("Test:23, User are not able to Logout may be some issue");
 		}
 
 	}

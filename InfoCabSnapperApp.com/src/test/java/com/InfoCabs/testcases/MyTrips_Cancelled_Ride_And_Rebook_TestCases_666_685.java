@@ -15,7 +15,7 @@ public class MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685 extends TestBas
 
 	HelperMethods HelpMethod = new HelperMethods();
 
-	/*@Test(priority = 21)
+	@Test(priority = 21)
 	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
 	public void Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(String PhoneNum, String Pwd,
 			String CommonLocator) throws InterruptedException {
@@ -40,13 +40,14 @@ public class MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685 extends TestBas
 		} else {
 			System.out.println("Test:21, User are not able to login may be some issue");
 		}
-	}*/
+	}
 
 	@Test(priority = 666)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
 	public void Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666(String CommonLocator,
-			String DropoffAddress) {
+			String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
@@ -131,6 +132,9 @@ public class MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685 extends TestBas
 			Thread.sleep(1000);
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "btn_cancel_ride")));
 			L1.click();
+			HelperMethods.waitForPageLoaded();
+			Thread.sleep(4000);
+			driver.hideKeyboard();
 
 		} else {
 			System.out.println("Test:670, Hang on text are not present");

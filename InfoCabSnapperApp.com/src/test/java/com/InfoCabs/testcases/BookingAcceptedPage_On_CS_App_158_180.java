@@ -19,11 +19,15 @@ public class BookingAcceptedPage_On_CS_App_158_180 extends TestBase {
 
 	@Test(priority = 158)
 	@Parameters("CommonLocator")
-	public void Test_BookingAcceptedPage_On_CS_App_weHave_Sent_Text_arePresent_158(String CommonLocator) {
+	public void Test_BookingAcceptedPage_On_CS_App_weHave_Sent_Text_arePresent_158(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
+			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			Assert.assertEquals(Get_text1, "We have sent you a cab.");
 
 		} else {
@@ -207,6 +211,7 @@ public class BookingAcceptedPage_On_CS_App_158_180 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_BookingAcceptedPage_On_CS_App_ClikOn_Cancel_Button_and_Text_arePresent_174(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_cancel_ride"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -251,6 +256,8 @@ public class BookingAcceptedPage_On_CS_App_158_180 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_BookingAcceptedPage_On_CS_App_Alert_cancel_Text_arePresent_177(String CommonLocator)
 			throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_text"));

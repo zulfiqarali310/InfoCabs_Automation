@@ -59,6 +59,7 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 	public void Test_Schedule_6_Seater_Cab_ClickOn_ScheduleRide_Button_401(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -98,7 +99,6 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 	@Test(priority = 404)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
 	public void Test_Schedule_6_Seater_Cab_EnterDropofAddress_Cab_404(String CommonLocator, String DropoffAddress) {
-		HelperMethods.waitForPageLoaded();
 		HelperMethods.waitForPageLoaded();
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -509,6 +509,8 @@ public class Schedule_6_Seater_Cab_TestCases_401_439 extends TestBase {
 		Thread.sleep(3000);
 		L5.click();
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 
 	}
 

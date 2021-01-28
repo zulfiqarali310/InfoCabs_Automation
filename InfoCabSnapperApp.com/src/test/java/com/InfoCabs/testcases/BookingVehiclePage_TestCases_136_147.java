@@ -18,8 +18,10 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 
 	@Test(priority = 136)
 	@Parameters("CommonLocator")
-	public void Test_BookingVehiclePage_HangOns_Text_arePresent_136(String CommonLocator) {
+	public void Test_BookingVehiclePage_HangOns_Text_arePresent_136(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -34,7 +36,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	@Parameters("CommonLocator_ClassView")
 	public void Test_BookingVehiclePage_We_areSendingCab_Text_arePresent_137(String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
-
+		driver.hideKeyboard();
 		WebElement L1 = driver
 				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='We are sending you a cab…']"));
 		if (L1.isDisplayed()) {
@@ -51,12 +53,15 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_CancleRide_Button_Text_arePresent_138(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_cancel_ride"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
 			Assert.assertEquals(Get_text1, "Cancel Ride");
 			Thread.sleep(1000);
 			L1.click();
+			Thread.sleep(4000);
+			driver.hideKeyboard();
 
 		} else {
 			System.out.println("Test:136, Hang on text are not present");
@@ -70,6 +75,8 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_CancleRide_afterwaiting_60Sec_139(String CommonLocator, String DropoffAddress,
 			String CommonLocator_ClassView) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
@@ -125,6 +132,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_waitfor_OneMinute__1stime_Text_arePresent_142(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 80);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(CommonLocator + "container_queue")));
 		System.out.println("Wait are done1");
@@ -135,6 +143,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_Youare_at_Number_Text_arePresent_143(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver
 				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='You are at number ']"));
 		if (L1.isDisplayed()) {
@@ -151,6 +160,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_One_Number_Text_arePresent_144(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_queue_number"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -166,6 +176,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_in_Queue_Text_arePresent_145(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver
 				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text=' in queue']"));
 		if (L1.isDisplayed()) {
@@ -182,6 +193,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_Pleasewait_Text_arePresent_146(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver
 				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Please wait while we assign you a cab']"));
 		if (L1.isDisplayed()) {
@@ -198,6 +210,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_iLL_Wait_Text_arePresent_147(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "ignore_queue"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -215,6 +228,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_waitfor_OneMinute_Text_arePresent_148(String CommonLocator,
 			String CommonLocator_ClassView) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 80);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(CommonLocator + "container_queue")));
 		System.out.println("Wait are done1");
@@ -225,6 +239,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 	public void Test_BookingVehiclePage_CancleRide_Button_And_Text_arePresent_149(String CommonLocator,
 			String CommonLocator_ClassView) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "cancel_queue"));
 		HelperMethods.waitForPageLoaded();
 		if (L1.isDisplayed()) {
@@ -233,6 +248,7 @@ public class BookingVehiclePage_TestCases_136_147 extends TestBase{
 			HelperMethods.waitForElementToBeClickable(L1);
 			L1.click();
 			Thread.sleep(4000);
+			driver.hideKeyboard();
 
 		} else {
 			System.out.println("Test:149, cancle ride button are not present");

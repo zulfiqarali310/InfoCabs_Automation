@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="8" total="71" passed="62">
+<testng-results skipped="0" failed="0" ignored="6" total="65" passed="59">
   <reporter-output>
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
@@ -307,27 +307,15 @@
     <line>
       <![CDATA[Timeout waiting for Page Load Request to complete.]]>
     </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
-    <line>
-      <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="460506" started-at="2021-01-13T23:22:20 PKT" finished-at="2021-01-13T23:30:00 PKT">
+  <suite name="Suite" duration-ms="400138" started-at="2021-01-27T19:52:05 PKT" finished-at="2021-01-27T19:58:45 PKT">
     <groups>
     </groups>
-    <test name="InfoCab App Complete Testing Flow" duration-ms="13" started-at="2021-01-13T23:22:20 PKT" finished-at="2021-01-13T23:22:20 PKT">
+    <test name="InfoCab App Complete Testing Flow" duration-ms="23" started-at="2021-01-27T19:52:05 PKT" finished-at="2021-01-27T19:52:05 PKT">
     </test> <!-- InfoCab App Complete Testing Flow -->
-    <test name="InfoCabSnapperApp.com" duration-ms="460454" started-at="2021-01-13T23:22:20 PKT" finished-at="2021-01-13T23:30:00 PKT">
+    <test name="InfoCabSnapperApp.com" duration-ms="400081" started-at="2021-01-27T19:52:05 PKT" finished-at="2021-01-27T19:58:45 PKT">
       <class name="com.InfoCabs.common.TestBase">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@12d3a4e9]" name="setup" is-config="true" duration-ms="23682" started-at="2021-01-13T23:22:20 PKT" finished-at="2021-01-13T23:22:43 PKT">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="setup" is-config="true" duration-ms="22196" started-at="2021-01-27T19:52:05 PKT" finished-at="2021-01-27T19:52:27 PKT">
           <params>
             <param index="0">
               <value>
@@ -368,94 +356,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@12d3a4e9]" name="teardown" is-config="true" duration-ms="0" started-at="2021-01-13T23:30:00 PKT" finished-at="2021-01-13T23:30:00 PKT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.InfoCabs.common.TestBase@2c34f934]" name="teardown" is-config="true" duration-ms="0" started-at="2021-01-27T19:58:45 PKT" finished-at="2021-01-27T19:58:45 PKT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.InfoCabs.common.TestBase -->
-      <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_750_753">
-        <test-method status="PASS" signature="Test_LogOut_Page_ClickTO_Open_Share_Page_750(java.lang.String, java.lang.String)[pri:750, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_750_753@212bf671]" name="Test_LogOut_Page_ClickTO_Open_Share_Page_750" duration-ms="16733" started-at="2021-01-13T23:29:31 PKT" finished-at="2021-01-13T23:29:48 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.dialaride:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[//android.widget.CheckedTextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut_Page_ClickTO_Open_Share_Page_750 -->
-        <test-method status="PASS" signature="Test_LogOut_Page_check_Do_youwant_Logout_Text_751(java.lang.String, java.lang.String)[pri:751, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_750_753@212bf671]" name="Test_LogOut_Page_check_Do_youwant_Logout_Text_751" duration-ms="2170" started-at="2021-01-13T23:29:48 PKT" finished-at="2021-01-13T23:29:50 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.dialaride:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut_Page_check_Do_youwant_Logout_Text_751 -->
-        <test-method status="PASS" signature="Test_LogOut_Page_check_No_Keep_me_Login_Text_752(java.lang.String, java.lang.String)[pri:752, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_750_753@212bf671]" name="Test_LogOut_Page_check_No_Keep_me_Login_Text_752" duration-ms="2129" started-at="2021-01-13T23:29:50 PKT" finished-at="2021-01-13T23:29:52 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.dialaride:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut_Page_check_No_Keep_me_Login_Text_752 -->
-        <test-method status="PASS" signature="Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753(java.lang.String, java.lang.String)[pri:753, instance:com.InfoCabs.testcases.LogOut_Page_TestCases_750_753@212bf671]" name="Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753" duration-ms="7791" started-at="2021-01-13T23:29:52 PKT" finished-at="2021-01-13T23:30:00 PKT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.infosun.dialaride:id/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[android.widget.TextView]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-            <line>
-              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753 -->
-      </class> <!-- com.InfoCabs.testcases.LogOut_Page_TestCases_750_753 -->
       <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710">
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686(java.lang.String, java.lang.String)[pri:686, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686" duration-ms="4993" started-at="2021-01-13T23:24:37 PKT" finished-at="2021-01-13T23:24:42 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686(java.lang.String, java.lang.String)[pri:686, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686" duration-ms="4546" started-at="2021-01-27T19:54:26 PKT" finished-at="2021-01-27T19:54:30 PKT">
           <params>
             <param index="0">
               <value>
@@ -474,7 +381,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_LunchNewDriver_App_686 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688(java.lang.String)[pri:688, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688" duration-ms="18421" started-at="2021-01-13T23:24:42 PKT" finished-at="2021-01-13T23:25:00 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688(java.lang.String)[pri:688, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688" duration-ms="40468" started-at="2021-01-27T19:54:30 PKT" finished-at="2021-01-27T19:55:11 PKT">
           <params>
             <param index="0">
               <value>
@@ -503,7 +410,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_LogintoRiderApp_688 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689(java.lang.String)[pri:689, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689" duration-ms="7257" started-at="2021-01-13T23:25:00 PKT" finished-at="2021-01-13T23:25:07 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689(java.lang.String)[pri:689, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689" duration-ms="6900" started-at="2021-01-27T19:55:11 PKT" finished-at="2021-01-27T19:55:18 PKT">
           <params>
             <param index="0">
               <value>
@@ -520,7 +427,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_Backto_CustomerApp_689 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690(java.lang.String, java.lang.String)[pri:690, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690" duration-ms="9558" started-at="2021-01-13T23:25:07 PKT" finished-at="2021-01-13T23:25:17 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690(java.lang.String, java.lang.String)[pri:690, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690" duration-ms="9541" started-at="2021-01-27T19:55:18 PKT" finished-at="2021-01-27T19:55:27 PKT">
           <params>
             <param index="0">
               <value>
@@ -545,7 +452,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookNow_Button_Cab_690 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691(java.lang.String, java.lang.String)[pri:691, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691" duration-ms="9559" started-at="2021-01-13T23:25:17 PKT" finished-at="2021-01-13T23:25:27 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691(java.lang.String, java.lang.String)[pri:691, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691" duration-ms="9510" started-at="2021-01-27T19:55:27 PKT" finished-at="2021-01-27T19:55:37 PKT">
           <params>
             <param index="0">
               <value>
@@ -570,7 +477,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnBookConfirmButton_691 -->
-        <test-method status="PASS" signature="Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692(java.lang.String)[pri:692, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692" duration-ms="7619" started-at="2021-01-13T23:25:27 PKT" finished-at="2021-01-13T23:25:34 PKT">
+        <test-method status="PASS" signature="Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692(java.lang.String)[pri:692, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692" duration-ms="7609" started-at="2021-01-27T19:55:37 PKT" finished-at="2021-01-27T19:55:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -590,7 +497,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Book_Saloon_With_CreditCard_Push_CustomerApp_toBackground_and_start_RiderApp_692 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693(java.lang.String)[pri:693, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693" duration-ms="25750" started-at="2021-01-13T23:25:34 PKT" finished-at="2021-01-13T23:26:00 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693(java.lang.String)[pri:693, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693" duration-ms="21916" started-at="2021-01-27T19:55:44 PKT" finished-at="2021-01-27T19:56:06 PKT">
           <params>
             <param index="0">
               <value>
@@ -607,7 +514,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694(java.lang.String)[pri:694, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694" duration-ms="8076" started-at="2021-01-13T23:26:00 PKT" finished-at="2021-01-13T23:26:08 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694(java.lang.String)[pri:694, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694" duration-ms="7262" started-at="2021-01-27T19:56:06 PKT" finished-at="2021-01-27T19:56:14 PKT">
           <params>
             <param index="0">
               <value>
@@ -624,7 +531,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnWait_ride_694 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695(java.lang.String)[pri:695, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695" duration-ms="8652" started-at="2021-01-13T23:26:08 PKT" finished-at="2021-01-13T23:26:17 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695(java.lang.String)[pri:695, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695" duration-ms="8284" started-at="2021-01-27T19:56:14 PKT" finished-at="2021-01-27T19:56:22 PKT">
           <params>
             <param index="0">
               <value>
@@ -641,7 +548,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnPOB_Button_ride_695 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696(java.lang.String)[pri:696, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696" duration-ms="8081" started-at="2021-01-13T23:26:17 PKT" finished-at="2021-01-13T23:26:25 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696(java.lang.String)[pri:696, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696" duration-ms="8172" started-at="2021-01-27T19:56:22 PKT" finished-at="2021-01-27T19:56:30 PKT">
           <params>
             <param index="0">
               <value>
@@ -658,7 +565,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOnSTC_ride_696 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697(java.lang.String)[pri:697, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697" duration-ms="8007" started-at="2021-01-13T23:26:25 PKT" finished-at="2021-01-13T23:26:33 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697(java.lang.String)[pri:697, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697" duration-ms="7272" started-at="2021-01-27T19:56:30 PKT" finished-at="2021-01-27T19:56:37 PKT">
           <params>
             <param index="0">
               <value>
@@ -675,7 +582,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_Clear_ride_697 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698(java.lang.String)[pri:698, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698" duration-ms="7425" started-at="2021-01-13T23:26:33 PKT" finished-at="2021-01-13T23:26:40 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698(java.lang.String)[pri:698, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698" duration-ms="6926" started-at="2021-01-27T19:56:37 PKT" finished-at="2021-01-27T19:56:44 PKT">
           <params>
             <param index="0">
               <value>
@@ -692,7 +599,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_start_CustomerApp_698 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699(java.lang.String)[pri:699, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699" duration-ms="2245" started-at="2021-01-13T23:26:40 PKT" finished-at="2021-01-13T23:26:42 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699(java.lang.String)[pri:699, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699" duration-ms="5376" started-at="2021-01-27T19:56:44 PKT" finished-at="2021-01-27T19:56:50 PKT">
           <params>
             <param index="0">
               <value>
@@ -706,7 +613,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_Rate_your_ride_Text_arePresent_699 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700(java.lang.String, java.lang.String)[pri:700, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700" duration-ms="2736" started-at="2021-01-13T23:26:42 PKT" finished-at="2021-01-13T23:26:45 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700(java.lang.String, java.lang.String)[pri:700, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700" duration-ms="2739" started-at="2021-01-27T19:56:50 PKT" finished-at="2021-01-27T19:56:52 PKT">
           <params>
             <param index="0">
               <value>
@@ -725,7 +632,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_Feedback_Field_arePresent_700 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701(java.lang.String)[pri:701, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701" duration-ms="4243" started-at="2021-01-13T23:26:45 PKT" finished-at="2021-01-13T23:26:49 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701(java.lang.String)[pri:701, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701" duration-ms="4193" started-at="2021-01-27T19:56:52 PKT" finished-at="2021-01-27T19:56:56 PKT">
           <params>
             <param index="0">
               <value>
@@ -742,7 +649,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_SubmitFeedback_ButtonAndText_701 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702(java.lang.String, java.lang.String)[pri:702, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702" duration-ms="11494" started-at="2021-01-13T23:26:49 PKT" finished-at="2021-01-13T23:27:01 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702(java.lang.String, java.lang.String)[pri:702, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702" duration-ms="14210" started-at="2021-01-27T19:56:56 PKT" finished-at="2021-01-27T19:57:11 PKT">
           <params>
             <param index="0">
               <value>
@@ -767,7 +674,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu_Button_702 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703(java.lang.String, java.lang.String)[pri:703, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703" duration-ms="9640" started-at="2021-01-13T23:27:01 PKT" finished-at="2021-01-13T23:27:11 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703(java.lang.String, java.lang.String)[pri:703, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703" duration-ms="12827" started-at="2021-01-27T19:57:11 PKT" finished-at="2021-01-27T19:57:24 PKT">
           <params>
             <param index="0">
               <value>
@@ -792,7 +699,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_ClickOn_SideMenu__MyTrips_Button_703 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704(java.lang.String)[pri:704, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704" duration-ms="2510" started-at="2021-01-13T23:27:11 PKT" finished-at="2021-01-13T23:27:13 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704(java.lang.String)[pri:704, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704" duration-ms="2571" started-at="2021-01-27T19:57:24 PKT" finished-at="2021-01-27T19:57:26 PKT">
           <params>
             <param index="0">
               <value>
@@ -806,7 +713,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_Check_for_index1_CancelRide_Option_704 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705(java.lang.String)[pri:705, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705" duration-ms="2370" started-at="2021-01-13T23:27:13 PKT" finished-at="2021-01-13T23:27:15 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705(java.lang.String)[pri:705, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705" duration-ms="2320" started-at="2021-01-27T19:57:26 PKT" finished-at="2021-01-27T19:57:28 PKT">
           <params>
             <param index="0">
               <value>
@@ -820,7 +727,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_CheckPickoff_Address_705 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706(java.lang.String)[pri:706, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706" duration-ms="2363" started-at="2021-01-13T23:27:15 PKT" finished-at="2021-01-13T23:27:18 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706(java.lang.String)[pri:706, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706" duration-ms="2325" started-at="2021-01-27T19:57:28 PKT" finished-at="2021-01-27T19:57:31 PKT">
           <params>
             <param index="0">
               <value>
@@ -834,7 +741,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_CheckDropOff_Address_706 -->
-        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707(java.lang.String)[pri:707, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707" duration-ms="2282" started-at="2021-01-13T23:27:18 PKT" finished-at="2021-01-13T23:27:20 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707(java.lang.String)[pri:707, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707" duration-ms="2315" started-at="2021-01-27T19:57:31 PKT" finished-at="2021-01-27T19:57:33 PKT">
           <params>
             <param index="0">
               <value>
@@ -848,7 +755,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_CompletedRide_with_Different_fedback_Date_and_Time_707 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708(java.lang.String)[pri:708, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708" duration-ms="2306" started-at="2021-01-13T23:27:20 PKT" finished-at="2021-01-13T23:27:22 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708(java.lang.String)[pri:708, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708" duration-ms="2315" started-at="2021-01-27T19:57:33 PKT" finished-at="2021-01-27T19:57:35 PKT">
           <params>
             <param index="0">
               <value>
@@ -862,7 +769,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_708 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709(java.lang.String)[pri:709, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709" duration-ms="2310" started-at="2021-01-13T23:27:22 PKT" finished-at="2021-01-13T23:27:25 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709(java.lang.String)[pri:709, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709" duration-ms="2274" started-at="2021-01-27T19:57:35 PKT" finished-at="2021-01-27T19:57:38 PKT">
           <params>
             <param index="0">
               <value>
@@ -876,7 +783,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Amount_Text_and_Button_709 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710(java.lang.String, java.lang.String)[pri:710, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@25a65b77]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710" duration-ms="9473" started-at="2021-01-13T23:27:25 PKT" finished-at="2021-01-13T23:27:34 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710(java.lang.String, java.lang.String)[pri:710, instance:com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710" duration-ms="9636" started-at="2021-01-27T19:57:38 PKT" finished-at="2021-01-27T19:57:47 PKT">
           <params>
             <param index="0">
               <value>
@@ -903,7 +810,7 @@
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_Price_Button_710 -->
       </class> <!-- com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 -->
       <class name="com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724">
-        <test-method status="PASS" signature="Test_Completed_trip_Details_BackArrow_711(java.lang.String)[pri:711, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_BackArrow_711" duration-ms="2293" started-at="2021-01-13T23:27:34 PKT" finished-at="2021-01-13T23:27:37 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_BackArrow_711(java.lang.String)[pri:711, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_BackArrow_711" duration-ms="2245" started-at="2021-01-27T19:57:47 PKT" finished-at="2021-01-27T19:57:50 PKT">
           <params>
             <param index="0">
               <value>
@@ -917,7 +824,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_BackArrow_711 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_Trip_Details_Text_712(java.lang.String)[pri:712, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_Trip_Details_Text_712" duration-ms="2159" started-at="2021-01-13T23:27:37 PKT" finished-at="2021-01-13T23:27:39 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_Trip_Details_Text_712(java.lang.String)[pri:712, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_Trip_Details_Text_712" duration-ms="2089" started-at="2021-01-27T19:57:50 PKT" finished-at="2021-01-27T19:57:52 PKT">
           <params>
             <param index="0">
               <value>
@@ -931,7 +838,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_Trip_Details_Text_712 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_Your_Ride_with_Driver_713(java.lang.String)[pri:713, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_Your_Ride_with_Driver_713" duration-ms="2283" started-at="2021-01-13T23:27:39 PKT" finished-at="2021-01-13T23:27:41 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_Your_Ride_with_Driver_713(java.lang.String)[pri:713, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_Your_Ride_with_Driver_713" duration-ms="2272" started-at="2021-01-27T19:57:52 PKT" finished-at="2021-01-27T19:57:54 PKT">
           <params>
             <param index="0">
               <value>
@@ -945,7 +852,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_Your_Ride_with_Driver_713 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_Start_Address_714(java.lang.String)[pri:714, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_Start_Address_714" duration-ms="2258" started-at="2021-01-13T23:27:41 PKT" finished-at="2021-01-13T23:27:43 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_Start_Address_714(java.lang.String)[pri:714, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_Start_Address_714" duration-ms="2235" started-at="2021-01-27T19:57:54 PKT" finished-at="2021-01-27T19:57:56 PKT">
           <params>
             <param index="0">
               <value>
@@ -959,7 +866,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_Start_Address_714 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_End_Address_715(java.lang.String)[pri:715, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_End_Address_715" duration-ms="2274" started-at="2021-01-13T23:27:43 PKT" finished-at="2021-01-13T23:27:45 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_End_Address_715(java.lang.String)[pri:715, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_End_Address_715" duration-ms="2288" started-at="2021-01-27T19:57:56 PKT" finished-at="2021-01-27T19:57:58 PKT">
           <params>
             <param index="0">
               <value>
@@ -973,7 +880,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_End_Address_715 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_DriverName_716(java.lang.String)[pri:716, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_DriverName_716" duration-ms="2358" started-at="2021-01-13T23:27:45 PKT" finished-at="2021-01-13T23:27:48 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_DriverName_716(java.lang.String)[pri:716, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_DriverName_716" duration-ms="2272" started-at="2021-01-27T19:57:58 PKT" finished-at="2021-01-27T19:58:01 PKT">
           <params>
             <param index="0">
               <value>
@@ -987,7 +894,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_DriverName_716 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_CarNumber_717(java.lang.String)[pri:717, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_CarNumber_717" duration-ms="2272" started-at="2021-01-13T23:27:48 PKT" finished-at="2021-01-13T23:27:50 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_CarNumber_717(java.lang.String)[pri:717, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_CarNumber_717" duration-ms="2273" started-at="2021-01-27T19:58:01 PKT" finished-at="2021-01-27T19:58:03 PKT">
           <params>
             <param index="0">
               <value>
@@ -1001,7 +908,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_CarNumber_717 -->
-        <test-method status="FAIL" signature="Test_Completed_trip_Details_CarRating_718(java.lang.String)[pri:718, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_CarRating_718" duration-ms="62532" started-at="2021-01-13T23:27:50 PKT" finished-at="2021-01-13T23:28:53 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_CarRating_718(java.lang.String)[pri:718, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_CarRating_718" duration-ms="2327" started-at="2021-01-27T19:58:03 PKT" finished-at="2021-01-27T19:58:05 PKT">
           <params>
             <param index="0">
               <value>
@@ -1009,91 +916,13 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: ce433b53-bddc-4f47-b032-9de1ee76344e
-*** Element info: {Using=id, value=com.infosun.dialaride:id/atingBar}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-CSMSJ8J', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\92336\git\InfoCabs..., appActivity: com.infosun.csandroidx.acti..., appPackage: com.infosun.dialaride, autoAcceptAlerts: true, autoGrantPermissions: true, deviceName: Galaxy J7 Pro, newCommandTimeout: 60, platformName: android, platformVersion: 7, resetKeyboard: false, udid: 52006c45b4f164dd, unicodeKeyboard: false}, deviceApiLevel: 24, deviceManufacturer: samsung, deviceModel: SM-J730F, deviceName: 52006c45b4f164dd, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 52006c45b4f164dd, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: false, statBarHeight: 63, takesScreenshot: true, udid: 52006c45b4f164dd, unicodeKeyboard: false, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: ce433b53-bddc-4f47-b032-9de1ee76344e
-*** Element info: {Using=id, value=com.infosun.dialaride:id/atingBar}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724.Test_Completed_trip_Details_CarRating_718(Completed_trip_Details_TestCases_711_724.java:96)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_CarRating_718 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_TV_Help_Text_719(java.lang.String)[pri:719, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_TV_Help_Text_719" duration-ms="2129" started-at="2021-01-13T23:28:53 PKT" finished-at="2021-01-13T23:28:55 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_TV_Help_Text_719(java.lang.String)[pri:719, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_TV_Help_Text_719" duration-ms="2166" started-at="2021-01-27T19:58:05 PKT" finished-at="2021-01-27T19:58:08 PKT">
           <params>
             <param index="0">
               <value>
@@ -1107,7 +936,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_TV_Help_Text_719 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_ReBookButton_ButtonAndText_720(java.lang.String)[pri:720, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_ReBookButton_ButtonAndText_720" duration-ms="4302" started-at="2021-01-13T23:28:55 PKT" finished-at="2021-01-13T23:29:00 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_ReBookButton_ButtonAndText_720(java.lang.String)[pri:720, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_ReBookButton_ButtonAndText_720" duration-ms="4362" started-at="2021-01-27T19:58:08 PKT" finished-at="2021-01-27T19:58:12 PKT">
           <params>
             <param index="0">
               <value>
@@ -1124,7 +953,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_ReBookButton_ButtonAndText_720 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721(java.lang.String, java.lang.String)[pri:721, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721" duration-ms="9510" started-at="2021-01-13T23:29:00 PKT" finished-at="2021-01-13T23:29:09 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721(java.lang.String, java.lang.String)[pri:721, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721" duration-ms="9625" started-at="2021-01-27T19:58:12 PKT" finished-at="2021-01-27T19:58:21 PKT">
           <params>
             <param index="0">
               <value>
@@ -1149,7 +978,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_ClickOnBookNow_Button_Cab_721 -->
-        <test-method status="PASS" signature="TestCompleted_trip_Details_Select_CeditCard_FromDrop_722(java.lang.String, java.lang.String)[pri:722, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="TestCompleted_trip_Details_Select_CeditCard_FromDrop_722" duration-ms="9108" started-at="2021-01-13T23:29:09 PKT" finished-at="2021-01-13T23:29:18 PKT">
+        <test-method status="PASS" signature="TestCompleted_trip_Details_Select_CeditCard_FromDrop_722(java.lang.String, java.lang.String)[pri:722, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="TestCompleted_trip_Details_Select_CeditCard_FromDrop_722" duration-ms="10608" started-at="2021-01-27T19:58:21 PKT" finished-at="2021-01-27T19:58:32 PKT">
           <params>
             <param index="0">
               <value>
@@ -1168,7 +997,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- TestCompleted_trip_Details_Select_CeditCard_FromDrop_722 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_ClickOnBookConfirmButton_723(java.lang.String, java.lang.String)[pri:723, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_ClickOnBookConfirmButton_723" duration-ms="9753" started-at="2021-01-13T23:29:18 PKT" finished-at="2021-01-13T23:29:28 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_ClickOnBookConfirmButton_723(java.lang.String, java.lang.String)[pri:723, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_ClickOnBookConfirmButton_723" duration-ms="9546" started-at="2021-01-27T19:58:32 PKT" finished-at="2021-01-27T19:58:42 PKT">
           <params>
             <param index="0">
               <value>
@@ -1193,7 +1022,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Completed_trip_Details_ClickOnBookConfirmButton_723 -->
-        <test-method status="PASS" signature="Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724(java.lang.String)[pri:724, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@2ed0fbae]" name="Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724" duration-ms="3302" started-at="2021-01-13T23:29:28 PKT" finished-at="2021-01-13T23:29:31 PKT">
+        <test-method status="PASS" signature="Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724(java.lang.String)[pri:724, instance:com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724@25a65b77]" name="Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724" duration-ms="3450" started-at="2021-01-27T19:58:42 PKT" finished-at="2021-01-27T19:58:45 PKT">
           <params>
             <param index="0">
               <value>
@@ -1209,7 +1038,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Test_Completed_trip_Details_CancleRide_Button_Text_arePresent_724 -->
       </class> <!-- com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724 -->
       <class name="com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685">
-        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="10748" started-at="2021-01-13T23:22:43 PKT" finished-at="2021-01-13T23:22:54 PKT">
+        <test-method status="PASS" signature="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21(java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21" duration-ms="9448" started-at="2021-01-27T19:52:27 PKT" finished-at="2021-01-27T19:52:37 PKT">
           <params>
             <param index="0">
               <value>
@@ -1236,7 +1065,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666(java.lang.String, java.lang.String)[pri:666, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666" duration-ms="11722" started-at="2021-01-13T23:22:54 PKT" finished-at="2021-01-13T23:23:06 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666(java.lang.String, java.lang.String)[pri:666, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666" duration-ms="15561" started-at="2021-01-27T19:52:37 PKT" finished-at="2021-01-27T19:52:52 PKT">
           <params>
             <param index="0">
               <value>
@@ -1264,7 +1093,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_EnterDropofAddress_Cab_666 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667(java.lang.String, java.lang.String)[pri:667, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667" duration-ms="9550" started-at="2021-01-13T23:23:06 PKT" finished-at="2021-01-13T23:23:15 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667(java.lang.String, java.lang.String)[pri:667, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667" duration-ms="9577" started-at="2021-01-27T19:52:52 PKT" finished-at="2021-01-27T19:53:02 PKT">
           <params>
             <param index="0">
               <value>
@@ -1289,7 +1118,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookNow_Button_Cab_667 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668(java.lang.String, java.lang.String)[pri:668, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668" duration-ms="8995" started-at="2021-01-13T23:23:15 PKT" finished-at="2021-01-13T23:23:24 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668(java.lang.String, java.lang.String)[pri:668, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668" duration-ms="8479" started-at="2021-01-27T19:53:02 PKT" finished-at="2021-01-27T19:53:10 PKT">
           <params>
             <param index="0">
               <value>
@@ -1308,7 +1137,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Select_CeditCard_FromDrop_668 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669(java.lang.String, java.lang.String)[pri:669, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669" duration-ms="9603" started-at="2021-01-13T23:23:24 PKT" finished-at="2021-01-13T23:23:34 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669(java.lang.String, java.lang.String)[pri:669, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669" duration-ms="9540" started-at="2021-01-27T19:53:10 PKT" finished-at="2021-01-27T19:53:20 PKT">
           <params>
             <param index="0">
               <value>
@@ -1333,7 +1162,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOnBookConfirmButton_669 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670(java.lang.String)[pri:670, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670" duration-ms="3315" started-at="2021-01-13T23:23:34 PKT" finished-at="2021-01-13T23:23:37 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670(java.lang.String)[pri:670, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670" duration-ms="11130" started-at="2021-01-27T19:53:20 PKT" finished-at="2021-01-27T19:53:31 PKT">
           <params>
             <param index="0">
               <value>
@@ -1345,9 +1174,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <line>
               <![CDATA[Timeout waiting for Page Load Request to complete.]]>
             </line>
+            <line>
+              <![CDATA[Timeout waiting for Page Load Request to complete.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_CancleRide_Button_Text_arePresent_670 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671(java.lang.String, java.lang.String)[pri:671, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671" duration-ms="11874" started-at="2021-01-13T23:23:37 PKT" finished-at="2021-01-13T23:23:49 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671(java.lang.String, java.lang.String)[pri:671, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671" duration-ms="9520" started-at="2021-01-27T19:53:31 PKT" finished-at="2021-01-27T19:53:41 PKT">
           <params>
             <param index="0">
               <value>
@@ -1372,7 +1204,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Rides_ClickOn_SideMenu_Button_671 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672(java.lang.String, java.lang.String)[pri:672, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672" duration-ms="11697" started-at="2021-01-13T23:23:49 PKT" finished-at="2021-01-13T23:24:01 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672(java.lang.String, java.lang.String)[pri:672, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672" duration-ms="9792" started-at="2021-01-27T19:53:41 PKT" finished-at="2021-01-27T19:53:50 PKT">
           <params>
             <param index="0">
               <value>
@@ -1397,7 +1229,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_ClickOn_SideMenu__MyTrips_Button_672 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673(java.lang.String)[pri:673, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673" duration-ms="2397" started-at="2021-01-13T23:24:01 PKT" finished-at="2021-01-13T23:24:03 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673(java.lang.String)[pri:673, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673" duration-ms="2434" started-at="2021-01-27T19:53:50 PKT" finished-at="2021-01-27T19:53:53 PKT">
           <params>
             <param index="0">
               <value>
@@ -1411,7 +1243,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_check_MyTrips_Text_673 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674(java.lang.String)[pri:674, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674" duration-ms="5847" started-at="2021-01-13T23:24:03 PKT" finished-at="2021-01-13T23:24:09 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674(java.lang.String)[pri:674, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674" duration-ms="5810" started-at="2021-01-27T19:53:53 PKT" finished-at="2021-01-27T19:53:59 PKT">
           <params>
             <param index="0">
               <value>
@@ -1425,7 +1257,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_PastRide_text_674 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675(java.lang.String)[pri:675, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675" duration-ms="2444" started-at="2021-01-13T23:24:09 PKT" finished-at="2021-01-13T23:24:12 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675(java.lang.String)[pri:675, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675" duration-ms="2464" started-at="2021-01-27T19:53:59 PKT" finished-at="2021-01-27T19:54:01 PKT">
           <params>
             <param index="0">
               <value>
@@ -1439,7 +1271,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_index1_CancelRide_Option_675 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676(java.lang.String)[pri:676, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676" duration-ms="2314" started-at="2021-01-13T23:24:12 PKT" finished-at="2021-01-13T23:24:14 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676(java.lang.String)[pri:676, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676" duration-ms="2306" started-at="2021-01-27T19:54:01 PKT" finished-at="2021-01-27T19:54:03 PKT">
           <params>
             <param index="0">
               <value>
@@ -1453,7 +1285,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_CheckPickoff_Address_676 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677(java.lang.String)[pri:677, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677" duration-ms="2274" started-at="2021-01-13T23:24:14 PKT" finished-at="2021-01-13T23:24:16 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677(java.lang.String)[pri:677, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677" duration-ms="2253" started-at="2021-01-27T19:54:03 PKT" finished-at="2021-01-27T19:54:06 PKT">
           <params>
             <param index="0">
               <value>
@@ -1467,7 +1299,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_CheckDropOff_Address_677 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678(java.lang.String)[pri:678, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678" duration-ms="2313" started-at="2021-01-13T23:24:16 PKT" finished-at="2021-01-13T23:24:19 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678(java.lang.String)[pri:678, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678" duration-ms="2288" started-at="2021-01-27T19:54:06 PKT" finished-at="2021-01-27T19:54:08 PKT">
           <params>
             <param index="0">
               <value>
@@ -1481,7 +1313,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Date_and_Time_678 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679(java.lang.String)[pri:679, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679" duration-ms="3644" started-at="2021-01-13T23:24:19 PKT" finished-at="2021-01-13T23:24:22 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679(java.lang.String)[pri:679, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679" duration-ms="3410" started-at="2021-01-27T19:54:08 PKT" finished-at="2021-01-27T19:54:11 PKT">
           <params>
             <param index="0">
               <value>
@@ -1495,7 +1327,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Cancelled_Text_and_Button_679 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680(java.lang.String)[pri:680, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680" duration-ms="2328" started-at="2021-01-13T23:24:22 PKT" finished-at="2021-01-13T23:24:25 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680(java.lang.String)[pri:680, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680" duration-ms="2303" started-at="2021-01-27T19:54:11 PKT" finished-at="2021-01-27T19:54:14 PKT">
           <params>
             <param index="0">
               <value>
@@ -1509,7 +1341,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_check_for_BackButton_680 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681(java.lang.String)[pri:681, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681" duration-ms="2167" started-at="2021-01-13T23:24:25 PKT" finished-at="2021-01-13T23:24:27 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681(java.lang.String)[pri:681, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681" duration-ms="2151" started-at="2021-01-27T19:54:14 PKT" finished-at="2021-01-27T19:54:16 PKT">
           <params>
             <param index="0">
               <value>
@@ -1523,7 +1355,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_TripDetails_Text_681 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682(java.lang.String)[pri:682, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682" duration-ms="2122" started-at="2021-01-13T23:24:27 PKT" finished-at="2021-01-13T23:24:29 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682(java.lang.String)[pri:682, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682" duration-ms="2137" started-at="2021-01-27T19:54:16 PKT" finished-at="2021-01-27T19:54:18 PKT">
           <params>
             <param index="0">
               <value>
@@ -1537,7 +1369,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Your_Ride_was_cancelled_Text_682 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683(java.lang.String)[pri:683, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683" duration-ms="2317" started-at="2021-01-13T23:24:29 PKT" finished-at="2021-01-13T23:24:31 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683(java.lang.String)[pri:683, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683" duration-ms="2245" started-at="2021-01-27T19:54:18 PKT" finished-at="2021-01-27T19:54:20 PKT">
           <params>
             <param index="0">
               <value>
@@ -1551,7 +1383,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_StartingAddress_Text_683 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684(java.lang.String)[pri:684, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684" duration-ms="2298" started-at="2021-01-13T23:24:31 PKT" finished-at="2021-01-13T23:24:33 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684(java.lang.String)[pri:684, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684" duration-ms="2251" started-at="2021-01-27T19:54:20 PKT" finished-at="2021-01-27T19:54:22 PKT">
           <params>
             <param index="0">
               <value>
@@ -1565,7 +1397,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_EndAddress_Text_684 -->
-        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685(java.lang.String)[pri:685, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@240237d2]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685" duration-ms="3320" started-at="2021-01-13T23:24:33 PKT" finished-at="2021-01-13T23:24:37 PKT">
+        <test-method status="PASS" signature="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685(java.lang.String)[pri:685, instance:com.InfoCabs.testcases.MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685@12d3a4e9]" name="Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685" duration-ms="3318" started-at="2021-01-27T19:54:22 PKT" finished-at="2021-01-27T19:54:26 PKT">
           <params>
             <param index="0">
               <value>

@@ -54,6 +54,8 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 	public void Test_Schedule_Saloon_Ride_ClickOn_ScheduleRide_Button_263(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -380,6 +382,8 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(3000);
 		L6.click();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 
 	}
 
@@ -468,6 +472,8 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Thread.sleep(3000);
 		L5.click();
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 
 	}
 
@@ -484,6 +490,7 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 		Thread.sleep(3000);
 		L2.click();
 		HelperMethods.waitForPageLoaded();
+		
 
 	}
 
@@ -590,6 +597,7 @@ public class Schedule_Saloon_Ride_263_299 extends TestBase {
 			//driver.navigate().back();
 			driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
 			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			
 		} else { 
 			System.out.println("Test:299, CANCEL Button are Not Working");

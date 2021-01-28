@@ -20,9 +20,10 @@ public class MainHomePage_TestCases_83_109 extends TestBase {
 
 	@Test(priority = 83)
 	@Parameters({ "CommonLocator" })
-	public void Test_MainHomePage_AddPickUpPoint_Text_83(String CommonLocator) {
+	public void Test_MainHomePage_AddPickUpPoint_Text_83(String CommonLocator) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tvTitle"));

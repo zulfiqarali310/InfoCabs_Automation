@@ -24,8 +24,10 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(PhoneNum);
@@ -43,11 +45,13 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Test(priority = 74)
 	@Parameters({ "Name", "valid_email", "CommonLocator" })
 	public void Test_CreateNewuserPage_Enter_Valid_Username_And_Email_toRegisterNew_User_74(String Name,
-			String valid_email, String CommonLocator) {
+			String valid_email, String CommonLocator) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_name"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(Name);
@@ -75,6 +79,7 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_Verify_Text_76(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_welcome"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -88,6 +93,8 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Test(priority = 77)
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_PleaseEnter_Text_77(String CommonLocator) {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_login"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -101,6 +108,8 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Test(priority = 78)
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_Didntget_Text_78(String CommonLocator) {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "hint_register"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -114,6 +123,7 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_ResendButton_Text_79(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_resend"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		if (L1.isDisplayed()) {
@@ -127,6 +137,8 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 	@Test(priority = 80)
 	@Parameters("CommonLocator")
 	public void Test_CreateNewuserPage_VerifyPin_Screen_After_Text_80(String CommonLocator) {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_after"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -247,7 +259,7 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 
 	@Test(priority = 87)
 	@Parameters({ "validPin", "CommonLocator" })
-	public void Check_for_valid_PinCode_onVerifyScreen_87(String validPin, String CommonLocator) {
+	public void Check_for_valid_PinCode_onVerifyScreen_87(String validPin, String CommonLocator) throws InterruptedException {
 
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_pin"));
 		HelperMethods.waitForElementToBeVisible(L1);
@@ -255,6 +267,9 @@ public class CreateNewUserPage_TestCases_72_82 extends TestBase {
 		WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_verify"));
 		HelperMethods.waitForElementToBeClickable(L2);
 		L2.click();
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
 
 	}
 

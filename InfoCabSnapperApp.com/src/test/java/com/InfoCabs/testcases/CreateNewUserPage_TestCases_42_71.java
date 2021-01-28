@@ -27,6 +27,7 @@ public class CreateNewUserPage_TestCases_42_71 extends TestBase {
 	public void Test_LoginPage_NewUserAccount_Button_isWorking_42(String CommonLocator_ClassView) {
 
 		HelperMethods.waitForPageLoaded();
+		
 		WebElement L1 = driver
 				.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Sign up for new account']"));
 		HelperMethods.waitForElementToBeClickable(L1);
@@ -53,8 +54,9 @@ public class CreateNewUserPage_TestCases_42_71 extends TestBase {
 	}*/
 	@Test(priority = 44)
 	@Parameters("CommonLocator")
-	public void Test_CreateNewUserPage_Logo_44(String CommonLocator) {
+	public void Test_CreateNewUserPage_Logo_44(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 		driver.hideKeyboard();
 		HelperMethods.waitForPageLoaded();
 		boolean ImageLogo = driver.findElement(By.id(CommonLocator + "iv_logo")).isDisplayed();
@@ -385,7 +387,7 @@ public class CreateNewUserPage_TestCases_42_71 extends TestBase {
 		L2.click();
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, Pwd);
+			Assert.assertEquals(Get_text1, Pwd+ ", Password");
 		} else {
 			System.out.println("Test:67, Password view icon have some issue on register new user screen");
 		}

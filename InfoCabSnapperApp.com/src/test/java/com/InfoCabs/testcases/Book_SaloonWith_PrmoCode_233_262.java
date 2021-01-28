@@ -20,8 +20,9 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	
 	@Test(priority = 233)
 	@Parameters({ "CommonLocator", "DropoffAddress" })
-	public void Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_234(String CommonLocator, String DropoffAddress) {
+	public void Test_Book_SaloonWith_PrmoCode_EnterDropofAddress_Cab_234(String CommonLocator, String DropoffAddress) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
@@ -54,6 +55,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 		Thread.sleep(3000);
 		L5.click();
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
 
 	}
 
@@ -164,7 +166,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_promo"));
 		L1.clear();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		L1.sendKeys(validPromoCode);
 
 		WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
@@ -333,9 +335,13 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	public void Test_Book_SaloonWith_PrmoCode_weHave_Sent_Text_arePresent_254(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
+			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			Assert.assertEquals(Get_text1, "We have sent you a cab.");
 			Thread.sleep(4000);
 
@@ -397,10 +403,13 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_Book_SaloonWith_PrmoCode_You_arein_yourway_Text_arePresent_258(String CommonLocator) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_head"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
+			HelperMethods.waitForPageLoaded();
+			driver.hideKeyboard();
 			Assert.assertEquals(Get_text1, "You are on your way.");
 			Thread.sleep(5000);
 
@@ -464,8 +473,10 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	
 	@Test(priority = 263)
 	@Parameters("CommonLocator_ClassView")
-	public void Test_Book_SaloonWith_PrmoCode_Rate_your_ride_Text_arePresent_263(String CommonLocator_ClassView) {
+	public void Test_Book_SaloonWith_PrmoCode_Rate_your_ride_Text_arePresent_263(String CommonLocator_ClassView) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath("//" + CommonLocator_ClassView + "[@text='Rate your ride']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -480,6 +491,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	@Parameters({ "CommonLocator", "Feedback" })
 	public void Test_Book_SaloonWith_PrmoCode_Feedback_Field_arePresent_264(String CommonLocator, String Feedback) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_feedback"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(Feedback);
@@ -490,6 +502,7 @@ public class Book_SaloonWith_PrmoCode_233_262 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_Book_SaloonWith_PrmoCode_SubmitFeedback_ButtonAndText_265(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_submit_feedback"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();

@@ -60,6 +60,7 @@ public class Scedule_8_Seater_Cab_TestCases_527_567 extends TestBase {
 	public void Test_Schedule_8_Seater_Cab_ClickOn_ScheduleRide_Button_526(String CommonLocator, String DropoffAddress)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_confirm"));
 		WebDriverWait wait = new WebDriverWait(driver, 40);
@@ -557,6 +558,8 @@ public class Scedule_8_Seater_Cab_TestCases_527_567 extends TestBase {
 		Thread.sleep(3000);
 		L5.click();
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(4000);
+		driver.hideKeyboard();
 
 	}
 
@@ -679,6 +682,8 @@ public class Scedule_8_Seater_Cab_TestCases_527_567 extends TestBase {
 			// driver.navigate().back();
 			driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
 			HelperMethods.waitForPageLoaded();
+			Thread.sleep(4000);
+			driver.hideKeyboard();
 
 		} else {
 			System.out.println("Test:567, CANCEL Button are Not Working");

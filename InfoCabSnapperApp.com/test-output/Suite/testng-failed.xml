@@ -49,23 +49,43 @@
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
   <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
   <parameter name="PostPayEmail" value="jeet@infosun.co.uk"/>
-  <parameter name="AppCommonPermision_TextS3" value="Allow Dial-A-Ride (Beta) to send and view SMS messages?"/>
+  <parameter name="AppCommonPermision_TextS3" value="Allow London Cars (Beta) to send and view SMS messages?"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
-  <parameter name="AppCommonPermision_TextS1" value="Allow Dial-A-Ride (Beta) to access photos, media and files on your device?"/>
-  <parameter name="AppCommonPermision_TextS2" value="Allow Dial-A-Ride (Beta) to access this device&#039;s location?"/>
+  <parameter name="AppCommonPermision_TextS1" value="Allow London Cars (Beta) to access photos, media and files on your device?"/>
+  <parameter name="AppCommonPermision_TextS2" value="Allow London Cars (Beta) to access this device&#039;s location?"/>
   <parameter name="DeviceName" value="Galaxy J7 Pro"/>
   <listeners>
     <listener class-name="com.InfoCabs.common.TestListeners"/>
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724">
+      <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401">
         <methods>
           <include name="setup"/>
-          <include name="Test_Completed_trip_Details_CarRating_718" invocation-numbers="0"/>
+          <include name="Test_BBook_6_Seater_With_CreditCards_6_Seater_Text_arePresent_381" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.Completed_trip_Details_TestCases_711_724 -->
+      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401 -->
+      <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439">
+        <methods>
+          <include name="Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_439" invocation-numbers="0"/>
+          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Icon_434" invocation-numbers="0"/>
+          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Time_438" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_Dropoff_Address_437" invocation-numbers="0"/>
+          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Address_436" invocation-numbers="0"/>
+          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_DropOff_Icon_435" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu_Button_430" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439 -->
+      <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378">
+        <methods>
+          <include name="Test_Book_6_Seater_with_PromoCode_Rate_your_ride_Text_arePresent_376" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

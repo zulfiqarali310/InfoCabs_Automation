@@ -18,6 +18,7 @@ public class ChoosevehiclePage_TestCases_110_119 extends TestBase {
 	public void Test_ChoosevehiclePage_Choosevehicle_Text_110(String CommonLocator) {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tvTitle"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -33,6 +34,7 @@ public class ChoosevehiclePage_TestCases_110_119 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ChoosevehiclePage_CheckBothAddressAre_Added_111(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "et_address")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -42,6 +44,7 @@ public class ChoosevehiclePage_TestCases_110_119 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ChoosevehiclePage_CarImage_arePresent_112(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		boolean Icon = driver.findElement(By.id(CommonLocator + "iv_car")).isDisplayed();
 		boolean expected = true;
 		Assert.assertEquals(Icon, expected);
@@ -51,6 +54,7 @@ public class ChoosevehiclePage_TestCases_110_119 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ChoosevehiclePage_SaloonCar_Text_arePresent_113(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "car_name"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -65,6 +69,7 @@ public class ChoosevehiclePage_TestCases_110_119 extends TestBase {
 	@Parameters("CommonLocator")
 	public void Test_ChoosevehiclePage_EstimatedFares_Text_arePresent_114(String CommonLocator) {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_hint"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
