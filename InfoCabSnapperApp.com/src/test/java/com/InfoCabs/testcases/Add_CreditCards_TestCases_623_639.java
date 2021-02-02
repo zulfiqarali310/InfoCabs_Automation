@@ -176,8 +176,26 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 	}
 
 	@Test(priority = 632)
+	@Parameters({ "CommonLocator", "CommonLocator_ClassView" })
+	public void Test_Add_CreditCards_To_Verify_YourCard_text_632(String CommonLocator, String CommonLocator_ClassView)
+			throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_charge_verify"));
+		if (L1.isDisplayed()) {
+			String Get_text1 = L1.getText();
+			Assert.assertEquals(Get_text1,
+					"To verify your card, a small amount will be charged to it. After verification that amount will be automatically refunded.");
+		} else {
+			System.out.println(
+					"Test:632, To verify your card, a small amount will be charged to it. After verification that amount will be automatically refunded. text are not present");
+		}
+
+	}
+
+	@Test(priority = 633)
 	@Parameters({ "CommonLocator", "Pwd" })
-	public void Test_Add_CreditCards_Check_CardHoldername_errorMessage_632(String CommonLocator, String Pwd)
+	public void Test_Add_CreditCards_Check_CardHoldername_errorMessage_633(String CommonLocator, String Pwd)
 			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
@@ -199,9 +217,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 633)
+	@Test(priority = 634)
 	@Parameters({ "CommonLocator", "CreditCardName" })
-	public void Test_Add_CreditCards_EnterCreditCardname_633(String CommonLocator, String CreditCardName)
+	public void Test_Add_CreditCards_EnterCreditCardname_634(String CommonLocator, String CreditCardName)
 			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
@@ -226,9 +244,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 634)
+	@Test(priority = 635)
 	@Parameters({ "CommonLocator", "Invalid_CreditCardNumber" })
-	public void Test__Add_CreditCards_EnterCreditCardnumber_check_Validation_634(String CommonLocator,
+	public void Test__Add_CreditCards_EnterCreditCardnumber_check_Validation_635(String CommonLocator,
 			String Invalid_CreditCardNumber) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
@@ -255,9 +273,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 635)
+	@Test(priority = 636)
 	@Parameters({ "CommonLocator", "Incorrect_CreditCardNumber", "ExpireDate", "CVV", "CommonLocator_ClassButton" })
-	public void Test__Add_CreditCards_EnterCreditCardnumber_check_for_Incorrect_Validation_635(String CommonLocator,
+	public void Test__Add_CreditCards_EnterCreditCardnumber_check_for_Incorrect_Validation_636(String CommonLocator,
 			String Incorrect_CreditCardNumber, String ExpireDate, String CVV, String CommonLocator_ClassButton)
 			throws InterruptedException {
 
@@ -301,9 +319,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 636)
+	@Test(priority = 637)
 	@Parameters({ "CommonLocator", "Incorrect_Pwd", "Pwd" })
-	public void Test_dd_CreditCards_Number_Expire_CVV_636(String CommonLocator, String Incorrect_Pwd, String Pwd)
+	public void Test_dd_CreditCards_Number_Expire_CVV_637(String CommonLocator, String Incorrect_Pwd, String Pwd)
 			throws InterruptedException {
 
 		driver.hideKeyboard();
@@ -324,9 +342,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 637)
+	@Test(priority = 638)
 	@Parameters({ "CommonLocator", "Valid_CreditCardNumber" })
-	public void Test__Add_CreditCards_EnterCreditCardnumber_check_CVVValidation_637(String CommonLocator,
+	public void Test__Add_CreditCards_EnterCreditCardnumber_check_CVVValidation_638(String CommonLocator,
 			String Valid_CreditCardNumber) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
@@ -351,9 +369,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 638)
+	@Test(priority = 639)
 	@Parameters({ "CommonLocator", "Invalid_CVV" })
-	public void Test__Add_CreditCards_check_CVValidation_message_638(String CommonLocator, String Invalid_CVV)
+	public void Test__Add_CreditCards_check_CVValidation_message_639(String CommonLocator, String Invalid_CVV)
 			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
@@ -380,9 +398,9 @@ public class Add_CreditCards_TestCases_623_639 extends TestBase {
 
 	}
 
-	@Test(priority = 639)
+	@Test(priority = 640)
 	@Parameters({ "CommonLocator", "CVV", "CommonLocator_ClassButton" })
-	public void Test__Add_CreditCards_EnterCVV_639(String CommonLocator, String CVV, String CommonLocator_ClassButton)
+	public void Test__Add_CreditCards_EnterCVV_640(String CommonLocator, String CVV, String CommonLocator_ClassButton)
 			throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();

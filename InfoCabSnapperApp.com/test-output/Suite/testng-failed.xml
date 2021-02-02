@@ -14,7 +14,7 @@
   <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
   <parameter name="DeviceType" value="Android"/>
   <parameter name="validPin" value="123456"/>
-  <parameter name="AppPackage" value="com.infosun.dialaride"/>
+  <parameter name="AppPackage" value="com.Infosun.AbbeySwiftCars"/>
   <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
   <parameter name="NotRegister_email" value="ab12@cd.com"/>
   <parameter name="CreditCardName" value="QA Tester"/>
@@ -23,7 +23,7 @@
   <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
   <parameter name="CVV" value="123"/>
   <parameter name="PostPay_Pwd" value="12345678"/>
-  <parameter name="CommonLocator" value="com.infosun.dialaride:id/"/>
+  <parameter name="CommonLocator" value="com.Infosun.AbbeySwiftCars:id/"/>
   <parameter name="InavlidPin" value="123abcd"/>
   <parameter name="Invalid_CVV" value="1"/>
   <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
@@ -31,6 +31,7 @@
   <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
   <parameter name="PhoneNum" value="00923358391478"/>
   <parameter name="Feedback" value="Rider was good and drive well his behavior was out standings"/>
+  <parameter name="RecoverPwd" value="You&#039;ll receive an email from Abbey Swift Cars with a instruction to recover password"/>
   <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
   <parameter name="valid_email" value="zulfiqar@infosun.co.uk"/>
   <parameter name="Invalid_PostPay_Pwd" value="12"/>
@@ -49,43 +50,31 @@
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
   <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
   <parameter name="PostPayEmail" value="jeet@infosun.co.uk"/>
-  <parameter name="AppCommonPermision_TextS3" value="Allow London Cars (Beta) to send and view SMS messages?"/>
+  <parameter name="AppCommonPermision_TextS3" value="Allow Abbey Swift Cars (Beta) to send and view SMS messages?"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
-  <parameter name="AppCommonPermision_TextS1" value="Allow London Cars (Beta) to access photos, media and files on your device?"/>
-  <parameter name="AppCommonPermision_TextS2" value="Allow London Cars (Beta) to access this device&#039;s location?"/>
+  <parameter name="AppCommonPermision_TextS1" value="Allow Abbey Swift Cars (Beta) to access photos, media and files on your device?"/>
+  <parameter name="AppCommonPermision_TextS2" value="Allow Abbey Swift Cars (Beta) to access this device&#039;s location?"/>
   <parameter name="DeviceName" value="Galaxy J7 Pro"/>
   <listeners>
     <listener class-name="com.InfoCabs.common.TestListeners"/>
   </listeners>
   <test thread-count="5" name="InfoCabSnapperApp.com(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401">
+      <class name="com.InfoCabs.testcases.Check_Remeber_Feature_TestCases_754_768">
         <methods>
-          <include name="setup"/>
-          <include name="Test_BBook_6_Seater_With_CreditCards_6_Seater_Text_arePresent_381" invocation-numbers="0"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_With_CreditCards_TestCases_379_401 -->
-      <class name="com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439">
-        <methods>
-          <include name="Test_Schedule_6_Seater_Cab_ClickOn_Cancel_Button_439" invocation-numbers="0"/>
-          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Icon_434" invocation-numbers="0"/>
-          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Time_438" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_Dropoff_Address_437" invocation-numbers="0"/>
-          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_PickUp_Address_436" invocation-numbers="0"/>
-          <include name="Test_Schedule_6_Seater_Cab_Check_UpComingRide_DropOff_Icon_435" invocation-numbers="0"/>
-          <include name="teardown"/>
-          <include name="Test_Schedule_6_Seater_Cab_ClickOn_SideMenu_Button_430" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.InfoCabs.testcases.Schedule_6_Seater_Cab_TestCases_401_439 -->
-      <class name="com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378">
-        <methods>
-          <include name="Test_Book_6_Seater_with_PromoCode_Rate_your_ride_Text_arePresent_376" invocation-numbers="0"/>
+          <include name="Test_Check_Remeber_Featur_ForgotPhone_Number_Text_756" invocation-numbers="0"/>
+          <include name="Test_Check_Remeber_Featur_User_Logout_from_Application_755" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.Book_6_Seater_with_PromoCode_TestCases_244_378 -->
+      </class> <!-- com.InfoCabs.testcases.Check_Remeber_Feature_TestCases_754_768 -->
+      <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710">
+        <methods>
+          <include name="setup"/>
+          <include name="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -137,8 +137,8 @@ public class ForgotPasswordPage_TestCases_33_41 extends TestBase {
 	}
 
 	@Test(priority = 39)
-	@Parameters({ "CommonLocator", "PhoneNum" })
-	public void Test_ForgotPasswordPage_Valid_PhoneNumber_are_accepted_and_SendMessage_39(String CommonLocator, String PhoneNum) {
+	@Parameters({ "CommonLocator", "PhoneNum", "RecoverPwd"})
+	public void Test_ForgotPasswordPage_Valid_PhoneNumber_are_accepted_and_SendMessage_39(String CommonLocator, String PhoneNum, String RecoverPwd) {
 
 		HelperMethods.waitForPageLoaded();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
@@ -162,7 +162,7 @@ public class ForgotPasswordPage_TestCases_33_41 extends TestBase {
 		if (L4.isDisplayed()) {
 			String Get_text1 = L4.getText();
 			Assert.assertEquals(Get_text1,
-					"You'll receive an email from London Cars with a instruction to recover password");
+					RecoverPwd);
 
 		} else {
 			System.out.println("Test:39, Message send Success Message are not displayed");

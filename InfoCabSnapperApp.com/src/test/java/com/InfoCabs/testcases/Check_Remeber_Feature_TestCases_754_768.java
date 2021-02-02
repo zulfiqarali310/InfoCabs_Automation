@@ -24,6 +24,8 @@ public class Check_Remeber_Feature_TestCases_754_768 extends TestBase {
 			String CommonLocator) throws InterruptedException {
 
 		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
 		HelperMethods.waitForElementToBeVisible(L1);
 		L1.sendKeys(PhoneNum);
