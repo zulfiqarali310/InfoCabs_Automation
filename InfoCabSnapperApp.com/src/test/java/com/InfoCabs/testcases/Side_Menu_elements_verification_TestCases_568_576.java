@@ -50,6 +50,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 			String Sidermenue_CommonText) {
 
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "btn_menu"));
@@ -72,6 +73,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_Dashboard_is_present_570(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='Dashboard']"));
 		WebElement L2 = driver.findElement(By.id(CommonLocator + "btn_menu"));
@@ -96,6 +98,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_MyProfile_is_present_571(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='My Profile']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -111,6 +114,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_PaymentMethods_is_present_572(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='Payment Methods']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -126,6 +130,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_MyTrips_is_present_573(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='My Trips']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -141,6 +146,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_AboutUs_is_present_574(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='About Us']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -156,6 +162,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_Share_is_present_575(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='Share']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
@@ -171,6 +178,7 @@ public class Side_Menu_elements_verification_TestCases_568_576 extends TestBase 
 	public void Test_Side_Menu_elements_verification_check_Logout_is_present_576(String CommonLocator,
 			String Sidermenue_CommonText) throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
 		WebElement L1 = driver.findElement(By.xpath(Sidermenue_CommonText + "[@text='Logout']"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();

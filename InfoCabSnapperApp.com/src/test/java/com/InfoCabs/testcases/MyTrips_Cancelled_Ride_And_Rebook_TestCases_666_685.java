@@ -332,8 +332,104 @@ public class MyTrips_Cancelled_Ride_And_Rebook_TestCases_666_685 extends TestBas
 	}
 
 	@Test(priority = 685)
+	@Parameters("CommonLocator_ClassView_gps_image")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_GPS_image_685(String CommonLocator_ClassView_gps_image)
+			throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		boolean ImageLogo = driver
+				.findElement(By.xpath("//" + CommonLocator_ClassView_gps_image + "[@content-desc='Google Map']"))
+				.isDisplayed();
+		boolean expected = true;
+		Assert.assertEquals(ImageLogo, expected);
+	}
+
+	@Test(priority = 686)
+	@Parameters("CommonLocator_ClassView_gps_image")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Gps_image_Click_686(
+			String CommonLocator_ClassView_gps_image) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 50);
+		WebElement L1 = driver
+				.findElement(By.xpath("//" + CommonLocator_ClassView_gps_image + "[@content-desc='Google Map']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//" + CommonLocator_ClassView_gps_image + "[@content-desc='Google Map']")));
+		L1.click();
+	}
+
+	@Test(priority = 687)
+	@Parameters("CommonLocator_ClassView_gps_image")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Gps_Point1_687(
+			String CommonLocator_ClassView_gps_image) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		boolean ImageLogo = driver.findElement(By.xpath("//" + CommonLocator_ClassView_gps_image + "[@index='0']"))
+				.isDisplayed();
+		boolean expected = true;
+		Assert.assertEquals(ImageLogo, expected);
+	}
+
+	@Test(priority = 688)
+	@Parameters("CommonLocator_ClassView_gps_image")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Gps_Point2_688(
+			String CommonLocator_ClassView_gps_image) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		boolean ImageLogo = driver.findElement(By.xpath("//" + CommonLocator_ClassView_gps_image + "[@index='1']"))
+				.isDisplayed();
+		boolean expected = true;
+		Assert.assertEquals(ImageLogo, expected);
+	}
+
+	@Test(priority = 689)
+	@Parameters("CommonLocator_ClassImageView")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Gps_image_Click_On_GetDirection_image_689(
+			String CommonLocator_ClassImageView) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 50);
+		WebElement L1 = driver
+				.findElement(By.xpath("//" + CommonLocator_ClassImageView + "[@content-desc='Get directions']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//" + CommonLocator_ClassImageView + "[@content-desc='Get directions']")));
+		L1.click();
+	}
+
+	@Test(priority = 690)
+	@Parameters({ "CommonLocator", "AppPackage" })
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_Back_to_App_from_GPS_690(String CommonLocator,
+			String AppPackage) {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		driver.activateApp(AppPackage);
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+	}
+
+	@Test(priority = 691)
+	@Parameters("CommonLocator_ClassImageView")
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Gps_image_Click_On_Open_inGooglemaps_image_691(
+			String CommonLocator_ClassImageView) throws InterruptedException {
+		HelperMethods.waitForPageLoaded();
+		WebDriverWait wait = new WebDriverWait(driver, 50);
+		WebElement L1 = driver
+				.findElement(By.xpath("//" + CommonLocator_ClassImageView + "[@content-desc='Open in Google Maps']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//" + CommonLocator_ClassImageView + "[@content-desc='Open in Google Maps']")));
+		L1.click();
+	}
+
+	@Test(priority = 692)
+	@Parameters({ "CommonLocator", "AppPackage" })
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_Back_to_App_from_GPS_on_2ndtime_692(String CommonLocator,
+			String AppPackage) {
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+		driver.activateApp(AppPackage);
+		HelperMethods.waitForPageLoaded();
+		driver.hideKeyboard();
+	}
+
+	@Test(priority = 693)
 	@Parameters("CommonLocator")
-	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_685(String CommonLocator)
+	public void Test_MyTrips_Cancelled_Ride_And_Rebook_Check_for_Rebook_Text_and_Button_693(String CommonLocator)
 			throws InterruptedException {
 		HelperMethods.waitForPageLoaded();
 		WebDriverWait wait = new WebDriverWait(driver, 50);

@@ -193,12 +193,12 @@ public class Check_Remeber_Feature_TestCases_754_768 extends TestBase {
 			throws InterruptedException {
 
 		WebDriverWait wait = new WebDriverWait(driver, 40);
-		//WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
-		//String Get_text1 = L5.getText();
-		//Assert.assertEquals(Get_text1, "Password updated successfully, save your login details for easy login");
-		//WebElement L6 = driver.findElement(By.id(CommonLocator + "snackbar_action"));
-		//wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "snackbar_action")));
-		//L6.click();
+		WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
+		String Get_text1 = L5.getText();
+		Assert.assertEquals(Get_text1, "Password changed successfully, save your login details for easy login");
+		WebElement L6 = driver.findElement(By.id(CommonLocator + "snackbar_action"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "snackbar_action")));
+		L6.click();
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(4000);
@@ -334,12 +334,12 @@ public class Check_Remeber_Feature_TestCases_754_768 extends TestBase {
 			throws InterruptedException {
 
 		WebDriverWait wait = new WebDriverWait(driver, 40);
-		//WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
-		//String Get_text1 = L5.getText();
-		//Assert.assertEquals(Get_text1, "Password updated successfully, save your login details for easy login");
-		//WebElement L6 = driver.findElement(By.id(CommonLocator + "snackbar_action"));
-		//wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "snackbar_action")));
-		//L6.click();
+		WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
+		String Get_text1 = L5.getText();
+		Assert.assertEquals(Get_text1, "Password changed successfully, save your login details for easy login");
+		WebElement L6 = driver.findElement(By.id(CommonLocator + "snackbar_action"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "snackbar_action")));
+		L6.click();
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		HelperMethods.waitForPageLoaded();
 		Thread.sleep(4000);

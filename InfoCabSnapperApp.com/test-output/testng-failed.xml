@@ -4,6 +4,7 @@
   <parameter name="Incorrect_PostPay_Pwd" value="12344455"/>
   <parameter name="DeviceUDID" value="52006c45b4f164dd"/>
   <parameter name="ExpireDate" value="2/2023"/>
+  <parameter name="CommonLocator_ClassView_gps_image" value="android.view.View"/>
   <parameter name="validPromoCode" value="QATester"/>
   <parameter name="Name" value="QA Tester"/>
   <parameter name="CommonLocator_ClassView" value="android.widget.TextView"/>
@@ -14,7 +15,7 @@
   <parameter name="DropoffAddress" value="21 Newsome Road, Huddersfield, UK"/>
   <parameter name="DeviceType" value="Android"/>
   <parameter name="validPin" value="123456"/>
-  <parameter name="AppPackage" value="com.Infosun.AbbeySwiftCars"/>
+  <parameter name="AppPackage" value="com.infosun.csandroidx"/>
   <parameter name="Rider_AppPackage" value="com.infosun.infocabs"/>
   <parameter name="NotRegister_email" value="ab12@cd.com"/>
   <parameter name="CreditCardName" value="QA Tester"/>
@@ -23,7 +24,7 @@
   <parameter name="AppiumURL" value="http://127.0.0.1:4723/wd/hub"/>
   <parameter name="CVV" value="123"/>
   <parameter name="PostPay_Pwd" value="12345678"/>
-  <parameter name="CommonLocator" value="com.Infosun.AbbeySwiftCars:id/"/>
+  <parameter name="CommonLocator" value="com.infosun.csandroidx:id/"/>
   <parameter name="InavlidPin" value="123abcd"/>
   <parameter name="Invalid_CVV" value="1"/>
   <parameter name="Rider_AppActivity" value="com.infosun.infocabs.SplashActivity"/>
@@ -31,7 +32,7 @@
   <parameter name="Valid_CreditCardNumber" value="4242424242424242"/>
   <parameter name="PhoneNum" value="00923358391478"/>
   <parameter name="Feedback" value="Rider was good and drive well his behavior was out standings"/>
-  <parameter name="RecoverPwd" value="You&#039;ll receive an email from Abbey Swift Cars with a instruction to recover password"/>
+  <parameter name="RecoverPwd" value="You&#039;ll receive an email from Ablewell Cars with a instruction to recover password"/>
   <parameter name="Sidermenue_CommonText" value="//android.widget.CheckedTextView"/>
   <parameter name="valid_email" value="zulfiqar@infosun.co.uk"/>
   <parameter name="Invalid_PostPay_Pwd" value="12"/>
@@ -50,10 +51,10 @@
   <parameter name="CommonLocator_Class_Relative_View" value="android.widget.RelativeLayout"/>
   <parameter name="CommonLocator_ClassButton" value="android.widget.Button"/>
   <parameter name="PostPayEmail" value="jeet@infosun.co.uk"/>
-  <parameter name="AppCommonPermision_TextS3" value="Allow Abbey Swift Cars (Beta) to send and view SMS messages?"/>
+  <parameter name="AppCommonPermision_TextS3" value="Allow Ablewell Cars (Beta) to send and view SMS messages?"/>
   <parameter name="AppActivity" value="com.infosun.csandroidx.activities.MainActivity"/>
-  <parameter name="AppCommonPermision_TextS1" value="Allow Abbey Swift Cars (Beta) to access photos, media and files on your device?"/>
-  <parameter name="AppCommonPermision_TextS2" value="Allow Abbey Swift Cars (Beta) to access this device&#039;s location?"/>
+  <parameter name="AppCommonPermision_TextS1" value="Allow Ablewell Cars (Beta) to access photos, media and files on your device?"/>
+  <parameter name="AppCommonPermision_TextS2" value="Allow Ablewell Cars (Beta) to access this device&#039;s location?"/>
   <parameter name="DeviceName" value="Galaxy J7 Pro"/>
   <listeners>
     <listener class-name="com.InfoCabs.common.TestListeners"/>
@@ -63,18 +64,11 @@
       <class name="com.InfoCabs.testcases.Check_Remeber_Feature_TestCases_754_768">
         <methods>
           <include name="Test_Check_Remeber_Featur_ForgotPhone_Number_Text_756" invocation-numbers="0"/>
-          <include name="Test_Check_Remeber_Featur_User_Logout_from_Application_755" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="Test_Check_Remeber_Featur_ForgotPhone_Number_Text_757" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.InfoCabs.testcases.Check_Remeber_Feature_TestCases_754_768 -->
-      <class name="com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710">
-        <methods>
-          <include name="setup"/>
-          <include name="Test_MyTrips_CompletedRide_with_Different_fedback_AcceptCustomer_ride_693" invocation-numbers="0"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.InfoCabs.testcases.MyTrips_CompletedRide_with_Different_fedback_TestCases_686_710 -->
     </classes>
   </test> <!-- InfoCabSnapperApp.com(failed) -->
 </suite> <!-- Failed suite [Suite] -->

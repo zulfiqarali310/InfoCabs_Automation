@@ -205,9 +205,9 @@ public class Book_6_Seater_TestCases_321_343 extends TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "sv_payments")));
 		L1.click();
 		HelperMethods.waitForPageLoaded();
-		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='0']"));
+		WebElement L2 = driver.findElement(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='1']"));
 		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='0']")));
+				.elementToBeClickable(By.xpath("//" + CommonLocator_Class_Relative_View + "[@index='1']")));
 		L2.click();
 
 	}

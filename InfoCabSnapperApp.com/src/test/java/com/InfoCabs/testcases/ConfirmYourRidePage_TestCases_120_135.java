@@ -194,7 +194,7 @@ public class ConfirmYourRidePage_TestCases_120_135 extends TestBase {
 		WebElement L1 = driver.findElement(By.id(CommonLocator + "tv_cash"));
 		if (L1.isDisplayed()) {
 			String Get_text1 = L1.getText();
-			Assert.assertEquals(Get_text1, "Cash");
+			Assert.assertEquals(Get_text1, "4242");
 
 		} else {
 			System.out.println("Test:132, Choose a vehicle Screen have some issue");

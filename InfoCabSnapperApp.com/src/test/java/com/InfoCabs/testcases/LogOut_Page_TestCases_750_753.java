@@ -15,6 +15,37 @@ public class LogOut_Page_TestCases_750_753 extends TestBase {
 
 	HelperMethods HelpMethod = new HelperMethods();
 
+	
+	/*@Test(priority = 749)
+	@Parameters({ "PhoneNum", "Pwd", "CommonLocator" })
+	public void Test_Check_Remeber_Featur_Allow_user_to_LoginWith_valid_credential_754(String PhoneNum, String Pwd,
+			String CommonLocator) throws InterruptedException {
+
+		HelperMethods.waitForPageLoaded();
+		Thread.sleep(3000);
+		driver.hideKeyboard();
+		WebElement L1 = driver.findElement(By.id(CommonLocator + "et_phone"));
+		HelperMethods.waitForElementToBeVisible(L1);
+		L1.sendKeys(PhoneNum);
+
+		WebElement L2 = driver.findElement(By.id(CommonLocator + "et_password"));
+		HelperMethods.waitForElementToBeVisible(L2);
+		L2.sendKeys(Pwd);
+
+
+		WebElement L3 = driver.findElement(By.id(CommonLocator + "btn_login"));
+		HelperMethods.waitForElementToBeClickable(L3);
+		L3.click();
+		HelperMethods.waitForPageLoaded();
+		WebElement L4 = driver.findElement(By.id(CommonLocator + "tvTitle"));
+		if (L4.isDisplayed()) {
+			String Get_text1 = L4.getText();
+			Assert.assertEquals(Get_text1, "Add a Pickup Point");
+		} else {
+			System.out.println("Test:754, User are not able to login may be some issue");
+		}
+	}*/
+	
 	@Test(priority = 750)
 	@Parameters({ "CommonLocator", "Sidermenue_CommonText" })
 	public void Test_LogOut_Page_ClickTO_Open_Share_Page_750(String CommonLocator, String Sidermenue_CommonText) {

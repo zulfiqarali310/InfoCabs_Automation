@@ -436,7 +436,7 @@ public class Change_Password_TestCases_588_610 extends TestBase {
 		WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
 		if (L5.isDisplayed()) {
 			String Get_text1 = L5.getText();
-			Assert.assertEquals(Get_text1, "Password updated successfully, save your login details for easy login");
+			Assert.assertEquals(Get_text1, "Password changed successfully, save your login details for easy login");
 			Thread.sleep(2000);
 			WebElement L6 = driver.findElement(By.id(CommonLocator + "snackbar_action"));
 			wait.until(ExpectedConditions.elementToBeClickable(By.id(CommonLocator + "snackbar_action")));
@@ -569,7 +569,7 @@ public class Change_Password_TestCases_588_610 extends TestBase {
 		WebElement L5 = driver.findElement(By.id(CommonLocator + "snackbar_text"));
 		if (L5.isDisplayed()) {
 			String Get_text1 = L5.getText();
-			Assert.assertEquals(Get_text1, "Password updated successfully, save your login details for easy login");
+			Assert.assertEquals(Get_text1, "Password changed successfully, save your login details for easy login");
 			HelperMethods.waitForPageLoaded();
 			Thread.sleep(4000);
 			driver.pressKey(new KeyEvent(AndroidKey.BACK));

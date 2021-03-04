@@ -3,24 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.InfoCabs.testcases.LunchDriver_App_148_158">
+      <class name="com.InfoCabs.testcases.LogOut_Page_TestCases_750_753">
         <methods>
-          <include name="Test_LunchDriver_App_Backto_CustomerApp_155"/>
-          <include name="Test_LunchDriver_App_Push_Rider_toBackground_and_start_CustomerApp_161"/>
-          <include name="Test_LunchDriver_App_ClickOnBookConfirmButton_158"/>
-          <include name="Test_LunchDriver_App_AcceptCustomer_ride_160"/>
+          <include name="Test_LogOut_Page_check_Yes_ill_ComeBack_Text_753"/>
+          <include name="Test_Check_Remeber_Featur_Allow_user_to_LoginWith_valid_credential_754"/>
+          <include name="Test_LogOut_Page_check_Do_youwant_Logout_Text_751"/>
           <include name="setup"/>
-          <include name="Test_LunchDriver_App_LunchNewDriver_App_151"/>
-          <include name="Test_LunchDriver_App_Push_CustomerApp_toBackground_and_start_RiderApp_159"/>
-          <include name="Test_LunchDriver_App_PushDriver_intoBackground_154"/>
-          <include name="Test_LunchDriver_App_LogintoRiderApp_153"/>
-          <include name="Test_LoginPage_Allow_user_to_LoginWith_valid_credential_21"/>
-          <include name="Test_LunchDriver_App_ClickOnBookNow_Button_Cab_157"/>
-          <include name="Test_LunchDriver_App_PushCustomer_App_to_BackGround_150"/>
-          <include name="Test_LunchDriver_App_EnterDropofAddress_Cab_156"/>
+          <include name="Test_LogOut_Page_ClickTO_Open_Share_Page_750"/>
+          <include name="Test_LogOut_Page_check_No_Keep_me_Login_Text_752"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.InfoCabs.testcases.LunchDriver_App_148_158 -->
+      </class> <!-- com.InfoCabs.testcases.LogOut_Page_TestCases_750_753 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
